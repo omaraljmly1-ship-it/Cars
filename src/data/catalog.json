@@ -1,0 +1,2271 @@
+{
+  "lastUpdated": "2026-06-09T07:43:38.939Z",
+  "brands": {
+    "bmw": {
+      "slug": "bmw",
+      "folderName": "BMW",
+      "nameAr": "Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ",
+      "nameEn": "BMW",
+      "models": {
+        "bmw-7-series": {
+          "nameEn": "BMW 7 Series",
+          "nameAr": "Ø§Ù„ÙØ¦Ø© 7",
+          "slug": "bmw-7-series",
+          "folderName": "BMW 7 Series",
+          "generations": {
+            "e65-e66-2001-2008": {
+              "code": "E65 \u0026 E66",
+              "years": "2001 - 2008",
+              "yearStart": "2001",
+              "yearEnd": "2008",
+              "slug": "e65-e66-2001-2008",
+              "folderName": "E65 \u0026 E66 (2001 - 2008)",
+              "parts": [
+                {
+                  "id": "bmw-bmw-7-series-e65-e66-2001-2008-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ©",
+                  "nameEn": "Rear Air Springs",
+                  "slug": "rear-air-springs",
+                  "image": "/catalog/bmw/bmw-7-series/e65-e66-2001-2008/rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series E65 \u0026 E66",
+                  "altEn": "Rear Air Springs for BMW BMW 7 Series E65 \u0026 E66",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠÙ‡.jpeg"
+                }
+              ]
+            },
+            "f01-f02-2008-2015": {
+              "code": "F01 \u0026 F02",
+              "years": "2008 - 2015",
+              "yearStart": "2008",
+              "yearEnd": "2015",
+              "slug": "f01-f02-2008-2015",
+              "folderName": "F01 \u0026 F02 (2008 - 2015)",
+              "parts": [
+                {
+                  "id": "bmw-bmw-7-series-f01-f02-2008-2015-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series F01 \u0026 F02",
+                  "altEn": "Front \u0026 Rear Air Springs for BMW BMW 7 Series F01 \u0026 F02",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø§Ù„Ø®Ù„ÙÙŠÙ‡ .jpeg"
+                },
+                {
+                  "id": "bmw-bmw-7-series-f01-f02-2008-2015-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series F01 \u0026 F02",
+                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series F01 \u0026 F02",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±Ø³ÙŠØ± Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "bmw-bmw-7-series-f01-f02-2008-2015-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series F01 \u0026 F02",
+                  "altEn": "Air Valve Block for BMW BMW 7 Series F01 \u0026 F02",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "g11-g12-2016-2020": {
+              "code": "G11 \u0026 G12",
+              "years": "2016 - 2020",
+              "yearStart": "2016",
+              "yearEnd": "2020",
+              "slug": "g11-g12-2016-2020",
+              "folderName": "G11 \u0026 G12 (2016 -2020)",
+              "parts": [
+                {
+                  "id": "bmw-bmw-7-series-g11-g12-2016-2020-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series G11 \u0026 G12",
+                  "altEn": "Front \u0026 Rear Air Springs for BMW BMW 7 Series G11 \u0026 G12",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø§Ù„Ø®Ù„ÙÙŠÙ‡ .jpeg"
+                },
+                {
+                  "id": "bmw-bmw-7-series-g11-g12-2016-2020-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series G11 \u0026 G12",
+                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series G11 \u0026 G12",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±Ø³ÙŠØ± Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "bmw-bmw-7-series-g11-g12-2016-2020-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series G11 \u0026 G12",
+                  "altEn": "Air Valve Block for BMW BMW 7 Series G11 \u0026 G12",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "g70-2022-2026": {
+              "code": "G70",
+              "years": "2022 - 2026",
+              "yearStart": "2022",
+              "yearEnd": "2026",
+              "slug": "g70-2022-2026",
+              "folderName": "G70 (2022 - 2026 )",
+              "parts": [
+                {
+                  "id": "bmw-bmw-7-series-g70-2022-2026-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/bmw/bmw-7-series/g70-2022-2026/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series G70",
+                  "altEn": "Front Air Spring for BMW BMW 7 Series G70",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ .jpeg"
+                },
+                {
+                  "id": "bmw-bmw-7-series-g70-2022-2026-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ©",
+                  "nameEn": "Rear Air Springs",
+                  "slug": "rear-air-springs",
+                  "image": "/catalog/bmw/bmw-7-series/g70-2022-2026/rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ BMW 7 Series G70",
+                  "altEn": "Rear Air Springs for BMW BMW 7 Series G70",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠÙ‡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "x5": {
+          "nameEn": "X5",
+          "nameAr": "X5",
+          "slug": "x5",
+          "folderName": "X5",
+          "generations": {
+            "e532000-2006": {
+              "code": "E53",
+              "years": "2000 - 2006",
+              "yearStart": "2000",
+              "yearEnd": "2006",
+              "slug": "e532000-2006",
+              "folderName": "E53(2000 - 2006)",
+              "parts": [
+                {
+                  "id": "bmw-x5-e532000-2006-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/bmw/x5/e532000-2006/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ X5 E53",
+                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 E53",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø®Ù„ÙÙŠÙ‡.jpeg"
+                }
+              ]
+            },
+            "e70-2007-2013": {
+              "code": "E70",
+              "years": "2007 - 2013",
+              "yearStart": "2007",
+              "yearEnd": "2013",
+              "slug": "e70-2007-2013",
+              "folderName": "E70 (2007 - 2013)",
+              "parts": [
+                {
+                  "id": "bmw-x5-e70-2007-2013-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/bmw/x5/e70-2007-2013/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ X5 E70",
+                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 E70",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø®Ù„ÙÙŠÙ‡.jpeg"
+                }
+              ]
+            },
+            "f15-2014-2018": {
+              "code": "F15",
+              "years": "2014 - 2018",
+              "yearStart": "2014",
+              "yearEnd": "2018",
+              "slug": "f15-2014-2018",
+              "folderName": "F15 (2014 - 2018 )",
+              "parts": [
+                {
+                  "id": "bmw-x5-f15-2014-2018-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/bmw/x5/f15-2014-2018/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ X5 F15",
+                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 F15",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø®Ù„ÙÙŠÙ‡.jpeg"
+                }
+              ]
+            },
+            "g05-2019-2022": {
+              "code": "G05",
+              "years": "2019 - 2022",
+              "yearStart": "2019",
+              "yearEnd": "2022",
+              "slug": "g05-2019-2022",
+              "folderName": "G05 (2019 - 2022)",
+              "parts": [
+                {
+                  "id": "bmw-x5-g05-2019-2022-front-rear-air-springs-g05-x6-g06",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© (G05 / X6 G06)",
+                  "nameEn": "Front \u0026 Rear Air Springs (G05 / X6 G06)",
+                  "slug": "front-rear-air-springs-g05-x6-g06",
+                  "image": "/catalog/bmw/x5/g05-2019-2022/front-rear-air-springs-g05-x6-g06.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© (G05 / X6 G06) - Ø¨ÙŠ Ø§Ù… Ø¯Ø¨Ù„ÙŠÙˆ X5 G05",
+                  "altEn": "Front \u0026 Rear Air Springs (G05 / X6 G06) for BMW X5 G05",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø®Ù„ÙÙŠÙ‡ G05 \u0026 X6 G06.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "mercedes": {
+      "slug": "mercedes",
+      "folderName": "Ù…Ø±Ø³ÙŠØ¯ÙŠØ³",
+      "nameAr": "Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø²",
+      "nameEn": "Mercedes-Benz",
+      "models": {
+        "c-class": {
+          "nameEn": "C-Class",
+          "nameAr": "Ø§Ù„ÙØ¦Ø© C",
+          "slug": "c-class",
+          "folderName": "C-Class",
+          "generations": {
+            "w205-2014-2021": {
+              "code": "W205",
+              "years": "2014 - 2021",
+              "yearStart": "2014",
+              "yearEnd": "2021",
+              "slug": "w205-2014-2021",
+              "folderName": "W205 (2014 -2021 )",
+              "parts": [
+                {
+                  "id": "mercedes-c-class-w205-2014-2021-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/mercedes/c-class/w205-2014-2021/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² C-Class W205",
+                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz C-Class W205",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø§Ù„Ø®Ù„ÙÙŠÙ‡ .jpeg"
+                },
+                {
+                  "id": "mercedes-c-class-w205-2014-2021-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/c-class/w205-2014-2021/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² C-Class W205",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz C-Class W205",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±Ø³ÙŠØ± Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "mercedes-c-class-w205-2014-2021-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/c-class/w205-2014-2021/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² C-Class W205",
+                  "altEn": "Air Valve Block for Mercedes-Benz C-Class W205",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "cls-class": {
+          "nameEn": "CLS-Class",
+          "nameAr": "Ø§Ù„ÙØ¦Ø© CLS",
+          "slug": "cls-class",
+          "folderName": "CLS-Class",
+          "generations": {
+            "w218-2011-2017": {
+              "code": "W218",
+              "years": "2011 - 2017",
+              "yearStart": "2011",
+              "yearEnd": "2017",
+              "slug": "w218-2011-2017",
+              "folderName": "W218 (2011 - 2017)",
+              "parts": [
+                {
+                  "id": "mercedes-cls-class-w218-2011-2017-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W218",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W218",
+                  "originalFile": "Ø§Ù„Ø¨Ø§Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w218-2011-2017-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W218",
+                  "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W218",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†  Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w218-2011-2017-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W218",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz CLS-Class W218",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w218-2011-2017-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W218",
+                  "altEn": "Air Valve Block for Mercedes-Benz CLS-Class W218",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w219-20042010": {
+              "code": "W219",
+              "years": "2004 - 2010",
+              "yearStart": "2004",
+              "yearEnd": "2010",
+              "slug": "w219-20042010",
+              "folderName": "W219  (2004â€“2010)",
+              "parts": [
+                {
+                  "id": "mercedes-cls-class-w219-20042010-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w219-20042010/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W219",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W219",
+                  "originalFile": "Ø§Ù„Ø¨Ø§Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w219-20042010-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/mercedes/cls-class/w219-20042010/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W219",
+                  "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W219",
+                  "originalFile": "Ø§Ù„Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù„Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w219-20042010-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/cls-class/w219-20042010/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W219",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz CLS-Class W219",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w219-20042010-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/cls-class/w219-20042010/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W219",
+                  "altEn": "Air Valve Block for Mercedes-Benz CLS-Class W219",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w253-20172023": {
+              "code": "W253",
+              "years": "2017 - 2023",
+              "yearStart": "2017",
+              "yearEnd": "2023",
+              "slug": "w253-20172023",
+              "folderName": "W253 (2017â€“2023)",
+              "parts": [
+                {
+                  "id": "mercedes-cls-class-w253-20172023-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w253-20172023/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W253",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W253",
+                  "originalFile": "Ø§Ù„Ø¨Ø§Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w253-20172023-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/mercedes/cls-class/w253-20172023/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W253",
+                  "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W253",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù„Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w253-20172023-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/cls-class/w253-20172023/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W253",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz CLS-Class W253",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w253-20172023-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/cls-class/w253-20172023/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² CLS-Class W253",
+                  "altEn": "Air Valve Block for Mercedes-Benz CLS-Class W253",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "e-class": {
+          "nameEn": "E-Class",
+          "nameAr": "Ø§Ù„ÙØ¦Ø© E",
+          "slug": "e-class",
+          "folderName": "E-Class",
+          "generations": {
+            "w211-2002-2009": {
+              "code": "W211",
+              "years": "2002 - 2009",
+              "yearStart": "2002",
+              "yearEnd": "2009",
+              "slug": "w211-2002-2009",
+              "folderName": "W211 (2002 - 2009)",
+              "parts": [
+                {
+                  "id": "mercedes-e-class-w211-2002-2009-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/e-class/w211-2002-2009/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W211",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W211",
+                  "originalFile": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w211-2002-2009-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/mercedes/e-class/w211-2002-2009/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W211",
+                  "altEn": "Front Air Spring for Mercedes-Benz E-Class W211",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w211-2002-2009-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/e-class/w211-2002-2009/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W211",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz E-Class W211",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w211-2002-2009-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/e-class/w211-2002-2009/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W211",
+                  "altEn": "Air Valve Block for Mercedes-Benz E-Class W211",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w212-2009-2016": {
+              "code": "W212",
+              "years": "2009 - 2016",
+              "yearStart": "2009",
+              "yearEnd": "2016",
+              "slug": "w212-2009-2016",
+              "folderName": "W212 (2009 - 2016)",
+              "parts": [
+                {
+                  "id": "mercedes-e-class-w212-2009-2016-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/mercedes/e-class/w212-2009-2016/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W212",
+                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz E-Class W212",
+                  "originalFile": "Ø§Ù„Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø§Ù„Ø®Ù„ÙÙŠÙ‡.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w212-2009-2016-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/e-class/w212-2009-2016/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W212",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz E-Class W212",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w212-2009-2016-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/e-class/w212-2009-2016/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W212",
+                  "altEn": "Air Valve Block for Mercedes-Benz E-Class W212",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w213-2017-2023": {
+              "code": "W213",
+              "years": "2017 - 2023",
+              "yearStart": "2017",
+              "yearEnd": "2023",
+              "slug": "w213-2017-2023",
+              "folderName": "W213 (2017 - 2023)",
+              "parts": [
+                {
+                  "id": "mercedes-e-class-w213-2017-2023-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/e-class/w213-2017-2023/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W213",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W213",
+                  "originalFile": "Ø§Ù„Ø¨Ø§Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w213-2017-2023-front-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ©",
+                  "nameEn": "Front Air Springs",
+                  "slug": "front-air-springs",
+                  "image": "/catalog/mercedes/e-class/w213-2017-2023/front-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W213",
+                  "altEn": "Front Air Springs for Mercedes-Benz E-Class W213",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w213-2017-2023-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/e-class/w213-2017-2023/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W213",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz E-Class W213",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w213-2017-2023-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/e-class/w213-2017-2023/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² E-Class W213",
+                  "altEn": "Air Valve Block for Mercedes-Benz E-Class W213",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "gle-ml": {
+          "nameEn": "GLE \u0026 ML",
+          "nameAr": "GLE Ùˆ ML",
+          "slug": "gle-ml",
+          "folderName": "GLE \u0026 ML",
+          "generations": {
+            "w164-ml-2005-2011": {
+              "code": "W164 ML",
+              "years": "2005 - 2011",
+              "yearStart": "2005",
+              "yearEnd": "2011",
+              "slug": "w164-ml-2005-2011",
+              "folderName": "W164 ML ( 2005 - 2011)",
+              "parts": [
+                {
+                  "id": "mercedes-gle-ml-w164-ml-2005-2011-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W164 ML",
+                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡ Ùˆ Ø§Ù„Ø®Ù„ÙÙŠÙ‡ .jpeg"
+                },
+                {
+                  "id": "mercedes-gle-ml-w164-ml-2005-2011-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W164 ML",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±Ø³ÙŠØ± Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "mercedes-gle-ml-w164-ml-2005-2011-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W164 ML",
+                  "altEn": "Air Valve Block for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w166-mlgle-2011-2019": {
+              "code": "W166 ML\u0026GLE",
+              "years": "2011 - 2019",
+              "yearStart": "2011",
+              "yearEnd": "2019",
+              "slug": "w166-mlgle-2011-2019",
+              "folderName": "W166 ML\u0026GLE ( 2011 - 2019 )",
+              "parts": [
+                {
+                  "nameAr": "جامبينات أمامية وخلفية",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "image": "/catalog/mercedes/gle-ml/w166-mlgle-2011-2019/front-rear-air-springs.jpeg",
+                  "originalFile": "جامبين امامي و خلفي .jpeg",
+                  "slug": "front-rear-air-springs"
+                },
+                {
+                  "nameAr": "كمبروسر الرفع",
+                  "nameEn": "Air Suspension Compressor",
+                  "image": "/catalog/mercedes/gle-ml/w166-mlgle-2011-2019/air-suspension-compressor.jpeg",
+                  "originalFile": "كومبريسر رفع.jpeg",
+                  "slug": "air-suspension-compressor"
+                },
+                {
+                  "nameAr": "موزع هواء",
+                  "nameEn": "Air Valve Block",
+                  "image": "/catalog/mercedes/gle-ml/w166-mlgle-2011-2019/air-valve-block.jpeg",
+                  "originalFile": "موزع هواء.jpeg",
+                  "slug": "air-valve-block"
+                }
+              ]
+            },
+            "w167-gle-2019-2025": {
+              "code": "W167 GLE",
+              "years": "2019 - 2025",
+              "yearStart": "2019",
+              "yearEnd": "2025",
+              "slug": "w167-gle-2019-2025",
+              "folderName": "W167 GLE (2019 - 2025 )",
+              "parts": [
+                {
+                  "id": "mercedes-gle-ml-w167-gle-2019-2025-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ©",
+                  "nameEn": "Rear Air Springs",
+                  "slug": "rear-air-springs",
+                  "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø®Ù„ÙÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W167 GLE",
+                  "altEn": "Rear Air Springs for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª  Ø§Ù„Ø®Ù„ÙÙŠÙ‡ .jpeg"
+                },
+                {
+                  "id": "mercedes-gle-ml-w167-gle-2019-2025-front-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ©",
+                  "nameEn": "Front Air Springs",
+                  "slug": "front-air-springs",
+                  "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/front-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W167 GLE",
+                  "altEn": "Front Air Springs for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø§Ù„Ø§Ù…Ø§Ù…ÙŠÙ‡  .jpeg"
+                },
+                {
+                  "id": "mercedes-gle-ml-w167-gle-2019-2025-air-compressor-valve-block",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ ÙˆÙ…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Compressor \u0026 Valve Block",
+                  "slug": "air-compressor-valve-block",
+                  "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/air-compressor-valve-block.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ ÙˆÙ…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE \u0026 ML W167 GLE",
+                  "altEn": "Air Compressor \u0026 Valve Block for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹ Ùˆ Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "gle-cope": {
+          "nameEn": "GLE-Cope",
+          "nameAr": "GLE ÙƒÙˆØ¨ÙŠÙ‡",
+          "slug": "gle-cope",
+          "folderName": "GLE-Cope",
+          "generations": {
+            "w292-2015-2019": {
+              "code": "W292",
+              "years": "2015 - 2019",
+              "yearStart": "2015",
+              "yearEnd": "2019",
+              "slug": "w292-2015-2019",
+              "folderName": "W292 (2015 - 2019)",
+              "parts": [
+                {
+                  "id": "mercedes-gle-cope-w292-2015-2019-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE-Cope W292",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz GLE-Cope W292",
+                  "originalFile": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-gle-cope-w292-2015-2019-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE-Cope W292",
+                  "altEn": "Front Air Spring for Mercedes-Benz GLE-Cope W292",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-gle-cope-w292-2015-2019-air-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Compressor",
+                  "slug": "air-compressor",
+                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/air-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE-Cope W292",
+                  "altEn": "Air Compressor for Mercedes-Benz GLE-Cope W292",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ù‡ÙˆØ§Ø¡.jpeg"
+                },
+                {
+                  "id": "mercedes-gle-cope-w292-2015-2019-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² GLE-Cope W292",
+                  "altEn": "Air Valve Block for Mercedes-Benz GLE-Cope W292",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "s-class": {
+          "nameEn": "S-Class",
+          "nameAr": "Ø§Ù„ÙØ¦Ø© S",
+          "slug": "s-class",
+          "folderName": "S-Class",
+          "generations": {
+            "w220-1999-2005": {
+              "code": "W220",
+              "years": "1999 - 2005",
+              "yearStart": "1999",
+              "yearEnd": "2005",
+              "slug": "w220-1999-2005",
+              "folderName": "W220 (1999 - 2005)",
+              "parts": [
+                {
+                  "id": "mercedes-s-class-w220-1999-2005-front-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Oil Shock Absorber",
+                  "slug": "front-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/front-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W220",
+                  "altEn": "Front Oil Shock Absorber for Mercedes-Benz S-Class W220",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ø²ÙŠØª.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w220-1999-2005-rear-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Oil Shock Absorber",
+                  "slug": "rear-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/rear-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W220",
+                  "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W220",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ Ø²ÙŠØª.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w220-1999-2005-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ",
+                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W220",
+                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W220",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡Ø¯ÙŠØ±ÙˆÙ„ÙŠÙƒ Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w220-1999-2005-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W220",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz S-Class W220",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨ÙŠØ±Ø³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w220-1999-2005-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W220",
+                  "altEn": "Air Valve Block for Mercedes-Benz S-Class W220",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w221-2006-2013": {
+              "code": "W221",
+              "years": "2006 - 2013",
+              "yearStart": "2006",
+              "yearEnd": "2013",
+              "slug": "w221-2006-2013",
+              "folderName": "W221 (2006 - 2013)",
+              "parts": [
+                {
+                  "id": "mercedes-s-class-w221-2006-2013-front-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Oil Shock Absorber",
+                  "slug": "front-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/front-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W221",
+                  "altEn": "Front Oil Shock Absorber for Mercedes-Benz S-Class W221",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w221-2006-2013-rear-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Oil Shock Absorber",
+                  "slug": "rear-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/rear-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W221",
+                  "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W221",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w221-2006-2013-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ",
+                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W221",
+                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W221",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡Ø§ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ .jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w221-2006-2013-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W221",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz S-Class W221",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹.jpeg"
+                }
+              ]
+            },
+            "w222-2014-2020": {
+              "code": "W222",
+              "years": "2014 - 2020",
+              "yearStart": "2014",
+              "yearEnd": "2020",
+              "slug": "w222-2014-2020",
+              "folderName": "W222 (2014 - 2020)",
+              "parts": [
+                {
+                  "id": "mercedes-s-class-w222-2014-2020-front-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Oil Shock Absorber",
+                  "slug": "front-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/front-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W222",
+                  "altEn": "Front Oil Shock Absorber for Mercedes-Benz S-Class W222",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w222-2014-2020-rear-oil-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Oil Shock Absorber",
+                  "slug": "rear-oil-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/rear-oil-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W222",
+                  "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W222",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø²ÙŠØª Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w222-2014-2020-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ",
+                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ ÙˆØ®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W222",
+                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W222",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡Ø§ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ .jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w222-2014-2020-air-suspension-compressor",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹",
+                  "nameEn": "Air Suspension Compressor",
+                  "slug": "air-suspension-compressor",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/air-suspension-compressor.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W222",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz S-Class W222",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹ .jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w222-2014-2020-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W222",
+                  "altEn": "Air Valve Block for Mercedes-Benz S-Class W222",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "w223-2021-2025": {
+              "code": "W223",
+              "years": "2021 - 2025",
+              "yearStart": "2021",
+              "yearEnd": "2025",
+              "slug": "w223-2021-2025",
+              "folderName": "W223 (2021 - 2025)",
+              "parts": [
+                {
+                  "id": "mercedes-s-class-w223-2021-2025-front-hydraulic-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Hydraulic Shock Absorber",
+                  "slug": "front-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w223-2021-2025/front-hydraulic-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø£Ù…Ø§Ù…ÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W223",
+                  "altEn": "Front Hydraulic Shock Absorber for Mercedes-Benz S-Class W223",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡Ø§ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w223-2021-2025-rear-hydraulic-shock-absorber",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Hydraulic Shock Absorber",
+                  "slug": "rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w223-2021-2025/rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø®Ù„ÙÙŠ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W223",
+                  "altEn": "Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W223",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ù‡Ø§ÙŠØ¯Ø±ÙˆÙ„ÙŠÙƒ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w223-2021-2025-air-compressor-valve-block",
+                  "nameAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ ÙˆÙ…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Compressor \u0026 Valve Block",
+                  "slug": "air-compressor-valve-block",
+                  "image": "/catalog/mercedes/s-class/w223-2021-2025/air-compressor-valve-block.jpeg",
+                  "altAr": "ÙƒÙ…Ø¨Ø±ÙˆØ³Ø± Ø§Ù„Ø±ÙØ¹ ÙˆÙ…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡ - Ù…Ø±Ø³ÙŠØ¯Ø³ Ø¨Ù†Ø² S-Class W223",
+                  "altEn": "Air Compressor \u0026 Valve Block for Mercedes-Benz S-Class W223",
+                  "originalFile": "ÙƒÙˆÙ…Ø¨Ø±ÙŠØ³Ø± Ø§Ù„Ø±ÙØ¹ Ùˆ Ù…ÙˆØ²Ø¹ Ø§Ù„Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "audi": {
+      "slug": "audi",
+      "folderName": "AUDI",
+      "nameAr": "Ø£ÙˆØ¯ÙŠ",
+      "nameEn": "Audi",
+      "models": {
+        "a6-s8": {
+          "nameEn": "A6 \u0026 S8",
+          "nameAr": "A6 Ùˆ S8",
+          "slug": "a6-s8",
+          "folderName": "A6 (2012 - 2018) \u0026 S8 (2013 - 2018)",
+          "generations": {
+            "2012-2018": {
+              "code": "A6 / S8",
+              "years": "2012 - 2018",
+              "yearStart": "2012",
+              "yearEnd": "2018",
+              "slug": "2012-2018",
+              "folderName": "A6 (2012 - 2018) \u0026 S8 (2013 - 2018)",
+              "parts": [
+                {
+                  "id": "audi-a6-s8-2012-2018-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/audi/a6-s8/2012-2018/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø£ÙˆØ¯ÙŠ A6 Ùˆ S8",
+                  "altEn": "Front \u0026 Rear Air Springs for Audi A6 \u0026 S8",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "a8": {
+          "nameEn": "A8",
+          "nameAr": "A8",
+          "slug": "a8",
+          "folderName": "A8 (2010 - 2017)",
+          "generations": {
+            "2010-2017": {
+              "code": "D4",
+              "years": "2010 - 2017",
+              "yearStart": "2010",
+              "yearEnd": "2017",
+              "slug": "2010-2017",
+              "folderName": "A8 (2010 - 2017)",
+              "parts": [
+                {
+                  "id": "audi-a8-2010-2017-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/audi/a8/2010-2017/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø£ÙˆØ¯ÙŠ A8",
+                  "altEn": "Front \u0026 Rear Air Springs for Audi A8",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "audi-a8-2010-2017-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/audi/a8/2010-2017/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø£ÙˆØ¯ÙŠ A8",
+                  "altEn": "Air Valve Block for Audi A8",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "a8-d3": {
+          "nameEn": "A8 D3",
+          "nameAr": "A8 D3",
+          "slug": "a8-d3",
+          "folderName": "A8 D3 (2003 - 2010)",
+          "generations": {
+            "2003-2010": {
+              "code": "D3",
+              "years": "2003 - 2010",
+              "yearStart": "2003",
+              "yearEnd": "2010",
+              "slug": "2003-2010",
+              "folderName": "A8 D3 (2003 - 2010)",
+              "parts": [
+                {
+                  "id": "audi-a8-d3-2003-2010-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/audi/a8-d3/2003-2010/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø£ÙˆØ¯ÙŠ A8 D3",
+                  "altEn": "Front Air Spring for Audi A8 D3",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "a8-d5": {
+          "nameEn": "A8 D5",
+          "nameAr": "A8 D5",
+          "slug": "a8-d5",
+          "folderName": "A8 D5 (2017 - 2023)",
+          "generations": {
+            "2017-2023": {
+              "code": "D5",
+              "years": "2017 - 2023",
+              "yearStart": "2017",
+              "yearEnd": "2023",
+              "slug": "2017-2023",
+              "folderName": "A8 D5 (2017 - 2023)",
+              "parts": [
+                {
+                  "id": "audi-a8-d5-2017-2023-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/audi/a8-d5/2017-2023/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø£ÙˆØ¯ÙŠ A8 D5",
+                  "altEn": "Front \u0026 Rear Air Springs for Audi A8 D5",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "q7-q8": {
+          "nameEn": "Q7 \u0026 Q8",
+          "nameAr": "Q7 Ùˆ Q8",
+          "slug": "q7-q8",
+          "folderName": "Q7 Q8 (2017 - 2021)",
+          "generations": {
+            "2017-2021": {
+              "code": "Q7 / Q8",
+              "years": "2017 - 2021",
+              "yearStart": "2017",
+              "yearEnd": "2021",
+              "slug": "2017-2021",
+              "folderName": "Q7 Q8 (2017 - 2021)",
+              "parts": [
+                {
+                  "id": "audi-q7-q8-2017-2021-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/audi/q7-q8/2017-2021/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø£ÙˆØ¯ÙŠ Q7 Ùˆ Q8",
+                  "altEn": "Air Suspension System for Audi Q7 \u0026 Q8",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                },
+                {
+                  "id": "audi-q7-q8-2017-2021-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/audi/q7-q8/2017-2021/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø£ÙˆØ¯ÙŠ Q7 Ùˆ Q8",
+                  "altEn": "Valve Block for Audi Q7 \u0026 Q8",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "bentley": {
+      "slug": "bentley",
+      "folderName": "Bentley",
+      "nameAr": "Ø¨Ù†ØªÙ„ÙŠ",
+      "nameEn": "Bentley",
+      "models": {
+        "bentayga": {
+          "nameEn": "Bentayga",
+          "nameAr": "Ø¨Ù†ØªØ§ÙŠØºØ§",
+          "slug": "bentayga",
+          "folderName": "Bentley Bentayga (2017 - 2022)",
+          "generations": {
+            "2017-2022": {
+              "code": "1st Gen",
+              "years": "2017 - 2022",
+              "yearStart": "2017",
+              "yearEnd": "2022",
+              "slug": "2017-2022",
+              "folderName": "Bentley Bentayga (2017 - 2022)",
+              "parts": [
+                {
+                  "id": "bentley-bentayga-2017-2022-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/bentley/bentayga/2017-2022/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨Ù†ØªÙ„ÙŠ Ø¨Ù†ØªØ§ÙŠØºØ§",
+                  "altEn": "Front Air Spring for Bentley Bentayga",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "bentley-bentayga-2017-2022-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/bentley/bentayga/2017-2022/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ø¨Ù†ØªÙ„ÙŠ Ø¨Ù†ØªØ§ÙŠØºØ§",
+                  "altEn": "Rear Air Balloon for Bentley Bentayga",
+                  "originalFile": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "bentley-bentayga-2017-2022-air-suspension",
+                  "nameAr": "ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension",
+                  "slug": "air-suspension",
+                  "image": "/catalog/bentley/bentayga/2017-2022/air-suspension.jpeg",
+                  "altAr": "ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨Ù†ØªÙ„ÙŠ Ø¨Ù†ØªØ§ÙŠØºØ§",
+                  "altEn": "Air Suspension for Bentley Bentayga",
+                  "originalFile": "ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ§Ø¦ÙŠ.jpeg"
+                },
+                {
+                  "id": "bentley-bentayga-2017-2022-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/bentley/bentayga/2017-2022/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨Ù†ØªÙ„ÙŠ Ø¨Ù†ØªØ§ÙŠØºØ§",
+                  "altEn": "Valve Block for Bentley Bentayga",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "continental": {
+          "nameEn": "Continental",
+          "nameAr": "ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„",
+          "slug": "continental",
+          "folderName": "Bentley continental (2003 - 2012)",
+          "generations": {
+            "2003-2012": {
+              "code": "1st Gen",
+              "years": "2003 - 2012",
+              "yearStart": "2003",
+              "yearEnd": "2012",
+              "slug": "2003-2012",
+              "folderName": "Bentley continental (2003 - 2012)",
+              "parts": [
+                {
+                  "id": "bentley-continental-2003-2012-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/bentley/continental/2003-2012/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø¨Ù†ØªÙ„ÙŠ ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„",
+                  "altEn": "Air Valve Block for Bentley Continental",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                },
+                {
+                  "id": "bentley-continental-2003-2012-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/bentley/continental/2003-2012/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨Ù†ØªÙ„ÙŠ ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„",
+                  "altEn": "Valve Block for Bentley Continental",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "continental-flying": {
+          "nameEn": "Continental Flying Spur",
+          "nameAr": "ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„ ÙÙ„Ø§ÙŠÙ†Ø¬ Ø³Ø¨ÙŠØ±",
+          "slug": "continental-flying",
+          "folderName": "Bentley continental flying (2004 - 2018)",
+          "generations": {
+            "2004-2018": {
+              "code": "1st-2nd Gen",
+              "years": "2004 - 2018",
+              "yearStart": "2004",
+              "yearEnd": "2018",
+              "slug": "2004-2018",
+              "folderName": "Bentley continental flying (2004 - 2018)",
+              "parts": [
+                {
+                  "id": "bentley-continental-flying-2004-2018-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/bentley/continental-flying/2004-2018/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨Ù†ØªÙ„ÙŠ ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„ ÙÙ„Ø§ÙŠÙ†Ø¬",
+                  "altEn": "Front Air Spring for Bentley Continental Flying Spur",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "bentley-continental-flying-2004-2018-rear-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Spring",
+                  "slug": "rear-air-spring",
+                  "image": "/catalog/bentley/continental-flying/2004-2018/rear-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ - Ø¨Ù†ØªÙ„ÙŠ ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„ ÙÙ„Ø§ÙŠÙ†Ø¬",
+                  "altEn": "Rear Air Spring for Bentley Continental Flying Spur",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "bentley-continental-flying-2004-2018-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/bentley/continental-flying/2004-2018/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨Ù†ØªÙ„ÙŠ ÙƒÙˆÙ†ØªÙŠÙ†Ù†ØªØ§Ù„ ÙÙ„Ø§ÙŠÙ†Ø¬",
+                  "altEn": "Valve Block for Bentley Continental Flying Spur",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dodge": {
+      "slug": "dodge",
+      "folderName": "DOOG RAM",
+      "nameAr": "Ø¯ÙˆØ¯Ø¬ Ø±Ø§Ù…",
+      "nameEn": "Dodge RAM",
+      "models": {
+        "dodge-ram-2011-2018": {
+          "nameEn": "DODGE RAM",
+          "nameAr": "Ø¯ÙˆØ¯Ø¬ Ø±Ø§Ù…",
+          "slug": "dodge-ram-2011-2018",
+          "folderName": "DODGE RAM (2011 - 2018)",
+          "generations": {
+            "2011-2018": {
+              "code": "4th Gen",
+              "years": "2011 - 2018",
+              "yearStart": "2011",
+              "yearEnd": "2018",
+              "slug": "2011-2018",
+              "folderName": "DODGE RAM (2011 - 2018)",
+              "parts": [
+                {
+                  "id": "dodge-ram-2011-2018-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ ÙˆØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Air Valve \u0026 Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/dodge-ram/dodge-ram-2011-2018/2011-2018/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ ÙˆØµÙ…Ø§Ù…Ø§Øª - Ø¯ÙˆØ¯Ø¬ Ø±Ø§Ù…",
+                  "altEn": "Air Valve \u0026 Block for Dodge RAM",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ Ùˆ ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "doog-ram-2013-2019": {
+          "nameEn": "DOOG RAM",
+          "nameAr": "Ø¯ÙˆØ¯Ø¬ Ø±Ø§Ù…",
+          "slug": "doog-ram-2013-2019",
+          "folderName": "DOOG RAM (2013 - 2019)",
+          "generations": {
+            "2013-2019": {
+              "code": "5th Gen",
+              "years": "2013 - 2019",
+              "yearStart": "2013",
+              "yearEnd": "2019",
+              "slug": "2013-2019",
+              "folderName": "DOOG RAM (2013 - 2019)",
+              "parts": [
+                {
+                  "id": "dodge-ram-doog-2013-2019-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/dodge-ram/doog-ram-2013-2019/2013-2019/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¯ÙˆØ¯Ø¬ Ø±Ø§Ù…",
+                  "altEn": "Front \u0026 Rear Air Springs for Dodge RAM",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "hyundai": {
+      "slug": "hyundai",
+      "folderName": "Hyundai",
+      "nameAr": "Ù‡ÙŠÙˆÙ†Ø¯Ø§ÙŠ",
+      "nameEn": "Hyundai",
+      "models": {
+        "genesis": {
+          "nameEn": "Genesis",
+          "nameAr": "Ø¬ÙŠÙ†ÙŠØ³ÙŠØ³",
+          "slug": "genesis",
+          "folderName": "Hyundai Genesis",
+          "generations": {
+            "all": {
+              "code": "DH",
+              "years": "2014 - 2020",
+              "yearStart": "2014",
+              "yearEnd": "2020",
+              "slug": "all",
+              "folderName": "Hyundai Genesis",
+              "parts": [
+                {
+                  "id": "hyundai-genesis-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/hyundai/genesis/all/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ù‡ÙŠÙˆÙ†Ø¯Ø§ÙŠ Ø¬ÙŠÙ†ÙŠØ³ÙŠØ³",
+                  "altEn": "Front \u0026 Rear Air Springs for Hyundai Genesis",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "jaguar": {
+      "slug": "jaguar",
+      "folderName": "JAGUAR",
+      "nameAr": "Ø¬Ø§ØºÙˆØ§Ø±",
+      "nameEn": "Jaguar",
+      "models": {
+        "jaguar-xj": {
+          "nameEn": "Jaguar XJ",
+          "nameAr": "Ø¬Ø§ØºÙˆØ§Ø± XJ",
+          "slug": "jaguar-xj",
+          "folderName": "Jaguar (2004 - 2010)",
+          "generations": {
+            "2004-2010": {
+              "code": "X350",
+              "years": "2004 - 2010",
+              "yearStart": "2004",
+              "yearEnd": "2010",
+              "slug": "2004-2010",
+              "folderName": "Jaguar (2004 - 2010)",
+              "parts": [
+                {
+                  "id": "jaguar-xj-2004-2010-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/jaguar/jaguar-xj/2004-2010/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¬Ø§ØºÙˆØ§Ø± XJ",
+                  "altEn": "Front \u0026 Rear Air Springs for Jaguar XJ",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "jaguar-xf": {
+          "nameEn": "Jaguar XF",
+          "nameAr": "Ø¬Ø§ØºÙˆØ§Ø± XF",
+          "slug": "jaguar-xf",
+          "folderName": "Jaguar (2010 - 2019)",
+          "generations": {
+            "2010-2019": {
+              "code": "X260",
+              "years": "2010 - 2019",
+              "yearStart": "2010",
+              "yearEnd": "2019",
+              "slug": "2010-2019",
+              "folderName": "Jaguar (2010 - 2019)",
+              "parts": [
+                {
+                  "id": "jaguar-xf-2010-2019-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/jaguar/jaguar-xf/2010-2019/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¬Ø§ØºÙˆØ§Ø± XF",
+                  "altEn": "Front \u0026 Rear Air Springs for Jaguar XF",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "jeep": {
+      "slug": "jeep",
+      "folderName": "Jeep",
+      "nameAr": "Ø¬ÙŠØ¨",
+      "nameEn": "Jeep",
+      "models": {
+        "grand-cherokee": {
+          "nameEn": "Grand Cherokee",
+          "nameAr": "Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+          "slug": "grand-cherokee",
+          "folderName": "Grand Cherokee",
+          "generations": {
+            "2011-2015": {
+              "code": "WK2",
+              "years": "2011 - 2015",
+              "yearStart": "2011",
+              "yearEnd": "2015",
+              "slug": "2011-2015",
+              "folderName": "Grand Cherokee (2011 - 2015)",
+              "parts": [
+                {
+                  "id": "jeep-grand-cherokee-2011-2015-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/jeep/grand-cherokee/2011-2015/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¬ÙŠØ¨ Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+                  "altEn": "Front \u0026 Rear Air Springs for Jeep Grand Cherokee",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "jeep-grand-cherokee-2011-2015-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/jeep/grand-cherokee/2011-2015/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¬ÙŠØ¨ Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+                  "altEn": "Valve Block for Jeep Grand Cherokee",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "jeep-grand-cherokee-2011-2015-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ ÙˆØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Air Valve \u0026 Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/jeep/grand-cherokee/2011-2015/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ ÙˆØµÙ…Ø§Ù…Ø§Øª - Ø¬ÙŠØ¨ Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+                  "altEn": "Air Valve \u0026 Block for Jeep Grand Cherokee",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ Ùˆ ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            },
+            "2016-2020": {
+              "code": "WK2 FL",
+              "years": "2016 - 2020",
+              "yearStart": "2016",
+              "yearEnd": "2020",
+              "slug": "2016-2020",
+              "folderName": "Grand Cherokee (2016 - 2020)",
+              "parts": [
+                {
+                  "id": "jeep-grand-cherokee-2016-2020-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/jeep/grand-cherokee/2016-2020/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¬ÙŠØ¨ Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+                  "altEn": "Front \u0026 Rear Air Springs for Jeep Grand Cherokee",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "jeep-grand-cherokee-2016-2020-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/jeep/grand-cherokee/2016-2020/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¬ÙŠØ¨ Ø¬Ø±Ø§Ù†Ø¯ Ø´ÙŠØ±ÙˆÙƒÙŠ",
+                  "altEn": "Valve Block for Jeep Grand Cherokee",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "lamborghini": {
+      "slug": "lamborghini",
+      "folderName": "Lamborghini",
+      "nameAr": "Ù„Ø§Ù…Ø¨ÙˆØ±ØºÙŠÙ†ÙŠ",
+      "nameEn": "Lamborghini",
+      "models": {
+        "urus": {
+          "nameEn": "Urus",
+          "nameAr": "Ø£ÙˆØ±ÙˆØ³",
+          "slug": "urus",
+          "folderName": "URUS (2017 - 2021)",
+          "generations": {
+            "2017-2021": {
+              "code": "1st Gen",
+              "years": "2017 - 2021",
+              "yearStart": "2017",
+              "yearEnd": "2021",
+              "slug": "2017-2021",
+              "folderName": "URUS (2017 - 2021)",
+              "parts": [
+                {
+                  "id": "lamborghini-urus-2017-2021-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/lamborghini/urus/2017-2021/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ù„Ø§Ù…Ø¨ÙˆØ±ØºÙŠÙ†ÙŠ Ø£ÙˆØ±ÙˆØ³",
+                  "altEn": "Air Suspension System for Lamborghini Urus",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                },
+                {
+                  "id": "lamborghini-urus-2017-2021-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/lamborghini/urus/2017-2021/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ù„Ø§Ù…Ø¨ÙˆØ±ØºÙŠÙ†ÙŠ Ø£ÙˆØ±ÙˆØ³",
+                  "altEn": "Valve Block for Lamborghini Urus",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "porsche": {
+      "slug": "porsche",
+      "folderName": "Porsche",
+      "nameAr": "Ø¨ÙˆØ±Ø´",
+      "nameEn": "Porsche",
+      "models": {
+        "cayenne": {
+          "nameEn": "Cayenne",
+          "nameAr": "ÙƒØ§ÙŠÙŠÙ†",
+          "slug": "cayenne",
+          "folderName": "Porsche Cayenne",
+          "generations": {
+            "2003-2010": {
+              "code": "9PA",
+              "years": "2003 - 2010",
+              "yearStart": "2003",
+              "yearEnd": "2010",
+              "slug": "2003-2010",
+              "folderName": "Porsche Cayenne (2003 - 2010)",
+              "parts": [
+                {
+                  "id": "porsche-cayenne-2003-2010-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/porsche/cayenne/2003-2010/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Front \u0026 Rear Air Springs for Porsche Cayenne",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ .jpeg"
+                },
+                {
+                  "id": "porsche-cayenne-2003-2010-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/porsche/cayenne/2003-2010/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Air Suspension System for Porsche Cayenne",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            },
+            "2011-2018": {
+              "code": "92A",
+              "years": "2011 - 2018",
+              "yearStart": "2011",
+              "yearEnd": "2018",
+              "slug": "2011-2018",
+              "folderName": "Porsche Cayenne (2011 - 2018)",
+              "parts": [
+                {
+                  "id": "porsche-cayenne-2011-2018-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/porsche/cayenne/2011-2018/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Front \u0026 Rear Air Springs for Porsche Cayenne",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ .jpeg"
+                },
+                {
+                  "id": "porsche-cayenne-2011-2018-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/porsche/cayenne/2011-2018/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Air Suspension System for Porsche Cayenne",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-cayenne-2011-2018-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/porsche/cayenne/2011-2018/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Valve Block for Porsche Cayenne",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            },
+            "2018-2022": {
+              "code": "E3",
+              "years": "2018 - 2022",
+              "yearStart": "2018",
+              "yearEnd": "2022",
+              "slug": "2018-2022",
+              "folderName": "Porsche Cayenne (2018 - 2022)",
+              "parts": [
+                {
+                  "id": "porsche-cayenne-2018-2022-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/porsche/cayenne/2018-2022/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨ÙˆØ±Ø´ ÙƒØ§ÙŠÙŠÙ†",
+                  "altEn": "Front Air Spring for Porsche Cayenne",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "macan": {
+          "nameEn": "Macan",
+          "nameAr": "Ù…Ø§ÙƒØ§Ù†",
+          "slug": "macan",
+          "folderName": "Porsche MACAN",
+          "generations": {
+            "all": {
+              "code": "95B",
+              "years": "2014 - 2022",
+              "yearStart": "2014",
+              "yearEnd": "2022",
+              "slug": "all",
+              "folderName": "Porsche MACAN",
+              "parts": [
+                {
+                  "id": "porsche-macan-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/porsche/macan/all/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙˆØ±Ø´ Ù…Ø§ÙƒØ§Ù†",
+                  "altEn": "Front \u0026 Rear Air Springs for Porsche Macan",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-macan-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/porsche/macan/all/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨ÙˆØ±Ø´ Ù…Ø§ÙƒØ§Ù†",
+                  "altEn": "Valve Block for Porsche Macan",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "panamera": {
+          "nameEn": "Panamera",
+          "nameAr": "Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+          "slug": "panamera",
+          "folderName": "Porsche Panamera",
+          "generations": {
+            "2010-2013": {
+              "code": "970",
+              "years": "2010 - 2013",
+              "yearStart": "2010",
+              "yearEnd": "2013",
+              "slug": "2010-2013",
+              "folderName": "Porsche for Panamera(2010 - 2013)",
+              "parts": [
+                {
+                  "id": "porsche-panamera-2010-2013-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/porsche/panamera/2010-2013/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Front Air Spring for Porsche Panamera",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2010-2013-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/porsche/panamera/2010-2013/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Rear Air Balloon for Porsche Panamera",
+                  "originalFile": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2010-2013-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/porsche/panamera/2010-2013/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Valve Block for Porsche Panamera",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2010-2013-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/porsche/panamera/2010-2013/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Air Suspension System for Porsche Panamera",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            },
+            "2014-2016": {
+              "code": "970 FL",
+              "years": "2014 - 2016",
+              "yearStart": "2014",
+              "yearEnd": "2016",
+              "slug": "2014-2016",
+              "folderName": "Porsche for Panamera (2014 - 2016)",
+              "parts": [
+                {
+                  "id": "porsche-panamera-2014-2016-front-air-spring",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/porsche/panamera/2014-2016/front-air-spring.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Front Air Spring for Porsche Panamera",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2014-2016-rear-air-balloon",
+                  "nameAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/porsche/panamera/2014-2016/rear-air-balloon.jpeg",
+                  "altAr": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Rear Air Balloon for Porsche Panamera",
+                  "originalFile": "Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2014-2016-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/porsche/panamera/2014-2016/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Valve Block for Porsche Panamera",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2014-2016-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/porsche/panamera/2014-2016/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Air Suspension System for Porsche Panamera",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            },
+            "2017-2022": {
+              "code": "971",
+              "years": "2017 - 2022",
+              "yearStart": "2017",
+              "yearEnd": "2022",
+              "slug": "2017-2022",
+              "folderName": "Porsche for Panamera (2017 - 2022)",
+              "parts": [
+                {
+                  "id": "porsche-panamera-2017-2022-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/porsche/panamera/2017-2022/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Front \u0026 Rear Air Springs for Porsche Panamera",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2017-2022-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/porsche/panamera/2017-2022/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Valve Block for Porsche Panamera",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "porsche-panamera-2017-2022-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/porsche/panamera/2017-2022/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø¨ÙˆØ±Ø´ Ø¨Ø§Ù†Ø§Ù…ÙŠØ±Ø§",
+                  "altEn": "Air Suspension System for Porsche Panamera",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "range-rover": {
+      "slug": "range-rover",
+      "folderName": "Range Rover",
+      "nameAr": "Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ±",
+      "nameEn": "Range Rover",
+      "models": {
+        "sport-vogue": {
+          "nameEn": "Range Rover Sport \u0026 Vogue",
+          "nameAr": "Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+          "slug": "sport-vogue",
+          "folderName": "Range Rover Sport \u0026 Vogue",
+          "generations": {
+            "l405-l494-2014-2020": {
+              "code": "L405 / L494",
+              "years": "2014 - 2020",
+              "yearStart": "2014",
+              "yearEnd": "2020",
+              "slug": "l405-l494-2014-2020",
+              "folderName": "L405 L494 (2014 - 2020)",
+              "parts": [
+                {
+                  "id": "range-rover-sport-vogue-l405-l494-2014-2020-front-spring-rear-balloon",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ ÙˆØ¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Front Air Spring \u0026 Rear Balloon",
+                  "slug": "front-spring-rear-balloon",
+                  "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/front-spring-rear-balloon.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø£Ù…Ø§Ù…ÙŠ ÙˆØ¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+                  "altEn": "Front Air Spring \u0026 Rear Balloon for Range Rover Sport \u0026 Vogue",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "range-rover-sport-vogue-l405-l494-2014-2020-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+                  "altEn": "Valve Block for Range Rover Sport \u0026 Vogue",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "range-rover-sport-vogue-l405-l494-2014-2020-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+                  "altEn": "Air Valve Block for Range Rover Sport \u0026 Vogue",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            },
+            "2022-2025": {
+              "code": "L460 / L461",
+              "years": "2022 - 2025",
+              "yearStart": "2022",
+              "yearEnd": "2025",
+              "slug": "2022-2025",
+              "folderName": "(2022 - 2025)",
+              "parts": [
+                {
+                  "id": "range-rover-sport-vogue-2022-2025-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/range-rover/sport-vogue/2022-2025/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+                  "altEn": "Front \u0026 Rear Air Springs for Range Rover Sport \u0026 Vogue",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "range-rover-sport-vogue-2022-2025-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/range-rover/sport-vogue/2022-2025/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª ÙˆÙÙˆØ¬",
+                  "altEn": "Valve Block for Range Rover Sport \u0026 Vogue",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "sport-l320": {
+          "nameEn": "Range Rover Sport L320",
+          "nameAr": "Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª L320",
+          "slug": "sport-l320",
+          "folderName": "Range Rover Sport L320 (2003 - 2013)",
+          "generations": {
+            "2003-2013": {
+              "code": "L320",
+              "years": "2003 - 2013",
+              "yearStart": "2003",
+              "yearEnd": "2013",
+              "slug": "2003-2013",
+              "folderName": "Range Rover Sport L320 (2003 - 2013)",
+              "parts": [
+                {
+                  "id": "range-rover-sport-l320-2003-2013-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/range-rover/sport-l320/2003-2013/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª L320",
+                  "altEn": "Front \u0026 Rear Air Springs for Range Rover Sport L320",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "range-rover-sport-l320-2003-2013-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/range-rover/sport-l320/2003-2013/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª L320",
+                  "altEn": "Valve Block for Range Rover Sport L320",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "range-rover-sport-l320-2003-2013-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/range-rover/sport-l320/2003-2013/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± Ø³Ø¨ÙˆØ±Øª L320",
+                  "altEn": "Air Valve Block for Range Rover Sport L320",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "vogue-l322": {
+          "nameEn": "Range Rover Vogue L322",
+          "nameAr": "Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± ÙÙˆØ¬ L322",
+          "slug": "vogue-l322",
+          "folderName": "Range Rover Vogue L322 (2003 - 2013)",
+          "generations": {
+            "2003-2013": {
+              "code": "L322",
+              "years": "2003 - 2013",
+              "yearStart": "2003",
+              "yearEnd": "2013",
+              "slug": "2003-2013",
+              "folderName": "Range Rover Vogue L322 (2003 - 2013)",
+              "parts": [
+                {
+                  "id": "range-rover-vogue-l322-2003-2013-rear-spring-balloon",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ ÙˆØ¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ",
+                  "nameEn": "Rear Air Spring \u0026 Balloon",
+                  "slug": "rear-spring-balloon",
+                  "image": "/catalog/range-rover/vogue-l322/2003-2013/rear-spring-balloon.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ ÙˆØ¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± ÙÙˆØ¬ L322",
+                  "altEn": "Rear Air Spring \u0026 Balloon for Range Rover Vogue L322",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø®Ù„ÙÙŠ Ùˆ Ø¨Ø§Ù„ÙˆÙ† Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "range-rover-vogue-l322-2003-2013-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/range-rover/vogue-l322/2003-2013/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± ÙÙˆØ¬ L322",
+                  "altEn": "Valve Block for Range Rover Vogue L322",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "range-rover-vogue-l322-2003-2013-air-valve-block",
+                  "nameAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/range-rover/vogue-l322/2003-2013/air-valve-block.jpeg",
+                  "altAr": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡ - Ø±ÙŠÙ†Ø¬ Ø±ÙˆÙØ± ÙÙˆØ¬ L322",
+                  "altEn": "Air Valve Block for Range Rover Vogue L322",
+                  "originalFile": "Ù…ÙˆØ²Ø¹ Ù‡ÙˆØ§Ø¡.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rolls-royce": {
+      "slug": "rolls-royce",
+      "folderName": "Rolls Royce",
+      "nameAr": "Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³",
+      "nameEn": "Rolls-Royce",
+      "models": {
+        "cullinan": {
+          "nameEn": "Cullinan",
+          "nameAr": "ÙƒÙˆÙ„ÙŠÙ†Ø§Ù†",
+          "slug": "cullinan",
+          "folderName": "Cullinan",
+          "generations": {
+            "rr11-2003-2016": {
+              "code": "RR11",
+              "years": "2003 - 2016",
+              "yearStart": "2003",
+              "yearEnd": "2016",
+              "slug": "rr11-2003-2016",
+              "folderName": "RR11 (2003 - 2016)",
+              "parts": [
+                {
+                  "id": "rolls-royce-cullinan-rr11-2003-2016-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/cullinan/rr11-2003-2016/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ÙƒÙˆÙ„ÙŠÙ†Ø§Ù†",
+                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            },
+            "rr11-2016-2021": {
+              "code": "RR11 FL",
+              "years": "2016 - 2021",
+              "yearStart": "2016",
+              "yearEnd": "2021",
+              "slug": "rr11-2016-2021",
+              "folderName": "RR11 (2016 - 2021)",
+              "parts": [
+                {
+                  "id": "rolls-royce-cullinan-rr11-2016-2021-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/cullinan/rr11-2016-2021/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ÙƒÙˆÙ„ÙŠÙ†Ø§Ù†",
+                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            },
+            "pr3-2018-2023": {
+              "code": "PR3",
+              "years": "2018 - 2023",
+              "yearStart": "2018",
+              "yearEnd": "2023",
+              "slug": "pr3-2018-2023",
+              "folderName": "PR3 (2018 - 2023)",
+              "parts": [
+                {
+                  "id": "rolls-royce-cullinan-pr3-2018-2023-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/cullinan/pr3-2018-2023/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ÙƒÙˆÙ„ÙŠÙ†Ø§Ù†",
+                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "ghost": {
+          "nameEn": "Ghost",
+          "nameAr": "ØºÙˆØ³Øª",
+          "slug": "ghost",
+          "folderName": "Ghost",
+          "generations": {
+            "all": {
+              "code": "RR4",
+              "years": "2010 - 2023",
+              "yearStart": "2010",
+              "yearEnd": "2023",
+              "slug": "all",
+              "folderName": "Ghost",
+              "parts": [
+                {
+                  "id": "rolls-royce-ghost-front-rear-air-springs",
+                  "nameAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ©",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/ghost/all/front-rear-air-springs.jpeg",
+                  "altAr": "Ø¬Ø§Ù…Ø¨ÙŠÙ†Ø§Øª Ø£Ù…Ø§Ù…ÙŠØ© ÙˆØ®Ù„ÙÙŠØ© - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ØºÙˆØ³Øª",
+                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Ghost",
+                  "originalFile": "Ø¬Ø§Ù…Ø¨ÙŠÙ† Ø§Ù…Ø§Ù…ÙŠ Ùˆ Ø®Ù„ÙÙŠ.jpeg"
+                },
+                {
+                  "id": "rolls-royce-ghost-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/rolls-royce/ghost/all/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ØºÙˆØ³Øª",
+                  "altEn": "Air Suspension System for Rolls-Royce Ghost",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        },
+        "phantom": {
+          "nameEn": "Phantom",
+          "nameAr": "ÙØ§Ù†ØªÙˆÙ…",
+          "slug": "phantom",
+          "folderName": "Phantom (2003 - 2016)",
+          "generations": {
+            "2003-2016": {
+              "code": "RR1",
+              "years": "2003 - 2016",
+              "yearStart": "2003",
+              "yearEnd": "2016",
+              "slug": "2003-2016",
+              "folderName": "Phantom (2003 - 2016)",
+              "parts": [
+                {
+                  "id": "rolls-royce-phantom-2003-2016-valve-block",
+                  "nameAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/rolls-royce/phantom/2003-2016/valve-block.jpeg",
+                  "altAr": "ÙƒØªÙ„Ø© Ø§Ù„ØµÙ…Ø§Ù…Ø§Øª - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ÙØ§Ù†ØªÙˆÙ…",
+                  "altEn": "Valve Block for Rolls-Royce Phantom",
+                  "originalFile": "ÙƒØªÙ„Ø© ØµÙ…Ø§Ù…Ø§Øª.jpeg"
+                },
+                {
+                  "id": "rolls-royce-phantom-2003-2016-air-suspension-system",
+                  "nameAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ",
+                  "nameEn": "Air Suspension System",
+                  "slug": "air-suspension-system",
+                  "image": "/catalog/rolls-royce/phantom/2003-2016/air-suspension-system.jpeg",
+                  "altAr": "Ù†Ø¸Ø§Ù… Ø§Ù„ØªØ¹Ù„ÙŠÙ‚ Ø§Ù„Ù‡ÙˆØ§Ø¦ÙŠ - Ø±ÙˆÙ„Ø² Ø±ÙˆÙŠØ³ ÙØ§Ù†ØªÙˆÙ…",
+                  "altEn": "Air Suspension System for Rolls-Royce Phantom",
+                  "originalFile": "Ù†Ø¸Ø§Ù… ØªØ¹Ù„ÙŠÙ‚ Ù‡ÙˆØ¦ÙŠ.jpeg"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "tesla": {
+      "nameAr": "تسلا",
+      "nameEn": "Tesla",
+      "slug": "tesla",
+      "folderName": "Tsla",
+      "models": {
+        "model-x": {
+          "nameAr": "موديل X",
+          "nameEn": "Model X",
+          "slug": "model-x",
+          "folderName": "Model X (2015 - 2018)",
+          "generations": {
+            "2015-2018": {
+              "code": "Model X",
+              "years": "2015 - 2018",
+              "yearStart": "2015",
+              "yearEnd": "2018",
+              "slug": "2015-2018",
+              "folderName": "Model X (2015 - 2018)",
+              "parts": [
+                {
+                  "nameAr": "مساعدات هوائية أمامية وخلفية",
+                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "image": "/catalog/tesla/model-x/2015-2018/front-rear-air-springs.jpeg",
+                  "originalFile": "جامبين امامي و خلفي .jpeg",
+                  "slug": "front-rear-air-springs"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
