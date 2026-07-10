@@ -896,7 +896,7 @@ export const brandsData = [
   {
     id: 11,
     slug: "jeep",
-    logo: "/images/brands/jeep.png",
+    logo: "/images/brands/jeep.jpeg",
     catalogEnabled: true,
     nameAr: "جيب",
     nameEn: "Jeep",

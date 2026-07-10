@@ -103,7 +103,7 @@ export const brands = [
     nameEn: "Jeep Cherokee",
     slug: "jeep",
     image: "/images/brands/jeep.webp",
-    logo: "/images/brands/jeep.png",
+    logo: "/images/brands/jeep.jpeg",
     description: "قطع غيار جيب شروكي",
     models: ["Grand Cherokee", "Cherokee", "Wrangler"],
   },

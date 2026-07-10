@@ -81,7 +81,7 @@ export default function Navbar() {
           }}
           className="flex items-center gap-3 group"
         >
-            <Image src={logo} alt="Logo" className="text-xl font-bold text-white group-hover:text-gold transition-colors duration-300" width={150} height={150} style={{ height: "auto" }}/>
+            <Image src={logo} alt="Logo" className="text-xl font-bold text-white group-hover:text-gold transition-colors duration-300" width={200} height={150} style={{ height: "auto" }}/>
         </a>
 
         {/* Desktop Navigation */}
