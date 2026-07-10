@@ -1054,6 +1054,82 @@ export const brandsData = [
       },
     ],
   },
+
+  {
+    id: 13,
+    slug: "hyundai",
+    logo: "/images/brands/hyundai.jpeg",
+    catalogEnabled: true,
+    nameAr: "هيونداي",
+    nameEn: "Hyundai",
+    taglineAr: "الجودة والابتكار العملي",
+    taglineEn: "New Thinking, New Possibilities",
+    descriptionAr:
+      "نوفر قطع غيار أنظمة التعليق الهوائي والمساعدات الأصلية لسيارات هيونداي جينيسيس لضمان قيادة سلسة وآمنة.",
+    descriptionEn:
+      "We provide original air suspension parts and shock absorbers for Hyundai Genesis to ensure a smooth and safe drive.",
+    accentColor: "#002C5F",
+    accentGold: "#D4A853",
+    heroGradient: "from-[#0a0a0a] via-[#000a1a] to-[#0a0a0a]",
+    models: [
+      {
+        nameAr: "جينيسيس",
+        nameEn: "Genesis",
+        year: "2014–2020",
+        image: "/catalog/hyundai/genesis/all/front-rear-air-springs.jpeg",
+        partsCount: 1,
+      },
+    ],
+    parts: [
+      {
+        nameAr: "نظام التعليق الهوائي الأمامي والخلفي",
+        nameEn: "Front & Rear Air Springs",
+        icon: "Gauge",
+        count: 1,
+      },
+    ],
+  },
+
+  {
+    id: 14,
+    slug: "lamborghini",
+    logo: "/images/brands/lamborghini.jpeg",
+    catalogEnabled: true,
+    nameAr: "لامبورغيني",
+    nameEn: "Lamborghini",
+    taglineAr: "الأداء الفائق والتصميم الثوري",
+    taglineEn: "Expect the Unexpected",
+    descriptionAr:
+      "قطع غيار أنظمة التعليق الهوائي الأصلية وموزعات الهواء لسيارة لامبورغيني أوروس الفائقة لضمان ثباتها الاستثنائي.",
+    descriptionEn:
+      "Original air suspension parts and control valve blocks for the Lamborghini Urus super SUV to guarantee its exceptional stability.",
+    accentColor: "#D4A853",
+    accentGold: "#D4A853",
+    heroGradient: "from-[#0a0a0a] via-[#1a150a] to-[#0a0a0a]",
+    models: [
+      {
+        nameAr: "أوروس",
+        nameEn: "Urus",
+        year: "2017–2021",
+        image: "/catalog/lamborghini/urus/2017-2021/air-suspension-system.jpeg",
+        partsCount: 2,
+      },
+    ],
+    parts: [
+      {
+        nameAr: "نظام التعليق الهوائي",
+        nameEn: "Air Suspension System",
+        icon: "Gauge",
+        count: 1,
+      },
+      {
+        nameAr: "موزع الهواء",
+        nameEn: "Valve Block",
+        icon: "Wrench",
+        count: 1,
+      },
+    ],
+  },
 ];
 
 // Helper to find brand by slug

@@ -127,6 +127,26 @@ export const brands = [
     description: "قطع غيار دوج رام الأصلية",
     models: ["1500", "2500", "3500"],
   },
+  {
+    id: 12,
+    name: "هيونداي",
+    nameEn: "Hyundai",
+    slug: "hyundai",
+    image: "/images/brands/hyundai.jpeg",
+    logo: "/images/brands/hyundai.jpeg",
+    description: "قطع غيار أصلية لسيارات هيونداي جينيسيس",
+    models: ["Genesis"],
+  },
+  {
+    id: 13,
+    name: "لامبورغيني",
+    nameEn: "Lamborghini",
+    slug: "lamborghini",
+    image: "/images/brands/lamborghini.jpeg",
+    logo: "/images/brands/lamborghini.jpeg",
+    description: "قطع غيار أنظمة التعليق لسيارات لامبورغيني أوروس",
+    models: ["Urus"],
+  },
 ];
 
 export const categories = [
