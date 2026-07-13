@@ -92,7 +92,7 @@ export default function AboutSection() {
                 </div>
                 <div className="text-center p-6 rounded-xl bg-black-surface border border-black-border hover:border-gold/20 transition-colors duration-300">
                   <div className="text-4xl font-black gradient-gold-text mb-2">
-                    +10K
+                    +50K
                   </div>
                   <div className="text-gray-soft text-sm">قطعة مباعة</div>
                 </div>

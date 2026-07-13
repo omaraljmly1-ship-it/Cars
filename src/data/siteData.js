@@ -200,7 +200,7 @@ export const categories = [
 export const stats = [
   { id: 1, number: 23, suffix: "+", label: "سنوات خبرة", icon: "Award" },
   { id: 2, number: 50, suffix: "+", label: "نوع سيارة", icon: "Car" },
-  { id: 3, number: 10000, suffix: "+", label: "قطعة مباعة", icon: "Package" },
+  { id: 3, number: 50000, suffix: "+", label: "قطعة مباعة", icon: "Package" },
   { id: 4, number: 5000, suffix: "+", label: "عميل سعيد", icon: "Users" },
 ];
 

@@ -647,87 +647,6 @@ export const brandsData = [
 
   {
     id: 8,
-    slug: "lexus",
-    nameAr: "لكزس",
-    nameEn: "Lexus",
-    taglineAr: "الكمال اليابانيّ الفاخر",
-    taglineEn: "Experience Amazing",
-    descriptionAr:
-      "قطع غيار لكزس الأصلية لسيارات LS وLX وGX وRX. موثوقية يابانية لا مثيل لها.",
-    descriptionEn:
-      "Original Lexus spare parts for LS, LX, GX, and RX models. Unmatched Japanese reliability.",
-    accentColor: "#333399",
-    accentGold: "#D4A853",
-    heroGradient: "from-[#0a0a0a] via-[#00001a] to-[#0a0a0a]",
-    models: [
-      {
-        nameAr: "LS",
-        nameEn: "LS",
-        year: "2018–2025",
-        image: "/images/models/lexus-ls.jpg",
-        partsCount: 88,
-      },
-      {
-        nameAr: "LX",
-        nameEn: "LX",
-        year: "2017–2025",
-        image: "/images/models/lexus-lx.jpg",
-        partsCount: 92,
-      },
-      {
-        nameAr: "GX",
-        nameEn: "GX",
-        year: "2018–2025",
-        image: "/images/models/lexus-gx.jpg",
-        partsCount: 75,
-      },
-      {
-        nameAr: "RX",
-        nameEn: "RX",
-        year: "2019–2025",
-        image: "/images/models/lexus-rx.jpg",
-        partsCount: 68,
-      },
-      {
-        nameAr: "ES",
-        nameEn: "ES",
-        year: "2019–2025",
-        image: "/images/models/lexus-es.jpg",
-        partsCount: 60,
-      },
-    ],
-    parts: [
-      {
-        nameAr: "نظام التعليق الهوائي الأمامي",
-        nameEn: "Front Air Suspension",
-        icon: "Gauge",
-        count: 33,
-      },
-      {
-        nameAr: "نظام التعليق الهوائي الخلفي",
-        nameEn: "Rear Air Suspension",
-        icon: "Settings",
-        count: 29,
-      },
-      {
-        nameAr: "كمبروسر الهواء",
-        nameEn: "Air Compressor",
-        icon: "Wind",
-        count: 16,
-      },
-      { nameAr: "قطع الهجين", nameEn: "Hybrid Parts", icon: "Zap", count: 38 },
-      { nameAr: "قطع المحرك", nameEn: "Engine Parts", icon: "Cpu", count: 65 },
-      {
-        nameAr: "نظام العادم",
-        nameEn: "Exhaust System",
-        icon: "Wind",
-        count: 25,
-      },
-    ],
-  },
-
-  {
-    id: 9,
     slug: "jaguar",
     logo: "/images/brands/jaguar.jpeg",
     catalogEnabled: true,
@@ -808,7 +727,7 @@ export const brandsData = [
   },
 
   {
-    id: 10,
+    id: 9,
     slug: "tesla",
     catalogEnabled: true,
     logo: "/images/brands/tesla.webp",
@@ -894,7 +813,7 @@ export const brandsData = [
   },
 
   {
-    id: 11,
+    id: 10,
     slug: "jeep",
     logo: "/images/brands/jeep.jpeg",
     catalogEnabled: true,
@@ -975,7 +894,7 @@ export const brandsData = [
   },
 
   {
-    id: 12,
+    id: 11,
     slug: "dodge",
     logo: "/images/brands/dodge.jpeg",
     catalogEnabled: true,
@@ -1056,7 +975,7 @@ export const brandsData = [
   },
 
   {
-    id: 13,
+    id: 12,
     slug: "hyundai",
     logo: "/images/brands/hyundai.jpeg",
     catalogEnabled: true,
@@ -1091,7 +1010,7 @@ export const brandsData = [
   },
 
   {
-    id: 14,
+    id: 13,
     slug: "lamborghini",
     logo: "/images/brands/lamborghini.jpeg",
     catalogEnabled: true,

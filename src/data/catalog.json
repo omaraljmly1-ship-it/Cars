@@ -14,12 +14,12 @@
           "folderName": "BMW 7 Series",
           "generations": {
             "e65-e66-2001-2008": {
-              "code": "E65 \u0026 E66",
+              "code": "E65 E66",
               "years": "2001 - 2008",
               "yearStart": "2001",
               "yearEnd": "2008",
               "slug": "e65-e66-2001-2008",
-              "folderName": "E65 \u0026 E66 (2001 - 2008)",
+              "folderName": "E65 E66 (2001 - 2008)",
               "parts": [
                 {
                   "id": "bmw-bmw-7-series-e65-e66-2001-2008-rear-air-springs",
@@ -27,28 +27,28 @@
                   "nameEn": "Rear Air Springs",
                   "slug": "rear-air-springs",
                   "image": "/catalog/bmw/bmw-7-series/e65-e66-2001-2008/rear-air-springs.jpeg",
-                  "altAr": "جامبينات خلفية - بي ام دبليو BMW 7 Series E65 \u0026 E66",
-                  "altEn": "Rear Air Springs for BMW BMW 7 Series E65 \u0026 E66",
+                  "altAr": "جامبينات خلفية - بي ام دبليو BMW 7 Series E65 E66",
+                  "altEn": "Rear Air Springs for BMW BMW 7 Series E65 E66",
                   "originalFile": "جامبينات خلفيه.jpeg"
                 }
               ]
             },
             "f01-f02-2008-2015": {
-              "code": "F01 \u0026 F02",
+              "code": "F01 F02",
               "years": "2008 - 2015",
               "yearStart": "2008",
               "yearEnd": "2015",
               "slug": "f01-f02-2008-2015",
-              "folderName": "F01 \u0026 F02 (2008 - 2015)",
+              "folderName": "F01 F02 (2008 - 2015)",
               "parts": [
                 {
                   "id": "bmw-bmw-7-series-f01-f02-2008-2015-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - بي ام دبليو BMW 7 Series F01 \u0026 F02",
-                  "altEn": "Front \u0026 Rear Air Springs for BMW BMW 7 Series F01 \u0026 F02",
+                  "altAr": "جامبينات أمامية وخلفية - بي ام دبليو BMW 7 Series F01 F02",
+                  "altEn": "Front Rear Air Springs for BMW BMW 7 Series F01 F02",
                   "originalFile": "جامبينات الاماميه و الخلفيه .jpeg"
                 },
                 {
@@ -57,8 +57,8 @@
                   "nameEn": "Air Suspension Compressor",
                   "slug": "air-suspension-compressor",
                   "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/air-suspension-compressor.jpeg",
-                  "altAr": "كمبروسر الرفع - بي ام دبليو BMW 7 Series F01 \u0026 F02",
-                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series F01 \u0026 F02",
+                  "altAr": "كمبروسر الرفع - بي ام دبليو BMW 7 Series F01 F02",
+                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series F01 F02",
                   "originalFile": "كومبرسير رفع .jpeg"
                 },
                 {
@@ -67,28 +67,28 @@
                   "nameEn": "Air Valve Block",
                   "slug": "air-valve-block",
                   "image": "/catalog/bmw/bmw-7-series/f01-f02-2008-2015/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - بي ام دبليو BMW 7 Series F01 \u0026 F02",
-                  "altEn": "Air Valve Block for BMW BMW 7 Series F01 \u0026 F02",
+                  "altAr": "موزع هواء - بي ام دبليو BMW 7 Series F01 F02",
+                  "altEn": "Air Valve Block for BMW BMW 7 Series F01 F02",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
             },
             "g11-g12-2016-2020": {
-              "code": "G11 \u0026 G12",
+              "code": "G11 G12",
               "years": "2016 - 2020",
               "yearStart": "2016",
               "yearEnd": "2020",
               "slug": "g11-g12-2016-2020",
-              "folderName": "G11 \u0026 G12 (2016 -2020)",
+              "folderName": "G11 G12 (2016 -2020)",
               "parts": [
                 {
                   "id": "bmw-bmw-7-series-g11-g12-2016-2020-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - بي ام دبليو BMW 7 Series G11 \u0026 G12",
-                  "altEn": "Front \u0026 Rear Air Springs for BMW BMW 7 Series G11 \u0026 G12",
+                  "altAr": "جامبينات أمامية وخلفية - بي ام دبليو BMW 7 Series G11 G12",
+                  "altEn": "Front Rear Air Springs for BMW BMW 7 Series G11 G12",
                   "originalFile": "جامبينات الاماميه و الخلفيه .jpeg"
                 },
                 {
@@ -97,8 +97,8 @@
                   "nameEn": "Air Suspension Compressor",
                   "slug": "air-suspension-compressor",
                   "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/air-suspension-compressor.jpeg",
-                  "altAr": "كمبروسر الرفع - بي ام دبليو BMW 7 Series G11 \u0026 G12",
-                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series G11 \u0026 G12",
+                  "altAr": "كمبروسر الرفع - بي ام دبليو BMW 7 Series G11 G12",
+                  "altEn": "Air Suspension Compressor for BMW BMW 7 Series G11 G12",
                   "originalFile": "كومبرسير رفع .jpeg"
                 },
                 {
@@ -107,8 +107,8 @@
                   "nameEn": "Air Valve Block",
                   "slug": "air-valve-block",
                   "image": "/catalog/bmw/bmw-7-series/g11-g12-2016-2020/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - بي ام دبليو BMW 7 Series G11 \u0026 G12",
-                  "altEn": "Air Valve Block for BMW BMW 7 Series G11 \u0026 G12",
+                  "altAr": "موزع هواء - بي ام دبليو BMW 7 Series G11 G12",
+                  "altEn": "Air Valve Block for BMW BMW 7 Series G11 G12",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
@@ -162,11 +162,11 @@
                 {
                   "id": "bmw-x5-e532000-2006-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/bmw/x5/e532000-2006/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بي ام دبليو X5 E53",
-                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 E53",
+                  "altEn": "Front Rear Air Springs for BMW X5 E53",
                   "originalFile": "جامبينات اماميه و خلفيه.jpeg"
                 }
               ]
@@ -182,11 +182,11 @@
                 {
                   "id": "bmw-x5-e70-2007-2013-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/bmw/x5/e70-2007-2013/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بي ام دبليو X5 E70",
-                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 E70",
+                  "altEn": "Front Rear Air Springs for BMW X5 E70",
                   "originalFile": "جامبينات اماميه و خلفيه.jpeg"
                 }
               ]
@@ -202,11 +202,11 @@
                 {
                   "id": "bmw-x5-f15-2014-2018-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/bmw/x5/f15-2014-2018/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بي ام دبليو X5 F15",
-                  "altEn": "Front \u0026 Rear Air Springs for BMW X5 F15",
+                  "altEn": "Front Rear Air Springs for BMW X5 F15",
                   "originalFile": "جامبينات اماميه و خلفيه.jpeg"
                 }
               ]
@@ -222,12 +222,12 @@
                 {
                   "id": "bmw-x5-g05-2019-2022-front-rear-air-springs-g05-x6-g06",
                   "nameAr": "جامبينات أمامية وخلفية (G05 / X6 G06)",
-                  "nameEn": "Front \u0026 Rear Air Springs (G05 / X6 G06)",
+                  "nameEn": "Front Rear Air Springs (G05 / X6 G06)",
                   "slug": "front-rear-air-springs-g05-x6-g06",
                   "image": "/catalog/bmw/x5/g05-2019-2022/front-rear-air-springs-g05-x6-g06.jpeg",
                   "altAr": "جامبينات أمامية وخلفية (G05 / X6 G06) - بي ام دبليو X5 G05",
-                  "altEn": "Front \u0026 Rear Air Springs (G05 / X6 G06) for BMW X5 G05",
-                  "originalFile": "جامبينات اماميه و خلفيه G05 \u0026 X6 G06.jpeg"
+                  "altEn": "Front Rear Air Springs (G05 / X6 G06) for BMW X5 G05",
+                  "originalFile": "جامبينات اماميه و خلفيه G05 X6 G06.jpeg"
                 }
               ]
             }
@@ -258,11 +258,11 @@
                 {
                   "id": "mercedes-c-class-w205-2014-2021-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/mercedes/c-class/w205-2014-2021/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - مرسيدس بنز C-Class W205",
-                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz C-Class W205",
+                  "altEn": "Front Rear Air Springs for Mercedes-Benz C-Class W205",
                   "originalFile": "جامبينات الاماميه و الخلفيه .jpeg"
                 },
                 {
@@ -514,11 +514,11 @@
                 {
                   "id": "mercedes-e-class-w212-2009-2016-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/mercedes/e-class/w212-2009-2016/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - مرسيدس بنز E-Class W212",
-                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz E-Class W212",
+                  "altEn": "Front Rear Air Springs for Mercedes-Benz E-Class W212",
                   "originalFile": "الجامبينات الاماميه و الخلفيه.jpeg"
                 },
                 {
@@ -596,10 +596,10 @@
           }
         },
         "gle-ml": {
-          "nameEn": "GLE \u0026 ML",
+          "nameEn": "GLE ML",
           "nameAr": "GLE و ML",
           "slug": "gle-ml",
-          "folderName": "GLE \u0026 ML",
+          "folderName": "GLE ML",
           "generations": {
             "w164-ml-2005-2011": {
               "code": "W164 ML",
@@ -612,11 +612,11 @@
                 {
                   "id": "mercedes-gle-ml-w164-ml-2005-2011-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - مرسيدس بنز GLE \u0026 ML W164 ML",
-                  "altEn": "Front \u0026 Rear Air Springs for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "altAr": "جامبينات أمامية وخلفية - مرسيدس بنز GLE ML W164 ML",
+                  "altEn": "Front Rear Air Springs for Mercedes-Benz GLE ML W164 ML",
                   "originalFile": "جامبينات الاماميه و الخلفيه .jpeg"
                 },
                 {
@@ -625,8 +625,8 @@
                   "nameEn": "Air Suspension Compressor",
                   "slug": "air-suspension-compressor",
                   "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/air-suspension-compressor.jpeg",
-                  "altAr": "كمبروسر الرفع - مرسيدس بنز GLE \u0026 ML W164 ML",
-                  "altEn": "Air Suspension Compressor for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "altAr": "كمبروسر الرفع - مرسيدس بنز GLE ML W164 ML",
+                  "altEn": "Air Suspension Compressor for Mercedes-Benz GLE ML W164 ML",
                   "originalFile": "كومبرسير رفع .jpeg"
                 },
                 {
@@ -635,23 +635,23 @@
                   "nameEn": "Air Valve Block",
                   "slug": "air-valve-block",
                   "image": "/catalog/mercedes/gle-ml/w164-ml-2005-2011/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - مرسيدس بنز GLE \u0026 ML W164 ML",
-                  "altEn": "Air Valve Block for Mercedes-Benz GLE \u0026 ML W164 ML",
+                  "altAr": "موزع هواء - مرسيدس بنز GLE ML W164 ML",
+                  "altEn": "Air Valve Block for Mercedes-Benz GLE ML W164 ML",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
             },
             "w166-mlgle-2011-2019": {
-              "code": "W166 ML\u0026GLE",
+              "code": "W166 MGLE",
               "years": "2011 - 2019",
               "yearStart": "2011",
               "yearEnd": "2019",
               "slug": "w166-mlgle-2011-2019",
-              "folderName": "W166 ML\u0026GLE ( 2011 - 2019 )",
+              "folderName": "W166 MGLE ( 2011 - 2019 )",
               "parts": [
                 {
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "image": "/catalog/mercedes/gle-ml/w166-mlgle-2011-2019/front-rear-air-springs.jpeg",
                   "originalFile": "جامبين امامي و خلفي .jpeg",
                   "slug": "front-rear-air-springs"
@@ -682,12 +682,12 @@
               "parts": [
                 {
                   "id": "mercedes-gle-ml-w167-gle-2019-2025-rear-air-springs",
-                  "nameAr": "جامبينات خلفية",
+                  "nameAr": " بالون خلفي",
                   "nameEn": "Rear Air Springs",
                   "slug": "rear-air-springs",
                   "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/rear-air-springs.jpeg",
-                  "altAr": "جامبينات خلفية - مرسيدس بنز GLE \u0026 ML W167 GLE",
-                  "altEn": "Rear Air Springs for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "altAr": " بالون خلفي - مرسيدس بنز GLE ML W167 GLE",
+                  "altEn": "Rear Air Springs for Mercedes-Benz GLE ML W167 GLE",
                   "originalFile": "جامبينات  الخلفيه .jpeg"
                 },
                 {
@@ -696,18 +696,18 @@
                   "nameEn": "Front Air Springs",
                   "slug": "front-air-springs",
                   "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/front-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية - مرسيدس بنز GLE \u0026 ML W167 GLE",
-                  "altEn": "Front Air Springs for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "altAr": "جامبينات أمامية - مرسيدس بنز GLE ML W167 GLE",
+                  "altEn": "Front Air Springs for Mercedes-Benz GLE ML W167 GLE",
                   "originalFile": "جامبينات الاماميه  .jpeg"
                 },
                 {
                   "id": "mercedes-gle-ml-w167-gle-2019-2025-air-compressor-valve-block",
                   "nameAr": "كمبروسر الرفع وموزع الهواء",
-                  "nameEn": "Air Compressor \u0026 Valve Block",
+                  "nameEn": "Air Compressor Valve Block",
                   "slug": "air-compressor-valve-block",
                   "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/air-compressor-valve-block.jpeg",
-                  "altAr": "كمبروسر الرفع وموزع الهواء - مرسيدس بنز GLE \u0026 ML W167 GLE",
-                  "altEn": "Air Compressor \u0026 Valve Block for Mercedes-Benz GLE \u0026 ML W167 GLE",
+                  "altAr": "كمبروسر الرفع وموزع الهواء - مرسيدس بنز GLE ML W167 GLE",
+                  "altEn": "Air Compressor Valve Block for Mercedes-Benz GLE ML W167 GLE",
                   "originalFile": "كومبريسر الرفع و موزع الهواء.jpeg"
                 }
               ]
@@ -809,11 +809,11 @@
                 {
                   "id": "mercedes-s-class-w220-1999-2005-front-rear-hydraulic-shock-absorber",
                   "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
                   "slug": "front-rear-hydraulic-shock-absorber",
                   "image": "/catalog/mercedes/s-class/w220-1999-2005/front-rear-hydraulic-shock-absorber.jpeg",
                   "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W220",
-                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W220",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W220",
                   "originalFile": "جامبين هديروليك امامي و خلفي.jpeg"
                 },
                 {
@@ -825,16 +825,6 @@
                   "altAr": "كمبروسر الرفع - مرسيدس بنز S-Class W220",
                   "altEn": "Air Suspension Compressor for Mercedes-Benz S-Class W220",
                   "originalFile": "كومبيرسر الرفع.jpeg"
-                },
-                {
-                  "id": "mercedes-s-class-w220-1999-2005-air-valve-block",
-                  "nameAr": "موزع هواء",
-                  "nameEn": "Air Valve Block",
-                  "slug": "air-valve-block",
-                  "image": "/catalog/mercedes/s-class/w220-1999-2005/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - مرسيدس بنز S-Class W220",
-                  "altEn": "Air Valve Block for Mercedes-Benz S-Class W220",
-                  "originalFile": "موزع الهواء.jpeg"
                 }
               ]
             },
@@ -869,11 +859,11 @@
                 {
                   "id": "mercedes-s-class-w221-2006-2013-front-rear-hydraulic-shock-absorber",
                   "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
                   "slug": "front-rear-hydraulic-shock-absorber",
                   "image": "/catalog/mercedes/s-class/w221-2006-2013/front-rear-hydraulic-shock-absorber.jpeg",
                   "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W221",
-                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W221",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W221",
                   "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
                 },
                 {
@@ -885,6 +875,16 @@
                   "altAr": "كمبروسر الرفع - مرسيدس بنز S-Class W221",
                   "altEn": "Air Suspension Compressor for Mercedes-Benz S-Class W221",
                   "originalFile": "كومبريسر الرفع.jpeg"
+                },
+                {
+                  "id": "mercedes-s-class-w221-2006-2013-air-valve-block",
+                  "nameAr": "موزع هواء",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/valve-block.jpeg",
+                  "altAr": "موزع هواء - مرسيدس بنز S-Class W221",
+                  "altEn": "Air Valve Block for Mercedes-Benz S-Class W221",
+                  "originalFile": "كتلة صمام الهواء.jpeg"
                 }
               ]
             },
@@ -919,11 +919,11 @@
                 {
                   "id": "mercedes-s-class-w222-2014-2020-front-rear-hydraulic-shock-absorber",
                   "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front \u0026 Rear Hydraulic Shock Absorber",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
                   "slug": "front-rear-hydraulic-shock-absorber",
                   "image": "/catalog/mercedes/s-class/w222-2014-2020/front-rear-hydraulic-shock-absorber.jpeg",
                   "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W222",
-                  "altEn": "Front \u0026 Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W222",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W222",
                   "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
                 },
                 {
@@ -979,11 +979,11 @@
                 {
                   "id": "mercedes-s-class-w223-2021-2025-air-compressor-valve-block",
                   "nameAr": "كمبروسر الرفع وموزع الهواء",
-                  "nameEn": "Air Compressor \u0026 Valve Block",
+                  "nameEn": "Air Compressor Valve Block",
                   "slug": "air-compressor-valve-block",
                   "image": "/catalog/mercedes/s-class/w223-2021-2025/air-compressor-valve-block.jpeg",
                   "altAr": "كمبروسر الرفع وموزع الهواء - مرسيدس بنز S-Class W223",
-                  "altEn": "Air Compressor \u0026 Valve Block for Mercedes-Benz S-Class W223",
+                  "altEn": "Air Compressor Valve Block for Mercedes-Benz S-Class W223",
                   "originalFile": "كومبريسر الرفع و موزع الهواء.jpeg"
                 }
               ]
@@ -999,10 +999,10 @@
       "nameEn": "Audi",
       "models": {
         "a6-s8": {
-          "nameEn": "A6 \u0026 S8",
+          "nameEn": "A6 S8",
           "nameAr": "A6 و S8",
           "slug": "a6-s8",
-          "folderName": "A6 (2012 - 2018) \u0026 S8 (2013 - 2018)",
+          "folderName": "A6 (2012 - 2018) S8 (2013 - 2018)",
           "generations": {
             "2012-2018": {
               "code": "A6 / S8",
@@ -1010,17 +1010,37 @@
               "yearStart": "2012",
               "yearEnd": "2018",
               "slug": "2012-2018",
-              "folderName": "A6 (2012 - 2018) \u0026 S8 (2013 - 2018)",
+              "folderName": "A6 (2012 - 2018) S8 (2013 - 2018)",
               "parts": [
                 {
                   "id": "audi-a6-s8-2012-2018-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/audi/a6-s8/2012-2018/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - أودي A6 و S8",
-                  "altEn": "Front \u0026 Rear Air Springs for Audi A6 \u0026 S8",
+                  "altEn": "Front Rear Air Springs for Audi A6 S8",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
+                },
+                 {
+                  "id": "audi-a6-s8-2012-2018-air-pump",
+                  "nameAr": "كومبريسر الرفع",
+                  "nameEn": "Air Compressor",
+                  "slug": "air-compressor",
+                  "image": "/catalog/audi/a6-s8/2012-2018/air-pump.jpeg",
+                  "altAr": "كومبريسر الرفع - أودي A6 و S8",
+                  "altEn": "Air Compressor for Audi A6 S8",
+                  "originalFile": "air pump.jpeg"
+                },
+                 {
+                  "id": "audi-a6-s8-2012-2018-air-valve-block",
+                  "nameAr": "موزع الهواء",
+                  "nameEn": "Air Valve Block",
+                  "slug": "air-valve-block",
+                  "image": "/catalog/audi/a6-s8/2012-2018/valve-block.jpeg",
+                  "altAr": "موزع الهواء - أودي A6 و S8",
+                  "altEn": "Air Valve Block for Audi A6 S8",
+                  "originalFile": "valve-block.jpeg"
                 }
               ]
             }
@@ -1043,22 +1063,32 @@
                 {
                   "id": "audi-a8-2010-2017-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/audi/a8/2010-2017/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - أودي A8",
-                  "altEn": "Front \u0026 Rear Air Springs for Audi A8",
+                  "altEn": "Front Rear Air Springs for Audi A8",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "audi-a8-2010-2017-air-valve-block",
-                  "nameAr": "موزع هواء",
-                  "nameEn": "Air Valve Block",
+                  "nameAr": "كمبروسر الرفع",
+                  "nameEn": "Air Compressor",
                   "slug": "air-valve-block",
                   "image": "/catalog/audi/a8/2010-2017/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - أودي A8",
-                  "altEn": "Air Valve Block for Audi A8",
+                  "altAr": "كمبروسر الرفع - أودي A8",
+                  "altEn": "Air Compressor for Audi A8",
                   "originalFile": "موزع هواء.jpeg"
+                },
+                {
+                  "id": "audi-a8-2010-2017-air-valve-block",
+                  "nameAr": "موزع الهواء",
+                  "nameEn": "Air Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/audi/a8/2010-2017/valve-block.jpeg",
+                  "altAr": "موزع الهواء - أودي A8",
+                  "altEn": "Air Valve Block for Audi A8",
+                  "originalFile": "valve-block.jpeg"
                 }
               ]
             }
@@ -1087,6 +1117,16 @@
                   "altAr": "جامبين أمامي - أودي A8 D3",
                   "altEn": "Front Air Spring for Audi A8 D3",
                   "originalFile": "جامبين امامي.jpeg"
+                },
+                {
+                  "id": "audi-a8-d3-2003-2010-air-pump",
+                  "nameAr": "كومبريسر الرفع",
+                  "nameEn": "Air Compressor",
+                  "slug": "air-pump",
+                  "image": "/catalog/audi/a8-d3/2003-2010/valve-block.jpeg",
+                  "altAr": "كومبريسر الرفع - أودي A8 D3",
+                  "altEn": "Rear Air Spring for Audi A8 D3",
+                  "originalFile": "value-block.jpeg"
                 }
               ]
             }
@@ -1109,19 +1149,29 @@
                 {
                   "id": "audi-a8-d5-2017-2023-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/audi/a8-d5/2017-2023/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - أودي A8 D5",
-                  "altEn": "Front \u0026 Rear Air Springs for Audi A8 D5",
+                  "altEn": "Front Rear Air Springs for Audi A8 D5",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
+                },
+                {
+                  "id": "audi-a8-d5-2017-2023-valve-block",
+                  "nameAr": "موزع الهواء",
+                  "nameEn": "Valve Block",
+                  "slug": "valve-block",
+                  "image": "/catalog/audi/a8-d5/2017-2023/valve-block.jpeg",
+                  "altAr": "موزع الهواء - أودي A8 D5",
+                  "altEn": "Valve Block for Audi A8 D5",
+                  "originalFile": "valve-block.jpeg"
                 }
               ]
             }
           }
         },
         "q7-q8": {
-          "nameEn": "Q7 \u0026 Q8",
+          "nameEn": "Q7 Q8",
           "nameAr": "Q7 و Q8",
           "slug": "q7-q8",
           "folderName": "Q7 Q8 (2017 - 2021)",
@@ -1136,23 +1186,33 @@
               "parts": [
                 {
                   "id": "audi-q7-q8-2017-2021-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/audi/q7-q8/2017-2021/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - أودي Q7 و Q8",
-                  "altEn": "Air Suspension System for Audi Q7 \u0026 Q8",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "altAr": "نظام التعليق الهوائي - أودي Q7 و Q8",
+                  "altEn": "Air Suspension System for Audi Q7 Q8",
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 },
                 {
                   "id": "audi-q7-q8-2017-2021-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/audi/q7-q8/2017-2021/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - أودي Q7 و Q8",
-                  "altEn": "Valve Block for Audi Q7 \u0026 Q8",
+                  "altAr": "موزع الهواء - أودي Q7 و Q8",
+                  "altEn": "Valve Block for Audi Q7 Q8",
                   "originalFile": "كتلة صمامات.jpeg"
+                },
+                {
+                  "id": "audi-q7-q8-2017-2021-front-air-spring",
+                  "nameAr": "جامبين أمامي",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/audi/q7-q8/2017-2021/front-rear-air-springs.jpeg",
+                  "altAr": "جامبين أمامي - أودي Q7 و Q8",
+                  "altEn": "Front Air Spring for Audi Q7 Q8",
+                  "originalFile": "front-rear-air-springs.jpeg"
                 }
               ]
             }
@@ -1202,21 +1262,21 @@
                 },
                 {
                   "id": "bentley-bentayga-2017-2022-air-suspension",
-                  "nameAr": "تعلي�‚ هوائي",
+                  "nameAr": "تعليق هوائي",
                   "nameEn": "Air Suspension",
                   "slug": "air-suspension",
                   "image": "/catalog/bentley/bentayga/2017-2022/air-suspension.jpeg",
-                  "altAr": "تعلي�‚ هوائي - بنتلي بنتايغا",
+                  "altAr": "تعليق هوائي - بنتلي بنتايغا",
                   "altEn": "Air Suspension for Bentley Bentayga",
-                  "originalFile": "تعلي�‚ هوائي.jpeg"
+                  "originalFile": "تعليق هوائي.jpeg"
                 },
                 {
                   "id": "bentley-bentayga-2017-2022-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/bentley/bentayga/2017-2022/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بنتلي بنتايغا",
+                  "altAr": "موزع الهواء - بنتلي بنتايغا",
                   "altEn": "Valve Block for Bentley Bentayga",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
@@ -1250,11 +1310,11 @@
                 },
                 {
                   "id": "bentley-continental-2003-2012-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/bentley/continental/2003-2012/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بنتلي كونتيننتال",
+                  "altAr": "موزع الهواء - بنتلي كونتيننتال",
                   "altEn": "Valve Block for Bentley Continental",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
@@ -1298,11 +1358,11 @@
                 },
                 {
                   "id": "bentley-continental-flying-2004-2018-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/bentley/continental-flying/2004-2018/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بنتلي كونتيننتال فلاينج",
+                  "altAr": "موزع الهواء - بنتلي كونتيننتال فلاينج",
                   "altEn": "Valve Block for Bentley Continental Flying Spur",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
@@ -1335,11 +1395,11 @@
                 {
                   "id": "dodge-ram-2011-2018-air-valve-block",
                   "nameAr": "موزع هواء وصمامات",
-                  "nameEn": "Air Valve \u0026 Block",
+                  "nameEn": "Air Valve Block",
                   "slug": "air-valve-block",
                   "image": "/catalog/dodge-ram/dodge-ram-2011-2018/2011-2018/air-valve-block.jpeg",
                   "altAr": "موزع هواء وصمامات - دودج رام",
-                  "altEn": "Air Valve \u0026 Block for Dodge RAM",
+                  "altEn": "Air Valve Block for Dodge RAM",
                   "originalFile": "موزع هواء و صمامات.jpeg"
                 }
               ]
@@ -1363,11 +1423,11 @@
                 {
                   "id": "dodge-ram-doog-2013-2019-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/dodge-ram/doog-ram-2013-2019/2013-2019/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - دودج رام",
-                  "altEn": "Front \u0026 Rear Air Springs for Dodge RAM",
+                  "altEn": "Front Rear Air Springs for Dodge RAM",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
@@ -1399,11 +1459,11 @@
                 {
                   "id": "hyundai-genesis-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/hyundai/genesis/all/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - هيونداي جينيسيس",
-                  "altEn": "Front \u0026 Rear Air Springs for Hyundai Genesis",
+                  "altEn": "Front Rear Air Springs for Hyundai Genesis",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
@@ -1435,11 +1495,11 @@
                 {
                   "id": "jaguar-xj-2004-2010-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/jaguar/jaguar-xj/2004-2010/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - جاغوار XJ",
-                  "altEn": "Front \u0026 Rear Air Springs for Jaguar XJ",
+                  "altEn": "Front Rear Air Springs for Jaguar XJ",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
@@ -1463,11 +1523,11 @@
                 {
                   "id": "jaguar-xf-2010-2019-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/jaguar/jaguar-xf/2010-2019/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - جاغوار XF",
-                  "altEn": "Front \u0026 Rear Air Springs for Jaguar XF",
+                  "altEn": "Front Rear Air Springs for Jaguar XF",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
@@ -1499,31 +1559,31 @@
                 {
                   "id": "jeep-grand-cherokee-2011-2015-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/jeep/grand-cherokee/2011-2015/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - جيب جراند شيروكي",
-                  "altEn": "Front \u0026 Rear Air Springs for Jeep Grand Cherokee",
+                  "altEn": "Front Rear Air Springs for Jeep Grand Cherokee",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "jeep-grand-cherokee-2011-2015-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/jeep/grand-cherokee/2011-2015/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - جيب جراند شيروكي",
+                  "altAr": "موزع الهواء - جيب جراند شيروكي",
                   "altEn": "Valve Block for Jeep Grand Cherokee",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "jeep-grand-cherokee-2011-2015-air-valve-block",
                   "nameAr": "موزع هواء وصمامات",
-                  "nameEn": "Air Valve \u0026 Block",
+                  "nameEn": "Air Valve Block",
                   "slug": "air-valve-block",
                   "image": "/catalog/jeep/grand-cherokee/2011-2015/air-valve-block.jpeg",
                   "altAr": "موزع هواء وصمامات - جيب جراند شيروكي",
-                  "altEn": "Air Valve \u0026 Block for Jeep Grand Cherokee",
+                  "altEn": "Air Valve Block for Jeep Grand Cherokee",
                   "originalFile": "موزع هواء و صمامات.jpeg"
                 }
               ]
@@ -1539,22 +1599,32 @@
                 {
                   "id": "jeep-grand-cherokee-2016-2020-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/jeep/grand-cherokee/2016-2020/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - جيب جراند شيروكي",
-                  "altEn": "Front \u0026 Rear Air Springs for Jeep Grand Cherokee",
+                  "altEn": "Front Rear Air Springs for Jeep Grand Cherokee",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "jeep-grand-cherokee-2016-2020-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/jeep/grand-cherokee/2016-2020/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - جيب جراند شيروكي",
+                  "altAr": "موزع الهواء - جيب جراند شيروكي",
                   "altEn": "Valve Block for Jeep Grand Cherokee",
                   "originalFile": "كتلة صمامات.jpeg"
+                },
+                {
+                  "id": "jeep-grand-cherokee-2016-2020-air-pump",
+                  "nameAr": "كومبريسر الرفع",
+                  "nameEn": "Air Compressor",
+                  "slug": "air-pump",
+                  "image": "/catalog/jeep/grand-cherokee/2016-2020/air-pump.jpeg",
+                  "altAr": "كومبريسر الرفع - جيب جراند شيروكي",
+                  "altEn": "Air Compressor for Jeep Grand Cherokee",
+                  "originalFile": "compressor.jpeg"
                 }
               ]
             }
@@ -1584,23 +1654,33 @@
               "parts": [
                 {
                   "id": "lamborghini-urus-2017-2021-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/lamborghini/urus/2017-2021/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - لامبورغيني أوروس",
+                  "altAr": "نظام التعليق الهوائي - لامبورغيني أوروس",
                   "altEn": "Air Suspension System for Lamborghini Urus",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 },
                 {
                   "id": "lamborghini-urus-2017-2021-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/lamborghini/urus/2017-2021/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - لامبورغيني أوروس",
+                  "altAr": "موزع الهواء - لامبورغيني أوروس",
                   "altEn": "Valve Block for Lamborghini Urus",
                   "originalFile": "كتلة صمامات.jpeg"
+                },
+                {
+                  "id": "lamborghini-urus-2017-2021-front-air-spring",
+                  "nameAr": "جامبين أمامي",
+                  "nameEn": "Front Air Spring",
+                  "slug": "front-air-spring",
+                  "image": "/catalog/lamborghini/urus/2017-2021/front-air-springs.jpeg",
+                  "altAr": "جامبين أمامي - لامبورغيني أوروس",
+                  "altEn": "Front Air Spring for Lamborghini Urus",
+                  "originalFile": "front-air-spring.jpeg"
                 }
               ]
             }
@@ -1631,22 +1711,22 @@
                 {
                   "id": "porsche-cayenne-2003-2010-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/porsche/cayenne/2003-2010/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بورش كايين",
-                  "altEn": "Front \u0026 Rear Air Springs for Porsche Cayenne",
+                  "altEn": "Front Rear Air Springs for Porsche Cayenne",
                   "originalFile": "جامبين امامي و خلفي .jpeg"
                 },
                 {
                   "id": "porsche-cayenne-2003-2010-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/cayenne/2003-2010/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - بورش كايين",
+                  "altAr": "نظام التعليق الهوائي - بورش كايين",
                   "altEn": "Air Suspension System for Porsche Cayenne",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 }
               ]
             },
@@ -1661,30 +1741,30 @@
                 {
                   "id": "porsche-cayenne-2011-2018-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/porsche/cayenne/2011-2018/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بورش كايين",
-                  "altEn": "Front \u0026 Rear Air Springs for Porsche Cayenne",
+                  "altEn": "Front Rear Air Springs for Porsche Cayenne",
                   "originalFile": "جامبين امامي و خلفي .jpeg"
                 },
                 {
                   "id": "porsche-cayenne-2011-2018-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/cayenne/2011-2018/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - بورش كايين",
+                  "altAr": "نظام التعليق الهوائي - بورش كايين",
                   "altEn": "Air Suspension System for Porsche Cayenne",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 },
                 {
                   "id": "porsche-cayenne-2011-2018-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/porsche/cayenne/2011-2018/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بورش كايين",
+                  "altAr": "موزع الهواء - بورش كايين",
                   "altEn": "Valve Block for Porsche Cayenne",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
@@ -1729,20 +1809,20 @@
                 {
                   "id": "porsche-macan-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/porsche/macan/all/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بورش ماكان",
-                  "altEn": "Front \u0026 Rear Air Springs for Porsche Macan",
+                  "altEn": "Front Rear Air Springs for Porsche Macan",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "porsche-macan-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/porsche/macan/all/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بورش ماكان",
+                  "altAr": "موزع الهواء - بورش ماكان",
                   "altEn": "Valve Block for Porsche Macan",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
@@ -1786,23 +1866,23 @@
                 },
                 {
                   "id": "porsche-panamera-2010-2013-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/porsche/panamera/2010-2013/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بورش باناميرا",
+                  "altAr": "موزع الهواء - بورش باناميرا",
                   "altEn": "Valve Block for Porsche Panamera",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "porsche-panamera-2010-2013-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2010-2013/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - بورش باناميرا",
+                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 }
               ]
             },
@@ -1836,23 +1916,23 @@
                 },
                 {
                   "id": "porsche-panamera-2014-2016-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/porsche/panamera/2014-2016/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بورش باناميرا",
+                  "altAr": "موزع الهواء - بورش باناميرا",
                   "altEn": "Valve Block for Porsche Panamera",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "porsche-panamera-2014-2016-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2014-2016/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - بورش باناميرا",
+                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 }
               ]
             },
@@ -1867,32 +1947,32 @@
                 {
                   "id": "porsche-panamera-2017-2022-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/porsche/panamera/2017-2022/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - بورش باناميرا",
-                  "altEn": "Front \u0026 Rear Air Springs for Porsche Panamera",
+                  "altEn": "Front Rear Air Springs for Porsche Panamera",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "porsche-panamera-2017-2022-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/porsche/panamera/2017-2022/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - بورش باناميرا",
+                  "altAr": "موزع الهواء - بورش باناميرا",
                   "altEn": "Valve Block for Porsche Panamera",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "porsche-panamera-2017-2022-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2017-2022/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - بورش باناميرا",
+                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 }
               ]
             }
@@ -1903,14 +1983,14 @@
     "range-rover": {
       "slug": "range-rover",
       "folderName": "Range Rover",
-      "nameAr": "رينج روفر",
+      "nameAr": "رنج روفر",
       "nameEn": "Range Rover",
       "models": {
         "sport-vogue": {
-          "nameEn": "Range Rover Sport \u0026 Vogue",
-          "nameAr": "رينج روفر سبورت وفوج",
+          "nameEn": "Range Rover Sport Vogue",
+          "nameAr": "رنج روفر سبورت وفوج",
           "slug": "sport-vogue",
-          "folderName": "Range Rover Sport \u0026 Vogue",
+          "folderName": "Range Rover Sport Vogue",
           "generations": {
             "l405-l494-2014-2020": {
               "code": "L405 / L494",
@@ -1923,31 +2003,31 @@
                 {
                   "id": "range-rover-sport-vogue-l405-l494-2014-2020-front-spring-rear-balloon",
                   "nameAr": "جامبين أمامي وبالون خلفي",
-                  "nameEn": "Front Air Spring \u0026 Rear Balloon",
+                  "nameEn": "Front Air Spring Rear Balloon",
                   "slug": "front-spring-rear-balloon",
                   "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/front-spring-rear-balloon.jpeg",
-                  "altAr": "جامبين أمامي وبالون خلفي - رينج روفر سبورت وفوج",
-                  "altEn": "Front Air Spring \u0026 Rear Balloon for Range Rover Sport \u0026 Vogue",
+                  "altAr": "جامبين أمامي وبالون خلفي - رنج روفر سبورت وفوج",
+                  "altEn": "Front Air Spring Rear Balloon for Range Rover Sport Vogue",
                   "originalFile": "جامبين امامي و بالون خلفي.jpeg"
                 },
                 {
                   "id": "range-rover-sport-vogue-l405-l494-2014-2020-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - رينج روفر سبورت وفوج",
-                  "altEn": "Valve Block for Range Rover Sport \u0026 Vogue",
+                  "altAr": "موزع الهواء - رنج روفر سبورت وفوج",
+                  "altEn": "Valve Block for Range Rover Sport Vogue",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "range-rover-sport-vogue-l405-l494-2014-2020-air-valve-block",
-                  "nameAr": "موزع هواء",
-                  "nameEn": "Air Valve Block",
-                  "slug": "air-valve-block",
+                  "nameAr": "كمبروسر الرفع",
+                  "nameEn": "Compressor",
+                  "slug": "compressor",
                   "image": "/catalog/range-rover/sport-vogue/l405-l494-2014-2020/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - رينج روفر سبورت وفوج",
-                  "altEn": "Air Valve Block for Range Rover Sport \u0026 Vogue",
+                  "altAr": "كمبروسر الرفع - رنج روفر سبورت وفوج",
+                  "altEn": "Compressor for Range Rover Sport Vogue",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
@@ -1963,21 +2043,21 @@
                 {
                   "id": "range-rover-sport-vogue-2022-2025-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/range-rover/sport-vogue/2022-2025/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - رينج روفر سبورت وفوج",
-                  "altEn": "Front \u0026 Rear Air Springs for Range Rover Sport \u0026 Vogue",
+                  "altAr": "جامبينات أمامية وخلفية - رنج روفر سبورت وفوج",
+                  "altEn": "Front Rear Air Springs for Range Rover Sport Vogue",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "range-rover-sport-vogue-2022-2025-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/range-rover/sport-vogue/2022-2025/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - رينج روفر سبورت وفوج",
-                  "altEn": "Valve Block for Range Rover Sport \u0026 Vogue",
+                  "altAr": "موزع الهواء - رنج روفر سبورت وفوج",
+                  "altEn": "Valve Block for Range Rover Sport Vogue",
                   "originalFile": "كتلة صمامات.jpeg"
                 }
               ]
@@ -1986,7 +2066,7 @@
         },
         "sport-l320": {
           "nameEn": "Range Rover Sport L320",
-          "nameAr": "رينج روفر سبورت L320",
+          "nameAr": "رنج روفر سبورت L320",
           "slug": "sport-l320",
           "folderName": "Range Rover Sport L320 (2003 - 2013)",
           "generations": {
@@ -2001,31 +2081,31 @@
                 {
                   "id": "range-rover-sport-l320-2003-2013-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/range-rover/sport-l320/2003-2013/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - رينج روفر سبورت L320",
-                  "altEn": "Front \u0026 Rear Air Springs for Range Rover Sport L320",
+                  "altAr": "جامبينات أمامية وخلفية - رنج روفر سبورت L320",
+                  "altEn": "Front Rear Air Springs for Range Rover Sport L320",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "range-rover-sport-l320-2003-2013-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/range-rover/sport-l320/2003-2013/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - رينج روفر سبورت L320",
+                  "altAr": "موزع الهواء - رنج روفر سبورت L320",
                   "altEn": "Valve Block for Range Rover Sport L320",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
-                  "id": "range-rover-sport-l320-2003-2013-air-valve-block",
-                  "nameAr": "موزع هواء",
-                  "nameEn": "Air Valve Block",
-                  "slug": "air-valve-block",
+                  "id": "range-rover-sport-l320-2003-2013-compressor",
+                  "nameAr": "كمبروسر الرفع",
+                  "nameEn": "Compressor",
+                  "slug": "compressor",
                   "image": "/catalog/range-rover/sport-l320/2003-2013/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - رينج روفر سبورت L320",
-                  "altEn": "Air Valve Block for Range Rover Sport L320",
+                  "altAr": "كمبروسر الرفع - رنج روفر سبورت L320",
+                  "altEn": "Compressor for Range Rover Sport L320",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
@@ -2034,7 +2114,7 @@
         },
         "vogue-l322": {
           "nameEn": "Range Rover Vogue L322",
-          "nameAr": "رينج روفر فوج L322",
+          "nameAr": "رنج روفر فوج L322",
           "slug": "vogue-l322",
           "folderName": "Range Rover Vogue L322 (2003 - 2013)",
           "generations": {
@@ -2047,33 +2127,33 @@
               "folderName": "Range Rover Vogue L322 (2003 - 2013)",
               "parts": [
                 {
-                  "id": "range-rover-vogue-l322-2003-2013-rear-spring-balloon",
-                  "nameAr": "جامبين خلفي وبالون خلفي",
-                  "nameEn": "Rear Air Spring \u0026 Balloon",
-                  "slug": "rear-spring-balloon",
+                  "id": "range-rover-vogue-l322-2003-2013-front-strut-rear-air-spring",
+                  "nameAr": "جامبين أمامي وبالون خلفي",
+                  "nameEn": "Front Strut with Rear Air Spring",
+                  "slug": "front-strut-rear-air-spring",
                   "image": "/catalog/range-rover/vogue-l322/2003-2013/rear-spring-balloon.jpeg",
-                  "altAr": "جامبين خلفي وبالون خلفي - رينج روفر فوج L322",
-                  "altEn": "Rear Air Spring \u0026 Balloon for Range Rover Vogue L322",
-                  "originalFile": "جامبين خلفي و بالون خلفي.jpeg"
+                  "altAr": "جامبين أمامي وبالون خلفي - رنج روفر فوج L322",
+                  "altEn": "Front Strut with Rear Air Spring for Range Rover Vogue L322",
+                  "originalFile": "جامبين امامي و بالون خلفي.jpeg"
                 },
                 {
                   "id": "range-rover-vogue-l322-2003-2013-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": "موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/range-rover/vogue-l322/2003-2013/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - رينج روفر فوج L322",
+                  "altAr": "موزع الهواء - رنج روفر فوج L322",
                   "altEn": "Valve Block for Range Rover Vogue L322",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
-                  "id": "range-rover-vogue-l322-2003-2013-air-valve-block",
-                  "nameAr": "موزع هواء",
-                  "nameEn": "Air Valve Block",
-                  "slug": "air-valve-block",
+                  "id": "range-rover-vogue-l322-2003-2013-compressor",
+                  "nameAr": "كمبروسر الرفع",
+                  "nameEn": "Compressor",
+                  "slug": "compressor",
                   "image": "/catalog/range-rover/vogue-l322/2003-2013/air-valve-block.jpeg",
-                  "altAr": "موزع هواء - رينج روفر فوج L322",
-                  "altEn": "Air Valve Block for Range Rover Vogue L322",
+                  "altAr": "كمبروسر الرفع - رنج روفر فوج L322",
+                  "altEn": "Compressor for Range Rover Vogue L322",
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
@@ -2094,46 +2174,6 @@
           "slug": "cullinan",
           "folderName": "Cullinan",
           "generations": {
-            "rr11-2003-2016": {
-              "code": "RR11",
-              "years": "2003 - 2016",
-              "yearStart": "2003",
-              "yearEnd": "2016",
-              "slug": "rr11-2003-2016",
-              "folderName": "RR11 (2003 - 2016)",
-              "parts": [
-                {
-                  "id": "rolls-royce-cullinan-rr11-2003-2016-front-rear-air-springs",
-                  "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
-                  "slug": "front-rear-air-springs",
-                  "image": "/catalog/rolls-royce/cullinan/rr11-2003-2016/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - رولز رويس كولينان",
-                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
-                  "originalFile": "جامبين امامي و خلفي.jpeg"
-                }
-              ]
-            },
-            "rr11-2016-2021": {
-              "code": "RR11 FL",
-              "years": "2016 - 2021",
-              "yearStart": "2016",
-              "yearEnd": "2021",
-              "slug": "rr11-2016-2021",
-              "folderName": "RR11 (2016 - 2021)",
-              "parts": [
-                {
-                  "id": "rolls-royce-cullinan-rr11-2016-2021-front-rear-air-springs",
-                  "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
-                  "slug": "front-rear-air-springs",
-                  "image": "/catalog/rolls-royce/cullinan/rr11-2016-2021/front-rear-air-springs.jpeg",
-                  "altAr": "جامبينات أمامية وخلفية - رولز رويس كولينان",
-                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
-                  "originalFile": "جامبين امامي و خلفي.jpeg"
-                }
-              ]
-            },
             "pr3-2018-2023": {
               "code": "PR3",
               "years": "2018 - 2023",
@@ -2145,11 +2185,11 @@
                 {
                   "id": "rolls-royce-cullinan-pr3-2018-2023-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/rolls-royce/cullinan/pr3-2018-2023/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - رولز رويس كولينان",
-                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Cullinan",
+                  "altEn": "Front Rear Air Springs for Rolls-Royce Cullinan",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
@@ -2173,22 +2213,22 @@
                 {
                   "id": "rolls-royce-ghost-front-rear-air-springs",
                   "nameAr": "جامبينات أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "slug": "front-rear-air-springs",
                   "image": "/catalog/rolls-royce/ghost/all/front-rear-air-springs.jpeg",
                   "altAr": "جامبينات أمامية وخلفية - رولز رويس غوست",
-                  "altEn": "Front \u0026 Rear Air Springs for Rolls-Royce Ghost",
+                  "altEn": "Front Rear Air Springs for Rolls-Royce Ghost",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
                 {
                   "id": "rolls-royce-ghost-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/rolls-royce/ghost/all/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - رولز رويس غوست",
+                  "altAr": "نظام التعليق الهوائي - رولز رويس غوست",
                   "altEn": "Air Suspension System for Rolls-Royce Ghost",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
                 }
               ]
             }
@@ -2205,28 +2245,68 @@
               "years": "2003 - 2016",
               "yearStart": "2003",
               "yearEnd": "2016",
-              "slug": "2003-2016",
+              "slug": "phantom 2003-2016",
               "folderName": "Phantom (2003 - 2016)",
               "parts": [
                 {
                   "id": "rolls-royce-phantom-2003-2016-valve-block",
-                  "nameAr": "كتلة الصمامات",
+                  "nameAr": " موزع الهواء",
                   "nameEn": "Valve Block",
                   "slug": "valve-block",
                   "image": "/catalog/rolls-royce/phantom/2003-2016/valve-block.jpeg",
-                  "altAr": "كتلة الصمامات - رولز رويس فانتوم",
+                  "altAr": "موزع الهواء - رولز رويس فانتوم",
                   "altEn": "Valve Block for Rolls-Royce Phantom",
                   "originalFile": "كتلة صمامات.jpeg"
                 },
                 {
                   "id": "rolls-royce-phantom-2003-2016-air-suspension-system",
-                  "nameAr": "نظام التعلي�‚ الهوائي",
+                  "nameAr": "نظام التعليق الهوائي",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/rolls-royce/phantom/2003-2016/air-suspension-system.jpeg",
-                  "altAr": "نظام التعلي�‚ الهوائي - رولز رويس فانتوم",
+                  "altAr": "نظام التعليق الهوائي - رولز رويس فانتوم",
                   "altEn": "Air Suspension System for Rolls-Royce Phantom",
-                  "originalFile": "نظام تعلي�‚ هوئي.jpeg"
+                  "originalFile": "نظام تعليق هوئي.jpeg"
+                }
+              ]
+            },
+            "rr11-2016-2021": {
+              "code": "RR11 FL",
+              "years": "2016 - 2021",
+              "yearStart": "2016",
+              "yearEnd": "2021",
+              "slug": "rr11-2016-2021",
+              "folderName": "RR11 (2016 - 2021)",
+              "parts": [
+                {
+                  "id": "rolls-royce-cullinan-rr11-2016-2021-front-rear-air-springs",
+                  "nameAr": "جامبينات أمامية وخلفية",
+                  "nameEn": "Front Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/cullinan/rr11-2016-2021/front-rear-air-springs.jpeg",
+                  "altAr": "جامبينات أمامية وخلفية - رولز رويس كولينان",
+                  "altEn": "Front Rear Air Springs for Rolls-Royce Cullinan",
+                  "originalFile": "جامبين امامي و خلفي.jpeg"
+                }
+              ]
+            },
+            "rr11-2003-2016": {
+              "code": "RR11",
+              "years": "2003 - 2016",
+              "yearStart": "2003",
+              "yearEnd": "2016",
+              "slug": "rr11-2003-2016",
+              "folderName": "RR11 (2003 - 2016)",
+              "parts": [
+                {
+                  "id": "rolls-royce-cullinan-rr11-2003-2016-front-rear-air-springs",
+                  "nameAr": "جامبينات أمامية وخلفية",
+                  "nameEn": "Front Rear Air Springs",
+                  "slug": "front-rear-air-springs",
+                  "image": "/catalog/rolls-royce/cullinan/rr11-2003-2016/front-rear-air-springs.jpeg",
+                  "altAr": "جامبينات أمامية وخلفية - رولز رويس كولينان",
+                  "altEn": "Front Rear Air Springs for Rolls-Royce Cullinan",
+                  "originalFile": "جامبين امامي و خلفي.jpeg"
                 }
               ]
             }
@@ -2256,7 +2336,7 @@
               "parts": [
                 {
                   "nameAr": "مساعدات هوائية أمامية وخلفية",
-                  "nameEn": "Front \u0026 Rear Air Springs",
+                  "nameEn": "Front Rear Air Springs",
                   "image": "/catalog/tesla/model-x/2015-2018/front-rear-air-springs.jpeg",
                   "originalFile": "جامبين امامي و خلفي .jpeg",
                   "slug": "front-rear-air-springs"
