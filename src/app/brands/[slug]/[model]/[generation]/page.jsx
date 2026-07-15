@@ -7,10 +7,14 @@ import PartCard from "@/components/brand/PartCard";
 
 // Generate static params for all catalog brand + model + generation combinations
 export async function generateStaticParams() {
-  const activeSlugs = ["mercedes", "bmw"];
   const params = [];
 
-  for (const slug of activeSlugs) {
+  // Import full catalog and generate params for ALL brands
+  const { getCatalog } = await import("@/data/catalogData");
+  const catalog = getCatalog();
+  const allBrandSlugs = Object.keys(catalog.brands || {});
+
+  for (const slug of allBrandSlugs) {
     const models = getCatalogModels(slug);
     if (models) {
       for (const [modelSlug, model] of Object.entries(models)) {
@@ -40,7 +44,9 @@ export async function generateMetadata({ params }) {
   const model = brandCatalog.models[modelSlug];
   if (!model) return { title: "الموديل غير موجود" };
 
-  const generation = model.generations[genSlug];
+  const generation =
+    model.generations[genSlug] ||
+    Object.values(model.generations || {}).find((g) => g.slug === genSlug);
   if (!generation) return { title: "الهيكل غير موجود" };
 
   return {
@@ -70,12 +76,21 @@ export default async function GenerationPage({ params }) {
     notFound();
   }
 
-  const generation = model.generations[genSlug];
+  // Look up generation by key first, then fall back to matching slug field
+  const generation =
+    model.generations[genSlug] ||
+    Object.values(model.generations || {}).find((g) => g.slug === genSlug);
   if (!generation) {
     notFound();
   }
 
-  const parts = getCatalogParts(slug, modelSlug, genSlug);
+  // Find the actual object key for this generation (needed for getCatalogParts)
+  const actualGenKey =
+    Object.keys(model.generations || {}).find(
+      (k) => model.generations[k] === generation
+    ) || genSlug;
+
+  const parts = getCatalogParts(slug, modelSlug, actualGenKey);
 
   const breadcrumbItems = [
     { label: brand.nameAr, href: `/brands/${slug}` },

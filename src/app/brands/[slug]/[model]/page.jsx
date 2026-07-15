@@ -11,12 +11,14 @@ import GenerationCard from "@/components/brand/GenerationCard";
 
 // Generate static params for all catalog brand + model slug combinations
 export async function generateStaticParams() {
-  const catalog = getCatalogBrand("mercedes"); // We can get catalog for active brands
   const params = [];
 
-  // Active brands are BMW and Mercedes
-  const activeSlugs = ["mercedes", "bmw"];
-  for (const slug of activeSlugs) {
+  // Import the full catalog and generate params for ALL brands
+  const { getCatalog } = await import("@/data/catalogData");
+  const catalog = getCatalog();
+  const allBrandSlugs = Object.keys(catalog.brands || {});
+
+  for (const slug of allBrandSlugs) {
     const models = getCatalogModels(slug);
     if (models) {
       for (const modelSlug of Object.keys(models)) {

@@ -11,6 +11,7 @@ const guarantees = [
   "شحن سريع لجميع الإمارات",
   "دعم فني متخصص بعد البيع",
 ];
+{/* اخر جزء في صفحة البراند*/}
 
 export default function BrandCTA({ brand }) {
   return (

@@ -23,7 +23,7 @@ function PartIllustration({ type }) {
   const IconComponent = iconMap[type] || Settings;
   return <IconComponent className="text-gold w-16 h-16" />;
 }
-
+{/*عرض انواع الموديلات */}
 export default function BrandModels({ brand }) {
   const isCatalog = brand.catalogEnabled;
   const modelsList = isCatalog ? getAllCatalogModels(brand.slug) : brand.models;
@@ -57,6 +57,8 @@ export default function BrandModels({ brand }) {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
         >
           {modelsList.map((model, index) => {
+            console.log(model)
+            
             const isSelected = !isCatalog && selectedModel && selectedModel.nameEn === model.nameEn;
             
             const cardInnerContent = (
@@ -75,6 +77,7 @@ export default function BrandModels({ brand }) {
                     <Image
                       src={model.image}
                       alt={model.nameAr}
+
                       fill
                       sizes="(max-w-768px) 100vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"

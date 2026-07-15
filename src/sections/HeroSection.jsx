@@ -11,7 +11,7 @@ const heroFeatures = [
   { icon: Shield, label: "قطع أصلية" },
   { icon: Award, label: "ضمان شامل" },
   { icon: Truck, label: "شحن سريع" },
-  { icon: Wrench, label: "دعم فني" },
+  { icon: Wrench, label: "قطع مستوردة" },
 ];
 
 export default function HeroSection() {

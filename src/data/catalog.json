@@ -304,16 +304,6 @@
               "folderName": "W218 (2011 - 2017)",
               "parts": [
                 {
-                  "id": "mercedes-cls-class-w218-2011-2017-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W218",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W218",
-                  "originalFile": "البالون الخلفي.jpeg"
-                },
-                {
                   "id": "mercedes-cls-class-w218-2011-2017-front-air-spring",
                   "nameAr": "جامبين أمامي",
                   "nameEn": "Front Air Spring",
@@ -322,6 +312,16 @@
                   "altAr": "جامبين أمامي - مرسيدس بنز CLS-Class W218",
                   "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W218",
                   "originalFile": "جامبين  امامي.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w218-2011-2017-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w218-2011-2017/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W218",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W218",
+                  "originalFile": "البالون الخلفي.jpeg"
                 },
                 {
                   "id": "mercedes-cls-class-w218-2011-2017-air-suspension-compressor",
@@ -354,16 +354,6 @@
               "folderName": "W219  (2004–2010)",
               "parts": [
                 {
-                  "id": "mercedes-cls-class-w219-20042010-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/cls-class/w219-20042010/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W219",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W219",
-                  "originalFile": "البالون الخلفي.jpeg"
-                },
-                {
                   "id": "mercedes-cls-class-w219-20042010-front-air-spring",
                   "nameAr": "جامبين أمامي",
                   "nameEn": "Front Air Spring",
@@ -372,6 +362,16 @@
                   "altAr": "جامبين أمامي - مرسيدس بنز CLS-Class W219",
                   "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W219",
                   "originalFile": "الجامبين الامامي.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w219-20042010-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w219-20042010/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W219",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W219",
+                  "originalFile": "البالون الخلفي.jpeg"
                 },
                 {
                   "id": "mercedes-cls-class-w219-20042010-air-suspension-compressor",
@@ -404,16 +404,6 @@
               "folderName": "W253 (2017–2023)",
               "parts": [
                 {
-                  "id": "mercedes-cls-class-w253-20172023-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/cls-class/w253-20172023/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W253",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W253",
-                  "originalFile": "البالون الخلفي.jpeg"
-                },
-                {
                   "id": "mercedes-cls-class-w253-20172023-front-air-spring",
                   "nameAr": "جامبين أمامي",
                   "nameEn": "Front Air Spring",
@@ -422,6 +412,16 @@
                   "altAr": "جامبين أمامي - مرسيدس بنز CLS-Class W253",
                   "altEn": "Front Air Spring for Mercedes-Benz CLS-Class W253",
                   "originalFile": "جامبين الامامي.jpeg"
+                },
+                {
+                  "id": "mercedes-cls-class-w253-20172023-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/cls-class/w253-20172023/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز CLS-Class W253",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz CLS-Class W253",
+                  "originalFile": "البالون الخلفي.jpeg"
                 },
                 {
                   "id": "mercedes-cls-class-w253-20172023-air-suspension-compressor",
@@ -462,16 +462,6 @@
               "folderName": "W211 (2002 - 2009)",
               "parts": [
                 {
-                  "id": "mercedes-e-class-w211-2002-2009-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/e-class/w211-2002-2009/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز E-Class W211",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W211",
-                  "originalFile": "بالون خلفي.jpeg"
-                },
-                {
                   "id": "mercedes-e-class-w211-2002-2009-front-air-spring",
                   "nameAr": "جامبين أمامي",
                   "nameEn": "Front Air Spring",
@@ -480,6 +470,16 @@
                   "altAr": "جامبين أمامي - مرسيدس بنز E-Class W211",
                   "altEn": "Front Air Spring for Mercedes-Benz E-Class W211",
                   "originalFile": "جامبين امامي.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w211-2002-2009-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/e-class/w211-2002-2009/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز E-Class W211",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W211",
+                  "originalFile": "بالون خلفي.jpeg"
                 },
                 {
                   "id": "mercedes-e-class-w211-2002-2009-air-suspension-compressor",
@@ -552,16 +552,6 @@
               "folderName": "W213 (2017 - 2023)",
               "parts": [
                 {
-                  "id": "mercedes-e-class-w213-2017-2023-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/e-class/w213-2017-2023/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز E-Class W213",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W213",
-                  "originalFile": "البالون الخلفي.jpeg"
-                },
-                {
                   "id": "mercedes-e-class-w213-2017-2023-front-air-springs",
                   "nameAr": "جامبينات أمامية",
                   "nameEn": "Front Air Springs",
@@ -570,6 +560,16 @@
                   "altAr": "جامبينات أمامية - مرسيدس بنز E-Class W213",
                   "altEn": "Front Air Springs for Mercedes-Benz E-Class W213",
                   "originalFile": "جامبينات الاماميه.jpeg"
+                },
+                {
+                  "id": "mercedes-e-class-w213-2017-2023-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/e-class/w213-2017-2023/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز E-Class W213",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz E-Class W213",
+                  "originalFile": "البالون الخلفي.jpeg"
                 },
                 {
                   "id": "mercedes-e-class-w213-2017-2023-air-suspension-compressor",
@@ -681,16 +681,6 @@
               "folderName": "W167 GLE (2019 - 2025 )",
               "parts": [
                 {
-                  "id": "mercedes-gle-ml-w167-gle-2019-2025-rear-air-springs",
-                  "nameAr": " بالون خلفي",
-                  "nameEn": "Rear Air Springs",
-                  "slug": "rear-air-springs",
-                  "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/rear-air-springs.jpeg",
-                  "altAr": " بالون خلفي - مرسيدس بنز GLE ML W167 GLE",
-                  "altEn": "Rear Air Springs for Mercedes-Benz GLE ML W167 GLE",
-                  "originalFile": "جامبينات  الخلفيه .jpeg"
-                },
-                {
                   "id": "mercedes-gle-ml-w167-gle-2019-2025-front-air-springs",
                   "nameAr": "جامبينات أمامية",
                   "nameEn": "Front Air Springs",
@@ -699,6 +689,16 @@
                   "altAr": "جامبينات أمامية - مرسيدس بنز GLE ML W167 GLE",
                   "altEn": "Front Air Springs for Mercedes-Benz GLE ML W167 GLE",
                   "originalFile": "جامبينات الاماميه  .jpeg"
+                },
+                {
+                  "id": "mercedes-gle-ml-w167-gle-2019-2025-rear-air-springs",
+                  "nameAr": " بالون خلفي",
+                  "nameEn": "Rear Air Springs",
+                  "slug": "rear-air-springs",
+                  "image": "/catalog/mercedes/gle-ml/w167-gle-2019-2025/rear-air-springs.jpeg",
+                  "altAr": " بالون خلفي - مرسيدس بنز GLE ML W167 GLE",
+                  "altEn": "Rear Air Springs for Mercedes-Benz GLE ML W167 GLE",
+                  "originalFile": "جامبينات  الخلفيه .jpeg"
                 },
                 {
                   "id": "mercedes-gle-ml-w167-gle-2019-2025-air-compressor-valve-block",
@@ -729,16 +729,6 @@
               "folderName": "W292 (2015 - 2019)",
               "parts": [
                 {
-                  "id": "mercedes-gle-cope-w292-2015-2019-rear-air-balloon",
-                  "nameAr": "بالون خلفي",
-                  "nameEn": "Rear Air Balloon",
-                  "slug": "rear-air-balloon",
-                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/rear-air-balloon.jpeg",
-                  "altAr": "بالون خلفي - مرسيدس بنز GLE-Cope W292",
-                  "altEn": "Rear Air Balloon for Mercedes-Benz GLE-Cope W292",
-                  "originalFile": "بالون خلفي.jpeg"
-                },
-                {
                   "id": "mercedes-gle-cope-w292-2015-2019-front-air-spring",
                   "nameAr": "جامبين أمامي",
                   "nameEn": "Front Air Spring",
@@ -747,6 +737,16 @@
                   "altAr": "جامبين أمامي - مرسيدس بنز GLE-Cope W292",
                   "altEn": "Front Air Spring for Mercedes-Benz GLE-Cope W292",
                   "originalFile": "جامبيين امامي.jpeg"
+                },
+                {
+                  "id": "mercedes-gle-cope-w292-2015-2019-rear-air-balloon",
+                  "nameAr": "بالون خلفي",
+                  "nameEn": "Rear Air Balloon",
+                  "slug": "rear-air-balloon",
+                  "image": "/catalog/mercedes/gle-cope/w292-2015-2019/rear-air-balloon.jpeg",
+                  "altAr": "بالون خلفي - مرسيدس بنز GLE-Cope W292",
+                  "altEn": "Rear Air Balloon for Mercedes-Benz GLE-Cope W292",
+                  "originalFile": "بالون خلفي.jpeg"
                 },
                 {
                   "id": "mercedes-gle-cope-w292-2015-2019-air-compressor",
@@ -787,6 +787,16 @@
               "folderName": "W220 (1999 - 2005)",
               "parts": [
                 {
+                  "id": "mercedes-s-class-w220-1999-2005-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w220-1999-2005/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W220",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W220",
+                  "originalFile": "جامبين هديروليك امامي و خلفي.jpeg"
+                },
+                {
                   "id": "mercedes-s-class-w220-1999-2005-front-oil-shock-absorber",
                   "nameAr": "جامبين زيت أمامي",
                   "nameEn": "Front Oil Shock Absorber",
@@ -805,16 +815,6 @@
                   "altAr": "جامبين زيت خلفي - مرسيدس بنز S-Class W220",
                   "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W220",
                   "originalFile": "جامبين خلفي زيت.jpeg"
-                },
-                {
-                  "id": "mercedes-s-class-w220-1999-2005-front-rear-hydraulic-shock-absorber",
-                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front Rear Hydraulic Shock Absorber",
-                  "slug": "front-rear-hydraulic-shock-absorber",
-                  "image": "/catalog/mercedes/s-class/w220-1999-2005/front-rear-hydraulic-shock-absorber.jpeg",
-                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W220",
-                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W220",
-                  "originalFile": "جامبين هديروليك امامي و خلفي.jpeg"
                 },
                 {
                   "id": "mercedes-s-class-w220-1999-2005-air-suspension-compressor",
@@ -837,6 +837,16 @@
               "folderName": "W221 (2006 - 2013)",
               "parts": [
                 {
+                  "id": "mercedes-s-class-w221-2006-2013-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w221-2006-2013/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W221",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W221",
+                  "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
+                },
+                {
                   "id": "mercedes-s-class-w221-2006-2013-front-oil-shock-absorber",
                   "nameAr": "جامبين زيت أمامي",
                   "nameEn": "Front Oil Shock Absorber",
@@ -855,16 +865,6 @@
                   "altAr": "جامبين زيت خلفي - مرسيدس بنز S-Class W221",
                   "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W221",
                   "originalFile": "جامبين زيت خلفي.jpeg"
-                },
-                {
-                  "id": "mercedes-s-class-w221-2006-2013-front-rear-hydraulic-shock-absorber",
-                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front Rear Hydraulic Shock Absorber",
-                  "slug": "front-rear-hydraulic-shock-absorber",
-                  "image": "/catalog/mercedes/s-class/w221-2006-2013/front-rear-hydraulic-shock-absorber.jpeg",
-                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W221",
-                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W221",
-                  "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
                 },
                 {
                   "id": "mercedes-s-class-w221-2006-2013-air-suspension-compressor",
@@ -897,6 +897,16 @@
               "folderName": "W222 (2014 - 2020)",
               "parts": [
                 {
+                  "id": "mercedes-s-class-w222-2014-2020-front-rear-hydraulic-shock-absorber",
+                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
+                  "nameEn": "Front Rear Hydraulic Shock Absorber",
+                  "slug": "front-rear-hydraulic-shock-absorber",
+                  "image": "/catalog/mercedes/s-class/w222-2014-2020/front-rear-hydraulic-shock-absorber.jpeg",
+                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W222",
+                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W222",
+                  "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
+                },
+                {
                   "id": "mercedes-s-class-w222-2014-2020-front-oil-shock-absorber",
                   "nameAr": "جامبين زيت أمامي",
                   "nameEn": "Front Oil Shock Absorber",
@@ -915,16 +925,6 @@
                   "altAr": "جامبين زيت خلفي - مرسيدس بنز S-Class W222",
                   "altEn": "Rear Oil Shock Absorber for Mercedes-Benz S-Class W222",
                   "originalFile": "جامبين زيت خلفي.jpeg"
-                },
-                {
-                  "id": "mercedes-s-class-w222-2014-2020-front-rear-hydraulic-shock-absorber",
-                  "nameAr": "جامبين هيدروليك أمامي وخلفي",
-                  "nameEn": "Front Rear Hydraulic Shock Absorber",
-                  "slug": "front-rear-hydraulic-shock-absorber",
-                  "image": "/catalog/mercedes/s-class/w222-2014-2020/front-rear-hydraulic-shock-absorber.jpeg",
-                  "altAr": "جامبين هيدروليك أمامي وخلفي - مرسيدس بنز S-Class W222",
-                  "altEn": "Front Rear Hydraulic Shock Absorber for Mercedes-Benz S-Class W222",
-                  "originalFile": "جامبين هايدروليك امامي و خلفي .jpeg"
                 },
                 {
                   "id": "mercedes-s-class-w222-2014-2020-air-suspension-compressor",
@@ -1022,7 +1022,7 @@
                   "altEn": "Front Rear Air Springs for Audi A6 S8",
                   "originalFile": "جامبين امامي و خلفي.jpeg"
                 },
-                 {
+                {
                   "id": "audi-a6-s8-2012-2018-air-pump",
                   "nameAr": "كومبريسر الرفع",
                   "nameEn": "Air Compressor",
@@ -1032,7 +1032,7 @@
                   "altEn": "Air Compressor for Audi A6 S8",
                   "originalFile": "air pump.jpeg"
                 },
-                 {
+                {
                   "id": "audi-a6-s8-2012-2018-air-valve-block",
                   "nameAr": "موزع الهواء",
                   "nameEn": "Air Valve Block",
@@ -1186,11 +1186,11 @@
               "parts": [
                 {
                   "id": "audi-q7-q8-2017-2021-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/audi/q7-q8/2017-2021/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - أودي Q7 و Q8",
+                  "altAr": "كمبروسر الرفع - أودي Q7 و Q8",
                   "altEn": "Air Suspension System for Audi Q7 Q8",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 },
@@ -1654,11 +1654,11 @@
               "parts": [
                 {
                   "id": "lamborghini-urus-2017-2021-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/lamborghini/urus/2017-2021/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - لامبورغيني أوروس",
+                  "altAr": "كمبروسر الرفع - لامبورغيني أوروس",
                   "altEn": "Air Suspension System for Lamborghini Urus",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 },
@@ -1720,11 +1720,11 @@
                 },
                 {
                   "id": "porsche-cayenne-2003-2010-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/cayenne/2003-2010/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - بورش كايين",
+                  "altAr": "كمبروسر الرفع - بورش كايين",
                   "altEn": "Air Suspension System for Porsche Cayenne",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }
@@ -1750,11 +1750,11 @@
                 },
                 {
                   "id": "porsche-cayenne-2011-2018-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/cayenne/2011-2018/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - بورش كايين",
+                  "altAr": "كمبروسر الرفع - بورش كايين",
                   "altEn": "Air Suspension System for Porsche Cayenne",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 },
@@ -1876,11 +1876,11 @@
                 },
                 {
                   "id": "porsche-panamera-2010-2013-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2010-2013/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
+                  "altAr": "كمبروسر الرفع - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }
@@ -1926,11 +1926,11 @@
                 },
                 {
                   "id": "porsche-panamera-2014-2016-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2014-2016/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
+                  "altAr": "كمبروسر الرفع - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }
@@ -1966,11 +1966,11 @@
                 },
                 {
                   "id": "porsche-panamera-2017-2022-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/porsche/panamera/2017-2022/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - بورش باناميرا",
+                  "altAr": "كمبروسر الرفع - بورش باناميرا",
                   "altEn": "Air Suspension System for Porsche Panamera",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }
@@ -2031,7 +2031,15 @@
                   "originalFile": "موزع هواء.jpeg"
                 }
               ]
-            },
+            }
+          }
+        },
+        "sport-vogue-new": {
+          "nameEn": "Range Rover Sport / Vogue (New)",
+          "nameAr": "رنج روفر سبورت / فوج الجديد",
+          "slug": "sport-vogue-new",
+          "folderName": "Range Rover Sport Vogue New",
+          "generations": {
             "2022-2025": {
               "code": "L460 / L461",
               "years": "2022 - 2025",
@@ -2222,11 +2230,11 @@
                 },
                 {
                   "id": "rolls-royce-ghost-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/rolls-royce/ghost/all/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - رولز رويس غوست",
+                  "altAr": "كمبروسر الرفع - رولز رويس غوست",
                   "altEn": "Air Suspension System for Rolls-Royce Ghost",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }
@@ -2238,15 +2246,15 @@
           "nameEn": "Phantom",
           "nameAr": "فانتوم",
           "slug": "phantom",
-          "folderName": "Phantom (2003 - 2016)",
+          "folderName": " (2003 - 2016)",
           "generations": {
             "2003-2016": {
               "code": "RR1",
               "years": "2003 - 2016",
               "yearStart": "2003",
               "yearEnd": "2016",
-              "slug": "phantom 2003-2016",
-              "folderName": "Phantom (2003 - 2016)",
+              "slug": "phantom-2003-2016",
+              "folderName": " (2003 - 2016)",
               "parts": [
                 {
                   "id": "rolls-royce-phantom-2003-2016-valve-block",
@@ -2260,11 +2268,11 @@
                 },
                 {
                   "id": "rolls-royce-phantom-2003-2016-air-suspension-system",
-                  "nameAr": "نظام التعليق الهوائي",
+                  "nameAr": "كمبروسر الرفع",
                   "nameEn": "Air Suspension System",
                   "slug": "air-suspension-system",
                   "image": "/catalog/rolls-royce/phantom/2003-2016/air-suspension-system.jpeg",
-                  "altAr": "نظام التعليق الهوائي - رولز رويس فانتوم",
+                  "altAr": "كمبروسر الرفع - رولز رويس فانتوم",
                   "altEn": "Air Suspension System for Rolls-Royce Phantom",
                   "originalFile": "نظام تعليق هوئي.jpeg"
                 }

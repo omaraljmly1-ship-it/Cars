@@ -22,7 +22,6 @@ export default function BrandParts({ brand }) {
   const isCatalog = brand.catalogEnabled;
   let partsList = brand.parts;
   let totalParts = brand.parts.reduce((acc, p) => acc + p.count, 0);
-
   if (isCatalog) {
     const catalogParts = getAllCatalogParts(brand.slug);
     totalParts = catalogParts.length;

@@ -39,7 +39,7 @@ export async function generateMetadata({ params }) {
 export default async function BrandPage({ params }) {
   const { slug } = await params;
   const brand = getBrandBySlug(slug);
-
+ console.log(brand)
   if (!brand) {
     notFound();
   }

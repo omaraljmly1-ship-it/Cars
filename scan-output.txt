@@ -1,0 +1,230 @@
+﻿Starting catalog image copy...
+node : File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\E65 E66 
+(2001 - 2008)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪«┘ä┘ü┘è┘ç.jpeg
+At C:\Users\HP\AppData\Local\Temp\ps-script-c392c0d5-bd5a-4968-b9ca-112945e69fd2.ps1:7 char:1
++ node "C:\Users\HP\Desktop\Car Websaite\Car\src\scripts\scan-catalog.m ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (File not found:...╪«┘ä┘ü┘è┘ç.jpeg:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\F01 F02 (2008 
+- 2015)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç ┘ê ╪º┘ä╪«┘ä┘ü┘è┘ç .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\F01 F02 (2008 
+- 2015)\┘â┘ê┘à╪¿╪▒╪│┘è╪▒ ╪▒┘ü╪╣ .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\F01 F02 (2008 
+- 2015)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\G11 G12 (2016 
+-2020)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç ┘ê ╪º┘ä╪«┘ä┘ü┘è┘ç .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\G11 G12 (2016 
+-2020)\┘â┘ê┘à╪¿╪▒╪│┘è╪▒ ╪▒┘ü╪╣ .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\G11 G12 (2016 
+-2020)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\G70 (2022 - 2026 )\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\bmw\bmw-7-series\g70-2022-2026\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\BMW 7 Series\G70 (2022 - 2026 )\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪«┘ä┘ü┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\bmw\bmw-7-series\g70-2022-2026\rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\X5\E53(2000 - 2006)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘à╪º┘à┘è┘ç ┘ê ╪«┘ä┘ü┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\bmw\x5\e532000-2006\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\X5\E70 (2007 - 2013)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘à╪º┘à┘è┘ç ┘ê ╪«┘ä┘ü┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\bmw\x5\e70-2007-2013\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\X5\F15 (2014 - 2018 )\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘à╪º┘à┘è┘ç ┘ê ╪«┘ä┘ü┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\bmw\x5\f15-2014-2018\front-rear-air-springs.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\BMW\X5\G05 (2019 - 
+2022)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘à╪º┘à┘è┘ç ┘ê ╪«┘ä┘ü┘è┘ç G05 X6 G06.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\C-Class\W205 (2014 -2021 )\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç ┘ê ╪º┘ä╪«┘ä┘ü┘è┘ç .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\c-class\w205-2014-2021\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\C-Class\W205 (2014 -2021 )\┘â┘ê┘à╪¿╪▒╪│┘è╪▒ ╪▒┘ü╪╣ .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\c-class\w205-2014-2021\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\C-Class\W205 (2014 -2021 )\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\c-class\w205-2014-2021\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W218 (2011 - 2017)\╪º┘ä╪¿╪º┘ä┘ê┘å ╪º┘ä╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w218-2011-2017\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W218 (2011 - 2017)\╪¼╪º┘à╪¿┘è┘å  ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w218-2011-2017\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W218 (2011 - 2017)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w218-2011-2017\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W218 (2011 - 2017)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w218-2011-2017\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W219  (2004ΓÇô2010)\╪º┘ä╪¿╪º┘ä┘ê┘å ╪º┘ä╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w219-20042010\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W219  (2004ΓÇô2010)\╪º┘ä╪¼╪º┘à╪¿┘è┘å ╪º┘ä╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w219-20042010\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W219  (2004ΓÇô2010)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w219-20042010\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W219  (2004ΓÇô2010)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w219-20042010\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W253 (2017ΓÇô2023)\╪º┘ä╪¿╪º┘ä┘ê┘å ╪º┘ä╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w253-20172023\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W253 (2017ΓÇô2023)\╪¼╪º┘à╪¿┘è┘å ╪º┘ä╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w253-20172023\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W253 (2017ΓÇô2023)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w253-20172023\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\CLS-Class\W253 (2017ΓÇô2023)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\cls-class\w253-20172023\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W211 (2002 - 2009)\╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w211-2002-2009\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W211 (2002 - 2009)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w211-2002-2009\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W211 (2002 - 2009)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣ .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w211-2002-2009\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W211 (2002 - 2009)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w211-2002-2009\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W212 (2009 - 2016)\╪º┘ä╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç ┘ê ╪º┘ä╪«┘ä┘ü┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w212-2009-2016\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W212 (2009 - 2016)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w212-2009-2016\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W212 (2009 - 2016)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w212-2009-2016\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W213 (2017 - 2023)\╪º┘ä╪¿╪º┘ä┘ê┘å ╪º┘ä╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w213-2017-2023\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W213 (2017 - 2023)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w213-2017-2023\front-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W213 (2017 - 2023)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w213-2017-2023\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\E-Class\W213 (2017 - 2023)\┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\e-class\w213-2017-2023\air-valve-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W164 ML ( 
+2005 - 2011)\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç ┘ê ╪º┘ä╪«┘ä┘ü┘è┘ç .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W164 ML ( 
+2005 - 2011)\┘â┘ê┘à╪¿╪▒╪│┘è╪▒ ╪▒┘ü╪╣ .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W164 ML ( 
+2005 - 2011)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W166 MGLE 
+( 2011 - 2019 )\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W166 MGLE 
+( 2011 - 2019 )\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪▒┘ü╪╣.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W166 MGLE 
+( 2011 - 2019 )\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W167 GLE 
+(2019 - 2025 )\╪¼╪º┘à╪¿┘è┘å╪º╪¬  ╪º┘ä╪«┘ä┘ü┘è┘ç .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W167 GLE 
+(2019 - 2025 )\╪¼╪º┘à╪¿┘è┘å╪º╪¬ ╪º┘ä╪º┘à╪º┘à┘è┘ç  .jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE ML\W167 GLE 
+(2019 - 2025 )\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣ ┘ê ┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE-Cope\W292 (2015 - 2019)\╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\gle-cope\w292-2015-2019\rear-air-balloon.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE-Cope\W292 (2015 - 2019)\╪¼╪º┘à╪¿┘è┘è┘å ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\gle-cope\w292-2015-2019\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE-Cope\W292 (2015 - 2019)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\gle-cope\w292-2015-2019\air-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\GLE-Cope\W292 (2015 - 2019)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\gle-cope\w292-2015-2019\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W220 (1999 - 2005)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ╪▓┘è╪¬.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w220-1999-2005\front-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W220 (1999 - 2005)\╪¼╪º┘à╪¿┘è┘å ╪«┘ä┘ü┘è ╪▓┘è╪¬.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w220-1999-2005\rear-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W220 (1999 - 2005)\╪¼╪º┘à╪¿┘è┘å ┘ç╪»┘è╪▒┘ê┘ä┘è┘â ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w220-1999-2005\front-rear-hydraulic-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W220 (1999 - 2005)\┘â┘ê┘à╪¿┘è╪▒╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w220-1999-2005\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W221 (2006 - 2013)\╪¼╪º┘à╪¿┘è┘å ╪▓┘è╪¬ ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w221-2006-2013\front-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W221 (2006 - 2013)\╪¼╪º┘à╪¿┘è┘å ╪▓┘è╪¬ ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w221-2006-2013\rear-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W221 (2006 - 2013)\╪¼╪º┘à╪¿┘è┘å ┘ç╪º┘è╪»╪▒┘ê┘ä┘è┘â ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w221-2006-2013\front-rear-hydraulic-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W221 (2006 - 2013)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w221-2006-2013\air-suspension-compressor.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W221 
+(2006 - 2013)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à ╪º┘ä┘ç┘ê╪º╪í.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W222 (2014 - 2020)\╪¼╪º┘à╪¿┘è┘å ╪▓┘è╪¬ ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w222-2014-2020\front-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W222 (2014 - 2020)\╪¼╪º┘à╪¿┘è┘å ╪▓┘è╪¬ ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w222-2014-2020\rear-oil-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W222 (2014 - 2020)\╪¼╪º┘à╪¿┘è┘å ┘ç╪º┘è╪»╪▒┘ê┘ä┘è┘â ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w222-2014-2020\front-rear-hydraulic-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W222 (2014 - 2020)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣ .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w222-2014-2020\air-suspension-compressor.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W222 (2014 - 2020)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w222-2014-2020\air-valve-block.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W223 (2021 - 2025)\╪¼╪º┘à╪¿┘è┘å ┘ç╪º┘è╪»╪▒┘ê┘ä┘è┘â ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w223-2021-2025\front-hydraulic-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W223 (2021 - 2025)\╪¼╪º┘à╪¿┘è┘å ┘ç╪º┘è╪»╪▒┘ê┘ä┘è┘â ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w223-2021-2025\rear-hydraulic-shock-absorber.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\┘à╪▒╪│┘è╪»┘è╪│\S-Class\W223 (2021 - 2025)\┘â┘ê┘à╪¿╪▒┘è╪│╪▒ ╪º┘ä╪▒┘ü╪╣ ┘ê ┘à┘ê╪▓╪╣ ╪º┘ä┘ç┘ê╪º╪í.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\mercedes\s-class\w223-2021-2025\air-compressor-valve-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A6 (2012 - 2018) S8 (2013 
+- 2018)\A6 (2012 - 2018) S8 (2013 - 2018)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A6 (2012 - 2018) S8 (2013 
+- 2018)\A6 (2012 - 2018) S8 (2013 - 2018)\air pump.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A6 (2012 - 2018) S8 (2013 
+- 2018)\A6 (2012 - 2018) S8 (2013 - 2018)\valve-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 (2010 - 2017)\A8 (2010 
+- 2017)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 (2010 - 2017)\A8 (2010 
+- 2017)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 (2010 - 2017)\A8 (2010 
+- 2017)\valve-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 D3 (2003 - 2010)\A8 D3 
+(2003 - 2010)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 D3 (2003 - 2010)\A8 D3 
+(2003 - 2010)\value-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 D5 (2017 - 2023)\A8 D5 
+(2017 - 2023)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\A8 D5 (2017 - 2023)\A8 D5 
+(2017 - 2023)\valve-block.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\Q7 Q8 (2017 - 2021)\Q7 Q8 
+(2017 - 2021)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\Q7 Q8 (2017 - 2021)\Q7 Q8 
+(2017 - 2021)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\AUDI\Q7 Q8 (2017 - 2021)\Q7 Q8 
+(2017 - 2021)\front-rear-air-springs.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley Bentayga (2017 
+- 2022)\Bentley Bentayga (2017 - 2022)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley Bentayga (2017 
+- 2022)\Bentley Bentayga (2017 - 2022)\╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley Bentayga (2017 
+- 2022)\Bentley Bentayga (2017 - 2022)\╪¬╪╣┘ä┘è┘é ┘ç┘ê╪º╪ª┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley Bentayga (2017 
+- 2022)\Bentley Bentayga (2017 - 2022)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley continental 
+(2003 - 2012)\Bentley continental (2003 - 2012)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley continental 
+(2003 - 2012)\Bentley continental (2003 - 2012)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley continental 
+flying (2004 - 2018)\Bentley continental flying (2004 - 2018)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley continental 
+flying (2004 - 2018)\Bentley continental flying (2004 - 2018)\╪¼╪º┘à╪¿┘è┘å ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Bentley\Bentley continental 
+flying (2004 - 2018)\Bentley continental flying (2004 - 2018)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\DOOG RAM\DODGE RAM (2011 - 
+2018)\DODGE RAM (2011 - 2018)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í ┘ê ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\DOOG RAM\DOOG RAM (2013 - 
+2019)\DOOG RAM (2013 - 2019)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Hyundai\Hyundai Genesis\Hyundai 
+Genesis\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\JAGUAR\Jaguar (2004 - 
+2010)\Jaguar (2004 - 2010)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\JAGUAR\Jaguar (2010 - 
+2019)\Jaguar (2010 - 2019)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand Cherokee (2011 - 2015)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\jeep\grand-cherokee\2011-2015\front-rear-air-springs.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand 
+Cherokee (2011 - 2015)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand 
+Cherokee (2011 - 2015)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í ┘ê ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand Cherokee (2016 - 2020)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\jeep\grand-cherokee\2016-2020\front-rear-air-springs.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand 
+Cherokee (2016 - 2020)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Jeep\Grand Cherokee\Grand 
+Cherokee (2016 - 2020)\compressor.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Lamborghini\URUS (2017 - 
+2021)\URUS (2017 - 2021)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Lamborghini\URUS (2017 - 
+2021)\URUS (2017 - 2021)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Lamborghini\URUS (2017 - 
+2021)\URUS (2017 - 2021)\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche Cayenne (2003 - 2010)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\cayenne\2003-2010\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche Cayenne (2003 - 2010)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\cayenne\2003-2010\air-suspension-system.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche Cayenne (2011 - 2018)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\cayenne\2011-2018\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche Cayenne (2011 - 2018)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\cayenne\2011-2018\air-suspension-system.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche 
+Cayenne (2011 - 2018)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Cayenne\Porsche Cayenne (2018 - 2022)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\cayenne\2018-2022\front-air-spring.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche MACAN\Porsche 
+MACAN\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche MACAN\Porsche 
+MACAN\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera(2010 - 2013)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2010-2013\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera(2010 - 2013)\╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2010-2013\rear-air-balloon.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche 
+Panamera\Porsche for Panamera(2010 - 2013)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera(2010 - 2013)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2010-2013\air-suspension-system.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera (2014 - 2016)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2014-2016\front-air-spring.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera (2014 - 2016)\╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2014-2016\rear-air-balloon.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche 
+Panamera\Porsche for Panamera (2014 - 2016)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera (2014 - 2016)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2014-2016\air-suspension-system.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche 
+Panamera\Porsche for Panamera (2017 - 2022)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+Vogue\L405 L494 (2014 - 2020)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+Vogue\L405 L494 (2014 - 2020)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+Vogue\L405 L494 (2014 - 2020)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+Vogue\(2022 - 2025)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+Vogue\(2022 - 2025)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+L320 (2003 - 2013)\Range Rover Sport L320 (2003 - 2013)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+L320 (2003 - 2013)\Range Rover Sport L320 (2003 - 2013)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera (2017 - 2022)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2017-2022\front-rear-air-springs.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Porsche\Porsche Panamera\Porsche for Panamera (2017 - 2022)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\porsche\panamera\2017-2022\air-suspension-system.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Sport 
+L320 (2003 - 2013)\Range Rover Sport L320 (2003 - 2013)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Vogue 
+L322 (2003 - 2013)\Range Rover Vogue L322 (2003 - 2013)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪¿╪º┘ä┘ê┘å ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Vogue 
+L322 (2003 - 2013)\Range Rover Vogue L322 (2003 - 2013)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Range Rover\Range Rover Vogue 
+L322 (2003 - 2013)\Range Rover Vogue L322 (2003 - 2013)\┘à┘ê╪▓╪╣ ┘ç┘ê╪º╪í.jpeg
+Copied: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls Royce\Cullinan\PR3 (2018 - 2023)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg -> C:\Users\HP\Desktop\Car Websaite\Car\public\catalog\rolls-royce\cullinan\pr3-2018-2023\front-rear-air-springs.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls 
+Royce\Ghost\Ghost\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls 
+Royce\Ghost\Ghost\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls Royce\ (2003 - 2016)\ 
+(2003 - 2016)\┘â╪¬┘ä╪⌐ ╪╡┘à╪º┘à╪º╪¬.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls Royce\ (2003 - 2016)\ 
+(2003 - 2016)\┘å╪╕╪º┘à ╪¬╪╣┘ä┘è┘é ┘ç┘ê╪ª┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls Royce\ (2003 - 2016)\RR11 
+(2016 - 2021)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Rolls Royce\ (2003 - 2016)\RR11 
+(2003 - 2016)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è.jpeg
+File not found: C:\Users\HP\Desktop\Car Websaite\Car\src\app\assets\images\Cars Images\Tsla\Model X (2015 - 
+2018)\Model X (2015 - 2018)\╪¼╪º┘à╪¿┘è┘å ╪º┘à╪º┘à┘è ┘ê ╪«┘ä┘ü┘è .jpeg
+
+Copy complete.
+Copied images: 67
+Missing images: 76

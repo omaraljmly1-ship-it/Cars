@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Star, Shield } from "lucide-react";
 import Link from "next/link";
+{/*الهيرو سكشن بتاع كل براند */}
 
 export default function BrandHero({ brand }) {
   return (
