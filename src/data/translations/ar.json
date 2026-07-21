@@ -1,0 +1,318 @@
+{
+    "site": {
+        "name": "AQ قطع غيار",
+        "tagline": "قطع غيار السيارات الأوروبية",
+        "description": "الوكيل لقطع غيار السيارات الأوروبية في الإمارات. متخصصون في أنظمة التعليق الهوائي."
+    },
+    "nav": {
+        "home": "الرئيسية",
+        "brands": "العلامات التجارية",
+        "about": "من نحن",
+        "products": "المنتجات",
+        "contact": "تواصل معنا",
+        "callUs": "اتصل بنا",
+        "callNow": "اتصل بنا الآن",
+        "toggleMenu": "فتح/إغلاق القائمة",
+        "backToHome": "العودة إلى الصفحة الرئيسية"
+    },
+    "hero": {
+        "badge": "الوكيل لقطع غيار السيارات الأوروبية",
+        "title1": "علي قنيطه",
+        "title2": "لتجارة السيارات المستعملة و قطع غيارها",
+        "subtitle": "متخصصون في أنظمة التعليق الهوائي وقطع الغيار الأصلية لأفخم السيارات الأوروبية",
+        "ctaBrowse": "تصفح المنتجات",
+        "ctaContact": "تواصل معنا",
+        "scrollHint": "اكتشف المزيد",
+        "features": {
+            "original": "قطع أصلية",
+            "warranty": "ضمان شامل",
+            "shipping": "شحن سريع",
+            "support": "دعم فني",
+            "imported": "قطع مستوردة"
+        }
+    },
+    "brands": {
+        "sectionTitle": "العلامات التجارية",
+        "sectionSubtitle": "نوفر قطع غيار أصلية لأفخم العلامات التجارية الأوروبية",
+        "englishTitle": "Premium Brands",
+        "viewParts": "عرض القطع",
+        "allModels": "جميع الموديلات",
+        "heroSubtitle": "قطع غيار أصلية ومعتمدة",
+        "modelsTitle": "الموديلات المتاحة",
+        "partsTitle": "قطع الغيار المتاحة",
+        "partsCta": "استفسر الآن",
+        "backHome": "العودة للرئيسية",
+        "notFound": "العلامة التجارية غير موجودة"
+    },
+    "products": {
+        "sectionTitle": "منتجاتنا",
+        "sectionSubtitle": "اضغط على أي صورة لعرضها بالحجم الكامل",
+        "englishTitle": "Our Products",
+        "availableParts": "قطعة متاحة",
+        "viewAll": "عرض الكل",
+        "inquire": "استفسر الآن",
+        "lightboxClose": "إغلاق",
+        "lightboxNext": "التالي",
+        "lightboxPrev": "السابق"
+    },
+    "about": {
+        "sectionTitle": "من نحن",
+        "sectionSubtitle": "رواد قطع غيار السيارات الأوروبية",
+        "englishTitle": "About Us",
+        "title": "من نحن",
+        "subtitle": "رواد قطع غيار السيارات الأوروبية",
+        "description": "نحن شركة رائدة في مجال توفير قطع غيار السيارات الأوروبية في الإمارات. نتخصص في أنظمة التعليق الهوائي وقطع الغيار الأصلية لأفخم العلامات التجارية العالمية.",
+        "description2": "مع أكثر من 23 عاماً من الخبرة، نفخر بتقديم أعلى معايير الجودة والخدمة لعملائنا. فريقنا المتخصص يضمن حصولك على القطعة المناسبة لسيارتك بأفضل سعر وأسرع وقت.",
+        "learnMore": "تعرف علينا أكثر",
+        "contactUs": "تواصل معنا",
+        "highlights": [
+            "قطع غيار أصلية 100% مع شهادة ضمان",
+            "فريق فني متخصص بخبرة تزيد عن 23 عاماً",
+            "شحن سريع لجميع مناطق الإمارات",
+            "أسعار تنافسية وعروض مستمرة"
+        ],
+        "bestInUAE": "الأفضل في الإمارات"
+    },
+    "stats": {
+        "years": "سنوات خبرة",
+        "carTypes": "نوع سيارة",
+        "partsSold": "قطعة مباعة",
+        "happyClients": "عميل سعيد"
+    },
+    "features": {
+        "sectionTitle": "لماذا تختارنا",
+        "sectionSubtitle": "نقدم خدمة استثنائية بمعايير عالمية",
+        "englishTitle": "Why Choose Us",
+        "items": {
+            "shipping": {
+                "title": "شحن سريع",
+                "desc": "توصيل سريع لجميع أنحاء الإمارات"
+            },
+            "warranty": {
+                "title": "ضمان شامل",
+                "desc": "ضمان على جميع المنتجات"
+            },
+            "support": {
+                "title": "دعم فني",
+                "desc": "فريق دعم فني متخصص"
+            },
+            "original": {
+                "title": "قطع أصلية",
+                "desc": "قطع غيار أصلية 100%"
+            }
+        }
+    },
+    "testimonials": {
+        "sectionTitle": "آراء عملائنا",
+        "sectionSubtitle": "ثقة آلاف العملاء من أصحاب السيارات في الإمارات",
+        "englishTitle": "Testimonials",
+        "verified": "عميل موثّق"
+    },
+    "contact": {
+        "sectionTitle": "تواصل معنا",
+        "sectionSubtitle": "نحن هنا للمساعدة — تواصل معنا في أي وقت",
+        "englishTitle": "Contact Us",
+        "phone": "الهاتف",
+        "whatsapp": "واتساب",
+        "email": "البريد الإلكتروني",
+        "address": "العنوان",
+        "hours": "ساعات العمل",
+        "callNow": "اتصل الآن",
+        "whatsappNow": "واتساب",
+        "emailNow": "راسلنا",
+        "callDirect": "اتصال مباشر",
+        "instagram": "إنستجرام",
+        "ourAddress": "عنواننا",
+        "sendMessage": "أرسل رسالة",
+        "sendMessageSubtitle": "سيتم تحويلك إلى واتساب تلقائياً",
+        "form": {
+            "name": "الاسم الكامل",
+            "phone": "رقم الهاتف",
+            "car": "نوع السيارة",
+            "message": "رسالتك",
+            "submit": "إرسال الرسالة",
+            "sending": "جاري الإرسال...",
+            "success": "تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.",
+            "successSub": "سنتواصل معك قريباً عبر واتساب.",
+            "placeholder": {
+                "name": "أدخل اسمك",
+                "phone": "أدخل رقم هاتفك",
+                "car": "مثال: مرسيدس S-Class 2022",
+                "message": "اكتب رسالتك هنا..."
+            }
+        }
+    },
+    "location": {
+        "sectionTitle": "موقعنا",
+        "sectionSubtitle": "زورنا في مقرنا بالمنطقة الصناعية",
+        "englishTitle": "Our Location",
+        "getDirections": "احصل على الاتجاهات",
+        "mapTitle": "موقعنا على الخريطة"
+    },
+    "footer": {
+        "tagline": "الوكيل لقطع غيار السيارات الأوروبية في الإمارات. نتخصص في أنظمة التعليق الهوائي والقطع الأصلية.",
+        "quickLinks": "روابط سريعة",
+        "services": "خدماتنا",
+        "contactTitle": "تواصل معنا",
+        "rights": "جميع الحقوق محفوظة",
+        "scrollTop": "العودة للأعلى",
+        "servicesList": [
+            "نظام التعليق الأمامي",
+            "نظام التعليق الخلفي",
+            "كمبروسر الهواء",
+            "صمامات الهواء",
+            "فحص وتشخيص",
+            "تركيب القطع"
+        ],
+        "brandName": "أوتو بارتس"
+    },
+    "topBar": {
+        "hours": "السبت - الخميس: 9 صباحاً - 10 مساءً",
+        "location": "المنطقة الصناعية، الشارقة",
+        "follow": "تابعنا:"
+    },
+    "common": {
+        "loading": "جاري التحميل...",
+        "error": "حدث خطأ",
+        "backHome": "العودة للرئيسية",
+        "learnMore": "اقرأ المزيد",
+        "viewAll": "عرض الكل",
+        "close": "إغلاق",
+        "open": "فتح",
+        "ar": "العربية",
+        "en": "English",
+        "language": "اللغة",
+        "switchLanguage": "التبديل إلى الإنجليزية",
+        "logoAlt": "شعار AQ",
+        "scrollToTop": "العودة إلى الأعلى",
+        "toggleMenu": "فتح/إغلاق القائمة",
+        "loadingText": "جار التحميل",
+        "noImage": "لا تتوفر صورة للقطعة"
+    },
+    "catalog": {
+        "backToBrands": "العودة إلى العلامات التجارية",
+        "modelsAvailable": "موديل متاح",
+        "partsAvailable": "قطعة متوفرة",
+        "partsCountLabel": "قطعة",
+        "exploreStructures": "اضغط لاستعراض الهياكل وقطع الغيار",
+        "exploreParts": "اضغط لاستعراض قطع غيارها المخصصة",
+        "currentParts": "تتصفح حالياً قطع غيارها بالأسفل",
+        "catalogShowcase": "معرض كتالوج قطع الغيار المخصصة",
+        "partIntro": "أنظمة تعليق هوائي فاخرة وقطع غيار أصلية 100% مع ضمان شامل مصممة هندسياً خصيصاً لموديل سيارتك لضمان أعلى مستويات الأداء والأمان.",
+        "certifiedParts": "قطع معتمدة وأصلية",
+        "certifiedBadge": "بشهادة ضمان موثقة",
+        "galleryTitle": "الهيكل / الموديل",
+        "partCount": "قطع غيار",
+        "partCountSingle": "قطع غيار",
+        "noImages": "لا تتوفر صور لقطع غيار هذا الهيكل حالياً.",
+        "contactForAvailability": "يرجى التواصل معنا مباشرة للاستفسار عن توفرها.",
+        "generationTitle": "هيكل {code}",
+        "generationSubtitle": "كتالوج مصور لقطع غيار نظام التعليق الهوائي المتاحة لهيكل {code} ({years})"
+    },
+    "notFound": {
+        "title": "الصفحة غير موجودة",
+        "message": "الصفحة التي تبحث عنها غير متوفرة أو تم نقلها.",
+        "cta": "العودة للرئيسية"
+    },
+    "errors": {
+        "brandNotFound": "العلامة التجارية غير موجودة",
+        "modelNotFound": "الموديل غير موجود",
+        "generationNotFound": "الهيكل غير موجود"
+    },
+    "brandModels": {
+        "partsFor": "قطع غيار لسيارة",
+        "certifiedOriginal": "قطع معتمدة وأصلية",
+        "certifiedWarranty": "بشهادة ضمان موثقة",
+        "oemCode": "كود القطعة OEM:",
+        "fullWarranty": "الضمان الشامل:",
+        "availability": "حالة التوفر:",
+        "requestQuote": "طلب تسعيرة القطعة الآن",
+        "structuresCount": "عدد الهياكل:",
+        "waMessage": "مرحباً! أود الاستفسار عن {partName} لسيارة {brandName} {modelName} موديل {year} (OEM: {oem})"
+    },
+    "brandCTA": {
+        "lookingFor": "تبحث عن قطع غيار",
+        "guarantees": [
+            "قطع غيار أصلية 100% مجددة و مستوردة",
+            "ضمان شامل على جميع القطع",
+            "شحن سريع لجميع الإمارات",
+            "دعم فني متخصص بعد البيع"
+        ]
+    },
+    "contactCards": {
+        "callUs": "اتصل بنا",
+        "whatsapp": "واتساب",
+        "email": "البريد الإلكتروني",
+        "workingHours": "ساعات العمل",
+        "notSpecified": "غير محدد",
+        "newMessage": "رسالة جديدة من الموقع",
+        "name": "الاسم",
+        "phone": "الهاتف",
+        "carType": "نوع السيارة",
+        "message": "الرسالة"
+    },
+    "whatsappFloat": {
+        "greeting": "مرحباً! 👋 كيف يمكنني مساعدتك في إيجاد قطعة الغيار التي تحتاجها؟",
+        "defaultMessage": "مرحباً! أود الاستفسار عن قطع الغيار المتاحة.",
+        "startChat": "ابدأ المحادثة",
+        "ariaLabel": "تواصل عبر واتساب"
+    },
+    "langSwitch": {
+        "toEnglish": "Switch to English",
+        "toArabic": "التبديل إلى العربية"
+    },
+    "productImages": {
+        "audiD4Caption": "جامبينات هوائية أمامية وخلفية",
+        "audiQ7Caption": "مساعدات هوائية وكمبروسر رفع",
+        "bmwCaption": "قطع غيار أصلية لجميع فئات BMW",
+        "mercedesECaption": "جامبينات وموزع هواء مرسيدس",
+        "mercedesSCaption": "مساعدات هيدروليك وهوائية S-Class",
+        "porscheCaption": "نظام تعليق هوائي بورش الأصلي",
+        "lamborghiniCaption": "شعار وأنظمة تعليق لامبورجيني"
+    },
+    "testimonialTags": {
+        "airSuspension": "تعليق هوائي",
+        "mercedesParts": "قطع مرسيدس",
+        "bmwParts": "قطع BMW",
+        "bentleyParts": "قطع بنتلي",
+        "porscheParts": "قطع بورش",
+        "rollsRoyceParts": "قطع رولز رويس"
+    },
+    "aboutSection": {
+        "clientRating": "تقييم عملائنا 4.9/5"
+    },
+    "generationCard": {
+        "spareParts": "قطع غيار",
+        "notSpecified": "غير محدد",
+        "chassis": "هيكل",
+        "clickToExplore": "اضغط لاستعراض صور وقطع الهيكل",
+        "noPartsRegistered": "لا تتوفر قطع غيار مسجلة حالياً"
+    },
+    "modelPage": {
+        "generationsTitle": "أجيال وهياكل {brand} {model}",
+        "generationsSubtitle": "اختر رقم الهيكل / الجيل لاستعراض كتالوج صور قطع الغيار المتاحة له",
+        "noGenerations": "لا تتوفر هياكل أو أجيال مسجلة لهذا الموديل حالياً."
+    },
+    "generationPage": {
+        "partsTitle": "قطع غيار {brand} {model} - هيكل {code}",
+        "partsSubtitle": "كتالوج مصور لقطع غيار نظام التعليق الهوائي المتاحة لهيكل {code} ({years})",
+        "chassisLabel": "هيكل {code}"
+    },
+    "partCard": {
+        "genuineBadge": "أصلي معتمد",
+        "warrantyLabel": "الضمان الشامل:",
+        "warrantyValue": "ضمان تشغيل واختبار",
+        "availabilityLabel": "حالة التوفر:",
+        "availabilityValue": "متوفر حالياً",
+        "conditionLabel": "الحالة العامة:",
+        "conditionRefurbished": "أصلي مجدد",
+        "conditionImported": "مستورد درجة أولى",
+        "noImage": "لا تتوفر صورة للقطعة",
+        "whatsappBtn": "طلب تسعيرة وتأكيد التوفر",
+        "whatsappMsg": "مرحباً! أود الاستفسار عن توفر وسعر:\n- القطعة: {partNameAr} ({partNameEn})\n- السيارة: {brandNameAr} {modelNameAr}\n- الهيكل/الموديل: {generationCode} ({generationYears})"
+    },
+    "inquiryMessages": {
+        "brandInquiry": "أرغب في الاستفسار عن قطع غيار {brand}",
+        "brandCtaInquiry": "أريد الاستفسار عن قطع غيار {brand}"
+    }
+}

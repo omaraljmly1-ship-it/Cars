@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { MessageCircle, X, Phone, Send } from "lucide-react";
 import { useState } from "react";
 import { contactInfo } from "@/data/siteData";
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function WhatsAppFloat() {
   const [open, setOpen] = useState(false);
+  const { locale, t } = useLocale();
 
-  const message = encodeURIComponent(
-    "مرحباً! أود الاستفسار عن قطع الغيار المتاحة."
-  );
+  const message = encodeURIComponent(t("whatsappFloat.defaultMessage"));
 
   return (
     <div className="fixed bottom-6 left-6 z-50 flex flex-col items-start gap-3">
@@ -29,16 +29,16 @@ export default function WhatsAppFloat() {
                 <MessageCircle size={20} className="text-green-400" />
               </div>
               <div>
-                <p className="text-white font-bold text-sm">فريق الدعم</p>
+                <p className="text-white font-bold text-sm">{t("nav.callUs")}</p>
                 <div className="flex items-center gap-1.5">
                   <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-                  <span className="text-green-400 text-xs">متاح الآن</span>
+                  <span className="text-green-400 text-xs">{t("common.open")}</span>
                 </div>
               </div>
             </div>
 
             <p className="text-gray-soft text-sm mb-4 leading-relaxed">
-              مرحباً! 👋 كيف يمكنني مساعدتك في إيجاد قطعة الغيار التي تحتاجها؟
+              {t("whatsappFloat.greeting")}
             </p>
 
             {/* Quick action buttons */}
@@ -50,14 +50,14 @@ export default function WhatsAppFloat() {
                 className="flex items-center justify-center gap-2 py-2.5 rounded-xl bg-green-500 hover:bg-green-400 text-white text-sm font-bold transition-colors duration-300"
               >
                 <Send size={15} />
-                <span>ابدأ المحادثة</span>
+                <span>{t("whatsappFloat.startChat")}</span>
               </a>
               <a
                 href={`tel:${contactInfo.phone}`}
                 className="flex items-center justify-center gap-2 py-2.5 rounded-xl border border-black-border text-gray-soft hover:text-white hover:border-gold/30 text-sm transition-all duration-300"
               >
                 <Phone size={15} />
-                <span>اتصل بنا</span>
+                <span>{t("nav.callNow")}</span>
               </a>
             </div>
           </motion.div>
@@ -70,7 +70,7 @@ export default function WhatsAppFloat() {
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.95 }}
         className="relative w-14 h-14 rounded-full bg-green-500 hover:bg-green-400 shadow-xl shadow-green-500/30 flex items-center justify-center transition-colors duration-300"
-        aria-label="تواصل عبر واتساب"
+        aria-label={t("whatsappFloat.ariaLabel")}
       >
         {/* Ping animation when closed */}
         {!open && (

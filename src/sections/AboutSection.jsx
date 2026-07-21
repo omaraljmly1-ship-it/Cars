@@ -4,8 +4,16 @@ import { fadeInUp, fadeInRight, staggerContainer } from "@/animations/variants";
 import { aboutContent } from "@/data/siteData";
 import { CheckCircle, Star } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function AboutSection() {
+  const { t, locale } = useLocale();
+  const localizedAbout = {
+    title: t("about.sectionTitle"),
+    subtitle: t("about.sectionSubtitle"),
+    description: `${t("about.description")}\n\n${t("about.description2")}`,
+    highlights: t("about.highlights") || [],
+  };
   return (
     <section id="about" className="section-padding relative overflow-hidden">
       {/* Background accent */}
@@ -14,9 +22,9 @@ export default function AboutSection() {
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title={aboutContent.title}
-          subtitle={aboutContent.subtitle}
-          englishTitle="About Us"
+          title={localizedAbout.title}
+          subtitle={localizedAbout.subtitle}
+          englishTitle={t("about.englishTitle")}
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -28,7 +36,7 @@ export default function AboutSection() {
             viewport={{ once: true, amount: 0.3 }}
           >
             <motion.div variants={fadeInUp} className="space-y-6">
-              {aboutContent.description.split("\n\n").map((paragraph, i) => (
+              {localizedAbout.description.split("\n\n").map((paragraph, i) => (
                 <p
                   key={i}
                   className="text-gray-soft text-base md:text-lg leading-relaxed"
@@ -39,7 +47,7 @@ export default function AboutSection() {
             </motion.div>
 
             <motion.div variants={fadeInUp} className="mt-8 space-y-4">
-              {aboutContent.highlights.map((highlight, i) => (
+              {localizedAbout.highlights.map((highlight, i) => (
                 <motion.div
                   key={i}
                   variants={fadeInUp}
@@ -58,7 +66,7 @@ export default function AboutSection() {
                 href="#contact"
                 className="btn-gold px-10 py-4 rounded-full inline-flex items-center gap-2 text-lg"
               >
-                تواصل معنا
+                {t("about.contactUs")}
               </a>
             </motion.div>
           </motion.div>
@@ -82,25 +90,25 @@ export default function AboutSection() {
                   <div className="text-4xl font-black gradient-gold-text mb-2">
                     +23
                   </div>
-                  <div className="text-gray-soft text-sm">سنة خبرة</div>
+                  <div className="text-gray-soft text-sm">{t("stats.years")}</div>
                 </div>
                 <div className="text-center p-6 rounded-xl bg-black-surface border border-black-border hover:border-gold/20 transition-colors duration-300">
                   <div className="text-4xl font-black gradient-gold-text mb-2">
                     +50
                   </div>
-                  <div className="text-gray-soft text-sm">نوع سيارة</div>
+                  <div className="text-gray-soft text-sm">{t("stats.carTypes")}</div>
                 </div>
                 <div className="text-center p-6 rounded-xl bg-black-surface border border-black-border hover:border-gold/20 transition-colors duration-300">
                   <div className="text-4xl font-black gradient-gold-text mb-2">
                     +50K
                   </div>
-                  <div className="text-gray-soft text-sm">قطعة مباعة</div>
+                  <div className="text-gray-soft text-sm">{t("stats.partsSold")}</div>
                 </div>
                 <div className="text-center p-6 rounded-xl bg-black-surface border border-black-border hover:border-gold/20 transition-colors duration-300">
                   <div className="text-4xl font-black gradient-gold-text mb-2">
                     +5K
                   </div>
-                  <div className="text-gray-soft text-sm">عميل سعيد</div>
+                  <div className="text-gray-soft text-sm">{t("stats.happyClients")}</div>
                 </div>
               </div>
 
@@ -116,7 +124,7 @@ export default function AboutSection() {
                   ))}
                 </div>
                 <span className="text-gray-soft text-sm">
-                  تقييم عملائنا 4.9/5
+                  {t("aboutSection.clientRating")}
                 </span>
               </div>
             </div>
@@ -127,7 +135,7 @@ export default function AboutSection() {
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
               className="absolute -top-4 -left-4 glass px-4 py-2.5 rounded-full gold-border-glow"
             >
-              <span className="text-gold text-sm font-bold">⭐ الأفضل في الإمارات</span>
+              <span className="text-gold text-sm font-bold">⭐ {t("about.bestInUAE")}</span>
             </motion.div>
           </motion.div>
         </div>

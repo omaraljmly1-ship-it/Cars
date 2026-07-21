@@ -4,6 +4,7 @@ import { staggerContainer, fadeInUp } from "@/animations/variants";
 import { Star, Quote } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useLocale } from "@/components/LanguageProvider";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,7 +18,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "خدمة ممتازة وقطع أصلية. طلبت مساعد هوائي أمامي لرنج روفر الخاص بي وتم توصيله في نفس اليوم مع ضمان كامل. أنصح الجميع بالتعامل مع هذه الشركة.",
-    tag: "تعليق هوائي",
+    textEn:
+      "Excellent service and original parts. I ordered a front air suspension strut for my Range Rover and it was delivered the same day with a full warranty. I highly recommend this company.",
+    tagKey: "testimonialTags.airSuspension",
   },
   {
     id: 2,
@@ -27,7 +30,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "تعاملت معهم أكثر من مرة لشراء قطع غيار مرسيدس. الأسعار تنافسية والقطع أصلية 100٪. الفريق محترف ويعطيك دعم فني ممتاز.",
-    tag: "قطع مرسيدس",
+    textEn:
+      "I have dealt with them multiple times to buy Mercedes parts. The prices are competitive and the parts are 100% original. The team is professional and offers excellent technical support.",
+    tagKey: "testimonialTags.mercedesParts",
   },
   {
     id: 3,
@@ -37,7 +42,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "أفضل مكان لقطع غيار السيارات الفاخرة. وجدوا لي قطعة BMW نادرة في وقت قياسي. خدمة العملاء رائعة والشحن سريع جداً.",
-    tag: "قطع BMW",
+    textEn:
+      "The best place for luxury car parts. They found a rare BMW part for me in record time. Excellent customer service and very fast shipping.",
+    tagKey: "testimonialTags.bmwParts",
   },
   {
     id: 4,
@@ -47,7 +54,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "قطع بنتلي نادرة وجدتها عندهم فقط في الإمارات. جودة ممتازة وسعر معقول مقارنة بالوكالة. شكراً للفريق المحترف.",
-    tag: "قطع بنتلي",
+    textEn:
+      "Rare Bentley parts that I only found at their shop in the UAE. Excellent quality and reasonable price compared to the dealership. Thanks to the professional team.",
+    tagKey: "testimonialTags.bentleyParts",
   },
   {
     id: 5,
@@ -57,7 +66,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "تجربة تسوق راقية من أول تواصل حتى استلام القطع. كمبروسر الهواء وصل معبأ بشكل ممتاز مع شهادة الضمان. خدمة على مستوى السيارة نفسها.",
-    tag: "قطع بورش",
+    textEn:
+      "A premium shopping experience from the first contact until receiving the parts. The air compressor arrived beautifully packaged with the warranty certificate. Service matching the car itself.",
+    tagKey: "testimonialTags.porscheParts",
   },
   {
     id: 6,
@@ -67,7 +78,9 @@ const testimonials = [
     rating: 5,
     textAr:
       "الوحيدون الذين يتعاملون بمستوى يليق بسيارة رولز رويس. قطع أصلية، تعامل فاخر، وشحن موثوق. لن أتعامل مع غيرهم.",
-    tag: "قطع رولز رويس",
+    textEn:
+      "The only ones who deal at a level worthy of a Rolls-Royce. Original parts, luxurious treatment, and reliable shipping. I will not deal with anyone else.",
+    tagKey: "testimonialTags.rollsRoyceParts",
   },
 ];
 
@@ -82,6 +95,8 @@ function StarRating({ count }) {
 }
 
 export default function TestimonialsSection() {
+  const { locale, t } = useLocale();
+
   return (
     <section className="section-padding relative overflow-hidden">
       {/* Background */}
@@ -92,13 +107,13 @@ export default function TestimonialsSection() {
       <div className="absolute bottom-0 inset-x-0 h-px bg-linear-to-r from-transparent via-gold/20 to-transparent" />
 
       {/* Glow blobs */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-gold/4 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-100 bg-gold/4 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title="آراء عملائنا"
-          subtitle="ثقة آلاف العملاء من أصحاب السيارات الفاخرة في الإمارات"
-          englishTitle="Testimonials"
+          title={t("testimonials.sectionTitle")}
+          subtitle={t("testimonials.sectionSubtitle")}
+          englishTitle={t("testimonials.englishTitle")}
         />
 
         <motion.div
@@ -125,8 +140,8 @@ export default function TestimonialsSection() {
             }}
             className="pb-10"
           >
-            {testimonials.map((t) => (
-              <SwiperSlide key={t.id}>
+            {testimonials.map((testi) => (
+              <SwiperSlide key={testi.id}>
                 <div className="group h-full p-6 rounded-2xl bg-linear-to-br from-black-card to-black-surface border border-black-border hover:border-gold/30 transition-all duration-500 flex flex-col gap-4 relative overflow-hidden">
                   {/* Corner glow */}
                   <div className="absolute top-0 left-0 w-24 h-24 bg-linear-to-br from-gold/6 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-tl-2xl" />
@@ -138,12 +153,12 @@ export default function TestimonialsSection() {
 
                   {/* Review text */}
                   <p className="text-gray-soft text-sm leading-relaxed flex-1">
-                    {t.textAr}
+                    {locale === "en" ? testi.textEn : testi.textAr}
                   </p>
 
                   {/* Tag chip */}
                   <span className="inline-block self-start text-xs px-3 py-1 rounded-full bg-gold/10 text-gold border border-gold/20 font-medium">
-                    {t.tag}
+                    {t(testi.tagKey)}
                   </span>
 
                   {/* Divider */}
@@ -155,15 +170,15 @@ export default function TestimonialsSection() {
                       {/* Avatar */}
                       <div className="w-10 h-10 rounded-full bg-linear-to-br from-gold/20 to-gold/5 border border-gold/20 flex items-center justify-center shrink-0">
                         <span className="text-gold font-bold text-sm">
-                          {t.nameAr.charAt(0)}
+                          {(locale === "en" ? testi.nameEn : testi.nameAr).charAt(0)}
                         </span>
                       </div>
                       <div>
-                        <p className="text-white text-sm font-semibold">{t.nameAr}</p>
-                        <p className="text-gray-muted text-xs" dir="ltr">{t.car}</p>
+                        <p className="text-white text-sm font-semibold">{locale === "en" ? testi.nameEn : testi.nameAr}</p>
+                        <p className="text-gray-muted text-xs" dir="ltr">{testi.car}</p>
                       </div>
                     </div>
-                    <StarRating count={t.rating} />
+                    <StarRating count={testi.rating} />
                   </div>
                 </div>
               </SwiperSlide>

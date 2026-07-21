@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { fadeInUp } from "@/animations/variants";
 import SectionHeading from "@/components/SectionHeading";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
+import { useLocale } from "@/components/LanguageProvider";
 
 // Swiper imports
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,46 +13,47 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-const productImages = [
-  {
-    src: "/images/products/audi-d4.jpeg",
-    title: "Audi A8 D4",
-    caption: "جامبينات هوائية أمامية وخلفية",
-  },
-  {
-    src: "/images/products/audi-q7.jpeg",
-    title: "Audi Q7",
-    caption: "مساعدات هوائية وكمبروسر رفع",
-  },
-  {
-    src: "/images/products/bmw.jpeg",
-    title: "BMW",
-    caption: "قطع غيار أصلية لجميع فئات BMW",
-  },
-  {
-    src: "/images/products/mercedes-e.jpeg",
-    title: "Mercedes-Benz E-Class",
-    caption: "جامبينات وموزع هواء مرسيدس",
-  },
-  {
-    src: "/images/products/mercedes-s.jpeg",
-    title: "Mercedes-Benz S-Class",
-    caption: "مساعدات هيدروليك وهوائية S-Class",
-  },
-  {
-    src: "/images/products/porsche-panamera.jpeg",
-    title: "Porsche Panamera",
-    caption: "نظام تعليق هوائي بورش الأصلي",
-  },
-  {
-    src: "/images/products/lamborghini.jpeg",
-    title: "Lamborghini",
-    caption: "شعار وأنظمة تعليق لامبورجيني",
-  },
-];
-
 export default function ProductsSection() {
   const [lightboxIndex, setLightboxIndex] = useState(null);
+  const { t } = useLocale();
+
+  const productImages = [
+    {
+      src: "/images/products/audi-d4.jpeg",
+      title: "Audi A8 D4",
+      caption: t("productImages.audiD4Caption"),
+    },
+    {
+      src: "/images/products/audi-q7.jpeg",
+      title: "Audi Q7",
+      caption: t("productImages.audiQ7Caption"),
+    },
+    {
+      src: "/images/products/bmw.jpeg",
+      title: "BMW",
+      caption: t("productImages.bmwCaption"),
+    },
+    {
+      src: "/images/products/mercedes-e.jpeg",
+      title: "Mercedes-Benz E-Class",
+      caption: t("productImages.mercedesECaption"),
+    },
+    {
+      src: "/images/products/mercedes-s.jpeg",
+      title: "Mercedes-Benz S-Class",
+      caption: t("productImages.mercedesSCaption"),
+    },
+    {
+      src: "/images/products/porsche-panamera.jpeg",
+      title: "Porsche Panamera",
+      caption: t("productImages.porscheCaption"),
+    },
+    {
+      src: "/images/products/lamborghini.jpeg",
+      title: "Lamborghini",
+      caption: t("productImages.lamborghiniCaption"),
+    },
+  ];
 
   const openLightbox = (index) => setLightboxIndex(index);
   const closeLightbox = () => setLightboxIndex(null);
@@ -60,11 +62,11 @@ export default function ProductsSection() {
     setLightboxIndex(
       (i) => (i - 1 + productImages.length) % productImages.length,
     );
-  }, []);
+  }, [productImages.length]);
 
   const goNext = useCallback(() => {
     setLightboxIndex((i) => (i + 1) % productImages.length);
-  }, []);
+  }, [productImages.length]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -93,9 +95,9 @@ export default function ProductsSection() {
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title="منتجاتنا"
-          subtitle="اضغط على أي صورة لعرضها بالحجم الكامل"
-          englishTitle="Our Products"
+          title={t("products.sectionTitle")}
+          subtitle={t("products.sectionSubtitle")}
+          englishTitle={t("products.englishTitle")}
         />
 
         <motion.div
@@ -176,7 +178,7 @@ export default function ProductsSection() {
           </button>
           <button
             className="products-btn-prev absolute top-1/2 -right-2 lg:-right-6 -translate-y-1/2 z-30 w-11 h-11 rounded-full glass border border-gold/10 hover:border-gold/40 items-center justify-center text-gold hover:text-white hover:bg-gold/10 active:scale-95 transition-all duration-300 shadow-xl cursor-pointer hidden md:flex"
-            aria-label="Prev"
+            aria-label={t("products.lightboxPrev")}
           >
             <ChevronRight size={20} />
           </button>
@@ -197,7 +199,7 @@ export default function ProductsSection() {
           <button
             onClick={closeLightbox}
             className="absolute top-5 right-5 w-11 h-11 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-white/20 transition-all duration-200 z-10"
-            aria-label="Close"
+            aria-label={t("products.lightboxClose")}
           >
             <X size={22} />
           </button>
@@ -214,7 +216,7 @@ export default function ProductsSection() {
               goPrev();
             }}
             className="absolute right-4 md:right-8 w-12 h-12 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-white hover:bg-gold/30 hover:border-gold/40 transition-all duration-300 z-10"
-            aria-label="Previous"
+            aria-label={t("products.lightboxPrev")}
           >
             <ChevronRight size={24} />
           </button>

@@ -10,6 +10,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllCatalogModels } from "@/data/catalogData";
 import { Wind, Wrench, Cpu, Gauge, Settings } from "lucide-react";
+import { useLocale } from "@/components/LanguageProvider";
 
 function PartIllustration({ type }) {
   const iconMap = {
@@ -23,9 +24,11 @@ function PartIllustration({ type }) {
   const IconComponent = iconMap[type] || Settings;
   return <IconComponent className="text-gold w-16 h-16" />;
 }
-{/*عرض انواع الموديلات */}
+{/*عرض انواع الموديلات */ }
 export default function BrandModels({ brand }) {
+  const { t, locale } = useLocale();
   const isCatalog = brand.catalogEnabled;
+  const isArabic = locale === "ar";
   const modelsList = isCatalog ? getAllCatalogModels(brand.slug) : brand.models;
 
   const [selectedModel, setSelectedModel] = useState(isCatalog ? null : brand.models[0]);
@@ -43,9 +46,9 @@ export default function BrandModels({ brand }) {
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title="الموديلات المتاحة"
-          subtitle={`تصفح موديلات ${brand.nameAr} المتوفرة لدينا مع قطع الغيار الأصلية`}
-          englishTitle="Available Models"
+          title={t("brands.modelsTitle")}
+          subtitle={`${t("brands.allModels")} ${isArabic ? brand.nameAr : brand.nameEn}`}
+          englishTitle={t("brands.modelsTitle")}
         />
 
         {/* Models Grid */}
@@ -58,25 +61,24 @@ export default function BrandModels({ brand }) {
         >
           {modelsList.map((model, index) => {
             console.log(model)
-            
+
             const isSelected = !isCatalog && selectedModel && selectedModel.nameEn === model.nameEn;
-            
+
             const cardInnerContent = (
               <>
                 {/* Card glow on hover / active */}
                 <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-gold/0 to-gold/0 group-hover:from-gold/5 group-hover:to-transparent transition-all duration-500 z-10" />
 
                 {/* Top accent bar */}
-                <div className={`h-1 bg-linear-to-r from-gold via-gold-light to-gold transition-all duration-500 rounded-t-2xl absolute top-0 left-0 right-0 z-20 ${
-                  isSelected ? "w-full" : "w-0 group-hover:w-full"
-                }`} />
+                <div className={`h-1 bg-linear-to-r from-gold via-gold-light to-gold transition-all duration-500 rounded-t-2xl absolute top-0 left-0 right-0 z-20 ${isSelected ? "w-full" : "w-0 group-hover:w-full"
+                  }`} />
 
                 {/* Image placeholder — premium linear bg or real catalog image */}
                 <div className="relative h-52 bg-linear-to-br from-black-surface via-[#151515] to-black-card overflow-hidden">
                   {isCatalog && model.image && model.image !== "/images/models/fallback-model.jpg" ? (
                     <Image
                       src={model.image}
-                      alt={model.nameAr}
+                      alt={isArabic ? model.nameAr : model.nameEn}
 
                       fill
                       sizes="(max-w-768px) 100vw, 33vw"
@@ -89,17 +91,16 @@ export default function BrandModels({ brand }) {
 
                       {/* Center brand+model display */}
                       <div className="absolute inset-0 flex flex-col items-center justify-center gap-2">
-                        <div className={`w-20 h-20 rounded-full border bg-linear-to-br transition-all duration-500 flex items-center justify-center ${
-                          isSelected 
-                            ? "border-gold bg-gold/20 scale-110 shadow-[0_0_15px_rgba(212,168,83,0.3)]" 
-                            : "border-gold/20 from-gold/15 to-gold/5 group-hover:border-gold/40 group-hover:scale-110"
-                        }`}>
+                        <div className={`w-20 h-20 rounded-full border bg-linear-to-br transition-all duration-500 flex items-center justify-center ${isSelected
+                          ? "border-gold bg-gold/20 scale-110 shadow-[0_0_15px_rgba(212,168,83,0.3)]"
+                          : "border-gold/20 from-gold/15 to-gold/5 group-hover:border-gold/40 group-hover:scale-110"
+                          }`}>
                           <span className="text-gold font-black text-lg" dir="ltr">
                             {brand.nameEn.slice(0, 2).toUpperCase()}
                           </span>
                         </div>
-                        <span className="text-white/30 text-xs tracking-widest uppercase font-medium" dir="ltr">
-                          {model.nameEn}
+                        <span className="text-white/30 text-xs tracking-widest uppercase font-medium" dir={isArabic ? "rtl" : "ltr"}>
+                          {isArabic ? model.nameAr : model.nameEn}
                         </span>
                       </div>
                     </>
@@ -112,38 +113,39 @@ export default function BrandModels({ brand }) {
                 {/* Card body */}
                 <div className="p-6 relative z-20">
                   {/* Model name */}
-                  <h3 className={`text-xl font-bold transition-colors duration-300 mb-1 ${
-                    isSelected ? "text-gold" : "text-white group-hover:text-gold"
-                  }`}>
-                    {model.nameAr}
+                  <h3 className={`text-xl font-bold transition-colors duration-300 mb-1 ${isSelected ? "text-gold" : "text-white group-hover:text-gold"
+                    }`}>
+                    {isArabic ? model.nameAr : model.nameEn}
                   </h3>
-                  <p className="text-xs text-gray-muted uppercase tracking-wider mb-4" dir="ltr">
-                    {model.nameEn}
-                  </p>
+                  {locale === "en" && (
+                    <p className="text-xs text-gray-muted uppercase tracking-wider mb-4" dir="ltr">
+                      {model.nameEn}
+                    </p>
+                  )}
 
                   {/* Meta row */}
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-1.5 text-gray-soft text-xs">
                       <Calendar size={13} className="text-gold" />
-                      <span dir="ltr">{isCatalog ? `عدد الهياكل: ${model.generationsCount || 0}` : model.year}</span>
+                      <span dir="ltr">{isCatalog ? `${t("brandModels.structuresCount")} ${model.generationsCount || 0}` : model.year}</span>
                     </div>
                     <div className="flex items-center gap-1.5 text-gray-soft text-xs">
                       <Package size={13} className="text-gold" />
-                      <span>{model.partsCount}+ قطعة</span>
+                      <span>{model.partsCount}+ {t("catalog.partsCountLabel")}</span>
                     </div>
                   </div>
 
                   {/* Visual Indicator of Active Selection */}
                   <div className="flex items-center justify-center gap-1 text-gold text-xs font-semibold py-1.5 rounded-lg border border-gold/10 bg-gold/5">
                     {isCatalog ? (
-                      <span>اضغط لاستعراض الهياكل وقطع الغيار</span>
+                      <span>{t("catalog.exploreStructures")}</span>
                     ) : isSelected ? (
                       <>
                         <span className="w-1.5 h-1.5 bg-gold rounded-full animate-ping" />
-                        <span>تتصفح حالياً قطع غيارها بالأسفل</span>
+                        <span>{t("catalog.currentParts")}</span>
                       </>
                     ) : (
-                      <span>اضغط لاستعراض قطع غيارها المخصصة</span>
+                      <span>{t("catalog.exploreParts")}</span>
                     )}
                   </div>
                 </div>
@@ -174,9 +176,8 @@ export default function BrandModels({ brand }) {
                 variants={fadeInUp}
                 whileHover={{ y: -5, scale: 1.01 }}
                 onClick={() => setSelectedModel(model)}
-                className={`group relative premium-card cursor-pointer overflow-hidden transition-all duration-300 ${
-                  isSelected ? "border-gold shadow-[0_0_20px_rgba(212,168,83,0.15)] bg-linear-to-br from-black-card to-[#15120c]" : "border-black-border"
-                }`}
+                className={`group relative premium-card cursor-pointer overflow-hidden transition-all duration-300 ${isSelected ? "border-gold shadow-[0_0_20px_rgba(212,168,83,0.15)] bg-linear-to-br from-black-card to-[#15120c]" : "border-black-border"
+                  }`}
               >
                 {cardInnerContent}
               </motion.div>
@@ -203,21 +204,21 @@ export default function BrandModels({ brand }) {
               <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-gold/15 pb-8 mb-8 gap-4 relative z-10">
                 <div>
                   <span className="text-gold text-xs font-bold uppercase tracking-widest block mb-2 font-tajawal">
-                    معرض كتالوج قطع الغيار المخصصة
+                    {t("catalog.catalogShowcase")}
                   </span>
                   <h2 className="text-2xl md:text-3xl font-black text-white">
-                    قطع غيار لسيارة{" "}
-                    <span className="gradient-gold-text">{brand.nameAr} {selectedModel.nameAr}</span>
+                    {t("brandModels.partsFor")}{" "}
+                    <span className="gradient-gold-text">{isArabic ? `${brand.nameAr} ${selectedModel.nameAr}` : `${brand.nameEn} ${selectedModel.nameEn}`}</span>
                   </h2>
                   <p className="text-gray-soft text-sm mt-1 max-w-2xl leading-relaxed">
-                    أنظمة تعليق هوائي فاخرة وقطع غيار أصلية 100% مع ضمان شامل مصممة هندسياً خصيصاً لموديل سيارتك لضمان أعلى مستويات الأداء والأمان.
+                    {t("catalog.partIntro")}
                   </p>
                 </div>
                 <div className="flex items-center gap-3 self-start md:self-center bg-gold/5 border border-gold/15 rounded-2xl px-5 py-3">
                   <Shield className="text-gold" size={22} />
                   <div className="text-right">
-                    <p className="text-white text-xs font-bold">قطع معتمدة وأصلية</p>
-                    <p className="text-gold text-[10px] font-semibold">بشهادة ضمان موثقة</p>
+                    <p className="text-white text-xs font-bold">{t("brandModels.certifiedOriginal")}</p>
+                    <p className="text-gold text-[10px] font-semibold">{t("brandModels.certifiedWarranty")}</p>
                   </div>
                 </div>
               </div>
@@ -225,7 +226,15 @@ export default function BrandModels({ brand }) {
               {/* Showcase Parts Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
                 {modelParts.map((part) => {
-                  const waMessage = `مرحباً! أود الاستفسار عن ${part.nameAr} لسيارة ${brand.nameAr} ${selectedModel.nameAr} موديل ${selectedModel.year} (OEM: ${part.oemCode})`;
+                  const partName = isArabic ? part.nameAr : part.nameEn;
+                  const brandName = isArabic ? brand.nameAr : brand.nameEn;
+                  const modelName = isArabic ? selectedModel.nameAr : selectedModel.nameEn;
+                  const waMessage = t("brandModels.waMessage")
+                    .replace("{partName}", partName)
+                    .replace("{brandName}", brandName)
+                    .replace("{modelName}", modelName)
+                    .replace("{year}", selectedModel.year)
+                    .replace("{oem}", part.oemCode);
                   const waUrl = `https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(waMessage)}`;
 
                   return (
@@ -252,7 +261,7 @@ export default function BrandModels({ brand }) {
                         {/* Part Identity */}
                         <div className="mb-4">
                           <h3 className="text-white font-bold text-base group-hover:text-gold transition-colors duration-300 leading-snug">
-                            {part.nameAr}
+                            {isArabic ? part.nameAr : part.nameEn}
                           </h3>
                           <span className="text-[10px] text-gray-muted font-medium tracking-wider uppercase block mt-0.5" dir="ltr">
                             {part.nameEn}
@@ -261,27 +270,27 @@ export default function BrandModels({ brand }) {
 
                         {/* Part Description */}
                         <p className="text-gray-soft text-xs leading-relaxed mb-5 line-clamp-3 font-tajawal">
-                          {part.descAr}
+                          {isArabic ? part.descAr : part.descEn}
                         </p>
 
                         {/* Part Specifications List */}
                         <div className="border-t border-black-border pt-4 mb-5 space-y-2">
                           <div className="flex items-center justify-between text-[11px]">
-                            <span className="text-gray-muted">كود القطعة OEM:</span>
+                            <span className="text-gray-muted">{t("brandModels.oemCode")}</span>
                             <span className="text-white font-semibold font-mono bg-black-deep px-2 py-0.5 rounded border border-black-border" dir="ltr">
                               {part.oemCode}
                             </span>
                           </div>
                           <div className="flex items-center justify-between text-[11px]">
-                            <span className="text-gray-muted">الضمان الشامل:</span>
+                            <span className="text-gray-muted">{t("brandModels.fullWarranty")}</span>
                             <span className="text-gold font-bold flex items-center gap-1">
                               <CheckCircle2 size={10} />
-                              {part.warrantyAr}
+                              {isArabic ? part.warrantyAr : part.warrantyEn}
                             </span>
                           </div>
                           <div className="flex items-center justify-between text-[11px]">
-                            <span className="text-gray-muted">حالة التوفر:</span>
-                            <span className="text-green-400 font-medium">{part.statusAr}</span>
+                            <span className="text-gray-muted">{t("brandModels.availability")}</span>
+                            <span className="text-green-400 font-medium">{isArabic ? part.statusAr : part.statusEn}</span>
                           </div>
                         </div>
                       </div>
@@ -294,7 +303,7 @@ export default function BrandModels({ brand }) {
                         className="w-full py-3 rounded-xl bg-gold/10 border border-gold/20 text-gold text-xs font-bold hover:bg-gold hover:text-black hover:shadow-[0_4px_15px_rgba(212,168,83,0.3)] transition-all duration-300 flex items-center justify-center gap-2 group-hover:border-gold/30"
                       >
                         <MessageCircle size={15} />
-                        <span>طلب تسعيرة القطعة الآن</span>
+                        <span>{t("brandModels.requestQuote")}</span>
                       </a>
                     </motion.div>
                   );

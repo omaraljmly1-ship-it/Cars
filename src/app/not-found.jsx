@@ -2,8 +2,10 @@
 import { motion } from "framer-motion";
 import { Wrench, Home } from "lucide-react";
 import Link from "next/link";
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function NotFound() {
+  const { t } = useLocale();
   return (
     <div className="relative min-h-[80vh] flex items-center justify-center overflow-hidden bg-black-deep px-4">
       {/* Background accents */}
@@ -42,13 +44,13 @@ export default function NotFound() {
           </motion.div>
 
           <span className="text-gold text-sm font-semibold tracking-wider uppercase mb-2">
-            خطأ 404
+            404
           </span>
           <h1 className="text-2xl md:text-3xl font-black text-white mb-3">
-            الصفحة غير موجودة
+            {t("notFound.title")}
           </h1>
           <p className="text-gray-soft text-sm mb-8 leading-relaxed font-tajawal">
-            عذراً، يبدو أن الصفحة التي تبحث عنها قد تم نقلها أو أنها غير موجودة. يمكنك العودة إلى الصفحة الرئيسية لتصفح قطع الغيار.
+            {t("notFound.message")}
           </p>
 
           <Link
@@ -56,7 +58,7 @@ export default function NotFound() {
             className="btn-gold flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-bold transition-all duration-300"
           >
             <Home size={18} />
-            <span>العودة للرئيسية</span>
+            <span>{t("notFound.cta")}</span>
           </Link>
         </motion.div>
       </div>

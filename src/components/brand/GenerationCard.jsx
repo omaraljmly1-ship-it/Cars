@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
-import { Calendar, Package, ArrowLeft } from "lucide-react";
+import { Calendar, Package, ArrowLeft, ArrowRight } from "lucide-react";
+import { useLocale } from "@/components/LanguageProvider";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,6 +15,9 @@ import Image from "next/image";
  * @param {string} props.modelSlug Model slug
  */
 export default function GenerationCard({ generation, brandSlug, modelSlug }) {
+  const { t, locale } = useLocale();
+  const isArabic = locale === "ar";
+  const ArrowIcon = isArabic ? ArrowLeft : ArrowRight;
   const partsCount = generation.parts ? generation.parts.length : 0;
   const firstPartImage = partsCount > 0 ? generation.parts[0].image : null;
   const targetUrl = `/brands/${brandSlug}/${modelSlug}/${generation.slug}`;
@@ -54,7 +58,7 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
           </span>
           <div className="flex items-center gap-1 text-gray-soft text-xs">
             <Package size={12} className="text-gold" />
-            <span>{partsCount} قطع غيار</span>
+            <span>{partsCount} {t("generationCard.spareParts")}</span>
           </div>
         </div>
 
@@ -63,19 +67,21 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
           {/* Years / Code */}
           <div className="flex items-center gap-1.5 text-gray-soft text-xs mb-2">
             <Calendar size={13} className="text-gold" />
-            <span dir="ltr">{generation.years || "غير محدد"}</span>
+            <span dir="ltr">{generation.years || t("generationCard.notSpecified")}</span>
           </div>
 
           <h3 className="text-xl font-black text-white group-hover:text-gold transition-colors duration-300 flex items-center justify-between">
-            <span>هيكل {generation.code}</span>
-            <ArrowLeft
+            <span>{t("generationCard.chassis")} {generation.code}</span>
+            <ArrowIcon
               size={18}
-              className="text-gray-muted group-hover:text-gold transition-all duration-300 transform -translate-x-2 group-hover:translate-x-0"
+              className={`text-gray-muted group-hover:text-gold transition-all duration-300 transform ${
+                isArabic ? "-translate-x-2 group-hover:translate-x-0" : "translate-x-2 group-hover:translate-x-0"
+              }`}
             />
           </h3>
 
           <p className="text-xs text-gray-muted mt-2 group-hover:text-gray-soft transition-colors duration-300">
-            {partsCount > 0 ? "اضغط لاستعراض صور وقطع الهيكل" : "لا تتوفر قطع غيار مسجلة حالياً"}
+            {partsCount > 0 ? t("generationCard.clickToExplore") : t("generationCard.noPartsRegistered")}
           </p>
         </div>
       </motion.div>

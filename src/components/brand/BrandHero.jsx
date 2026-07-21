@@ -1,10 +1,18 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Star, Shield } from "lucide-react";
+import { ArrowRight, ArrowLeft, Star, Shield } from "lucide-react";
 import Link from "next/link";
-{/*الهيرو سكشن بتاع كل براند */}
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function BrandHero({ brand }) {
+  const { t, locale } = useLocale();
+  const isArabic = locale === "ar";
+  const brandName = isArabic ? brand.nameAr : brand.nameEn;
+  const brandTagline = isArabic ? brand.taglineAr : brand.taglineEn;
+  const brandDescription = isArabic ? brand.descriptionAr : brand.descriptionEn;
+  const ArrowIcon = isArabic ? ArrowRight : ArrowLeft;
+  const brandWatermark = isArabic ? brand.nameAr : brand.nameEn;
+
   return (
     <section
       className={`relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-linear-to-br ${brand.heroGradient}`}
@@ -28,7 +36,7 @@ export default function BrandHero({ brand }) {
           className="text-[18vw] font-black leading-none uppercase"
           style={{ color: "rgba(255,255,255,0.02)", letterSpacing: "-0.05em" }}
         >
-          {brand.nameEn}
+          {brandWatermark}
         </span>
       </div>
 
@@ -48,8 +56,8 @@ export default function BrandHero({ brand }) {
             href="/#brands"
             className="inline-flex items-center gap-2 text-gray-muted hover:text-gold transition-colors text-sm"
           >
-            <ArrowRight size={16} />
-            <span>العودة إلى العلامات التجارية</span>
+            <ArrowIcon size={16} />
+            <span>{t("brands.backHome")}</span>
           </Link>
         </motion.div>
 
@@ -63,7 +71,7 @@ export default function BrandHero({ brand }) {
           {brand.logo ? (
             <img
               src={brand.logo}
-              alt={`${brand.nameEn} logo`}
+              alt={`${brandName} logo`}
               className="w-full h-full object-contain p-3"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
@@ -76,7 +84,7 @@ export default function BrandHero({ brand }) {
             dir="ltr"
             style={{ display: brand.logo ? "none" : "flex" }}
           >
-            {brand.nameEn.slice(0, 2).toUpperCase()}
+            {(locale === "en" ? brand.nameEn : brand.nameAr).slice(0, 2).toUpperCase()}
           </span>
         </motion.div>
 
@@ -87,18 +95,18 @@ export default function BrandHero({ brand }) {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-5xl md:text-7xl font-black mb-3"
         >
-          <span className="gradient-gold-text">{brand.nameAr}</span>
+          <span className="gradient-gold-text">{brandName}</span>
         </motion.h1>
 
-        {/* English name */}
+        {/* Secondary name */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-gray-muted text-sm uppercase tracking-[0.3em] mb-4"
-          dir="ltr"
+          dir={isArabic ? "rtl" : "ltr"}
         >
-          {brand.nameEn}
+          {locale === "en" ? brand.nameEn : brand.nameAr}
         </motion.p>
 
         {/* Tagline */}
@@ -108,7 +116,7 @@ export default function BrandHero({ brand }) {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="text-xl md:text-2xl text-white/80 mb-6 font-light"
         >
-          {brand.taglineAr}
+          {brandTagline}
         </motion.p>
 
         {/* Gold divider */}
@@ -126,7 +134,7 @@ export default function BrandHero({ brand }) {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="text-gray-soft max-w-2xl mx-auto text-base leading-relaxed mb-10"
         >
-          {brand.descriptionAr}
+          {brandDescription}
         </motion.p>
 
         {/* Stats badges */}
@@ -139,13 +147,13 @@ export default function BrandHero({ brand }) {
           <div className="glass px-6 py-3 rounded-full flex items-center gap-2">
             <Star size={16} className="text-gold" />
             <span className="text-sm text-white">
-              {brand.models.length} موديل متاح
+              {brand.models.length} {t("catalog.modelsAvailable")}
             </span>
           </div>
           <div className="glass px-6 py-3 rounded-full flex items-center gap-2">
             <Shield size={16} className="text-gold" />
             <span className="text-sm text-white">
-              {brand.parts.reduce((a, p) => a + p.count, 0)}+ قطعة متوفرة
+              {brand.parts.reduce((a, p) => a + p.count, 0)}+ {t("catalog.partsAvailable")}
             </span>
           </div>
         </motion.div>

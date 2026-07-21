@@ -4,15 +4,19 @@ import { fadeInUp } from "@/animations/variants";
 import { contactInfo } from "@/data/siteData";
 import { MapPin, Clock, Phone } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function LocationSection() {
+  const { t, locale } = useLocale();
+  const address = locale === "en" ? contactInfo.addressEn : contactInfo.address;
+  const workingHours = locale === "en" ? contactInfo.workingHoursEn : contactInfo.workingHours;
   return (
     <section id="location" className="section-padding relative">
       <div className="max-w-7xl mx-auto px-4">
         <SectionHeading
-          title="موقعنا"
-          subtitle="زورونا في موقعنا أو تواصلوا معنا لأي استفسار"
-          englishTitle="Our Location"
+          title={t("location.sectionTitle")}
+          subtitle={t("location.sectionSubtitle")}
+          englishTitle={t("location.englishTitle")}
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -33,7 +37,7 @@ export default function LocationSection() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="موقعنا على الخريطة"
+                title={t("location.mapTitle")}
                 className="w-full h-full"
               />
             </div>
@@ -54,9 +58,9 @@ export default function LocationSection() {
                   <MapPin size={24} className="text-gold" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold mb-1">العنوان</h4>
+                  <h4 className="text-white font-bold mb-1">{t("contact.address")}</h4>
                   <p className="text-gray-soft text-sm leading-relaxed">
-                    {contactInfo.address}
+                    {address}
                   </p>
                 </div>
               </div>
@@ -69,9 +73,9 @@ export default function LocationSection() {
                   <Clock size={24} className="text-gold" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold mb-1">ساعات العمل</h4>
+                  <h4 className="text-white font-bold mb-1">{t("contact.hours")}</h4>
                   <p className="text-gray-soft text-sm leading-relaxed">
-                    {contactInfo.workingHours}
+                    {workingHours}
                   </p>
                 </div>
               </div>
@@ -84,7 +88,7 @@ export default function LocationSection() {
                   <Phone size={24} className="text-gold" />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold mb-1">اتصل بنا</h4>
+                  <h4 className="text-white font-bold mb-1">{t("contact.callNow")}</h4>
                   <p className="text-gray-soft text-sm leading-relaxed" dir="ltr">
                     {contactInfo.phone}
                   </p>
@@ -99,7 +103,7 @@ export default function LocationSection() {
               rel="noopener noreferrer"
               className="btn-gold text-center py-4 rounded-xl text-lg flex items-center justify-center gap-3"
             >
-              <span>تواصل عبر واتساب</span>
+              <span>{t("contact.whatsappNow")}</span>
               <svg
                 width="24"
                 height="24"

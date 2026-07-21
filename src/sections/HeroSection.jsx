@@ -1,20 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
-import {
-  heroTextVariant,
-  staggerContainer,
-  fadeInUp,
-} from "@/animations/variants";
+import { heroTextVariant, staggerContainer } from "@/animations/variants";
 import { ChevronDown, Shield, Award, Truck, Wrench } from "lucide-react";
-
-const heroFeatures = [
-  { icon: Shield, label: "قطع أصلية" },
-  { icon: Award, label: "ضمان شامل" },
-  { icon: Truck, label: "شحن سريع" },
-  { icon: Wrench, label: "قطع مستوردة" },
-];
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function HeroSection() {
+  const { t } = useLocale();
+
+  const heroFeatures = [
+    { icon: Shield, label: t("hero.features.original") },
+    { icon: Award, label: t("hero.features.warranty") },
+    { icon: Truck, label: t("hero.features.shipping") },
+    { icon: Wrench, label: t("hero.features.imported") },
+  ];
+
   return (
     <section
       id="home"
@@ -71,7 +70,7 @@ export default function HeroSection() {
         <motion.div variants={heroTextVariant} className="mb-8 inline-block">
           <span className="glass px-6 py-2.5 rounded-full text-gold text-sm font-semibold tracking-wide inline-flex items-center gap-2">
             <span className="w-2 h-2 bg-gold rounded-full animate-pulse" />
-             علي قنيطه لقطع غيار السيارات الأوروبية
+            {t("hero.badge")}
           </span>
         </motion.div>
 
@@ -80,9 +79,9 @@ export default function HeroSection() {
           variants={heroTextVariant}
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black leading-tight mb-6"
         >
-          <span className="text-white"> علي قنيطه </span>
+          <span className="text-white">{t("hero.title1")}</span>
           <br />
-          <span className="gradient-gold-text">لتجارة السيارات المستعملة و قطع غيارها</span>
+          <span className="gradient-gold-text">{t("hero.title2")}</span>
         </motion.h2>
 
         {/* Subheading */}
@@ -90,8 +89,7 @@ export default function HeroSection() {
           variants={heroTextVariant}
           className="text-lg md:text-xl text-gray-soft max-w-2xl mx-auto mb-4 leading-relaxed"
         >
-          متخصصون في أنظمة التعليق الهوائي وقطع الغيار الأصلية السيارات
-          الأوروبية
+          {t("hero.subtitle")}
         </motion.p>
 
         {/* CTA Buttons */}
@@ -103,13 +101,13 @@ export default function HeroSection() {
             href="#products"
             className="btn-gold text-lg px-10 py-4 rounded-full shadow-lg shadow-gold/20 flex items-center gap-2"
           >
-            تصفح المنتجات
+            {t("hero.ctaBrowse")}
           </a>
           <a
             href="#contact"
             className="btn-gold-outline text-lg px-10 py-4 rounded-full flex items-center gap-2"
           >
-            تواصل معنا
+            {t("hero.ctaContact")}
           </a>
         </motion.div>
 
@@ -146,7 +144,7 @@ export default function HeroSection() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
         <span className="text-xs text-gray-muted tracking-widest uppercase">
-          اكتشف المزيد
+          {t("hero.scrollHint")}
         </span>
         <motion.div
           animate={{ y: [0, 10, 0] }}

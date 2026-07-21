@@ -5,9 +5,7 @@ import {
   getCatalogModels,
   getCatalogGenerations,
 } from "@/data/catalogData";
-import SectionHeading from "@/components/SectionHeading";
-import Breadcrumb from "@/components/brand/Breadcrumb";
-import GenerationCard from "@/components/brand/GenerationCard";
+import ModelPageContent from "@/components/brand/ModelPageContent";
 
 // Generate static params for all catalog brand + model slug combinations
 export async function generateStaticParams() {
@@ -56,6 +54,7 @@ export async function generateMetadata({ params }) {
 
 export default async function ModelPage({ params }) {
   const { slug, model: modelSlug } = await params;
+
   const brand = getBrandBySlug(slug);
   const brandCatalog = getCatalogBrand(slug);
 
@@ -70,49 +69,14 @@ export default async function ModelPage({ params }) {
 
   const generations = model.generations ? Object.values(model.generations) : [];
 
-  const breadcrumbItems = [
-    { label: brand.nameAr, href: `/brands/${slug}` },
-    { label: model.nameAr },
-  ];
-
   return (
-    <main className="relative min-h-screen bg-black-deep pt-36 pb-24 overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute -right-40 top-40 w-96 h-96 bg-gold/3 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -left-40 bottom-40 w-96 h-96 bg-gold/2 rounded-full blur-3xl pointer-events-none" />
-
-      <div className="max-w-7xl mx-auto px-4 relative z-10">
-        {/* Breadcrumb */}
-        <Breadcrumb items={breadcrumbItems} />
-
-        {/* Section Heading */}
-        <div className="mb-12">
-          <SectionHeading
-            title={`أجيال وهياكل ${brand.nameAr} ${model.nameAr}`}
-            subtitle={`اختر رقم هيكل / جيل سيارتك لاستعراض كتالوج صور قطع الغيار المتاحة لها`}
-            englishTitle={`${model.nameEn} Generations`}
-          />
-        </div>
-
-        {generations.length === 0 ? (
-          <div className="text-center py-20 border border-black-border rounded-3xl bg-black-card">
-            <p className="text-gray-muted text-lg">
-              لا تتوفر هياكل أو أجيال مسجلة لهذا الموديل حالياً.
-            </p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {generations.map((gen) => (
-              <GenerationCard
-                key={gen.slug}
-                generation={gen}
-                brandSlug={slug}
-                modelSlug={modelSlug}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-    </main>
+    <ModelPageContent
+      brand={brand}
+      brandCatalog={brandCatalog}
+      model={model}
+      generations={generations}
+      slug={slug}
+      modelSlug={modelSlug}
+    />
   );
 }

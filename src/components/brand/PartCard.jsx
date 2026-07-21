@@ -61,9 +61,14 @@ export default function PartCard({
   modelNameEn,
   generationCode,
   generationYears,
-  locale = "ar", // 🌐 swap to "en" or wire to your i18n provider later
+  locale = "ar",
 }) {
   const t = translations[locale] ?? translations.ar;
+  const isRTL = locale === "ar";
+  const imageAlt =
+    locale === "en"
+      ? part.altEn || part.nameEn || part.altAr || part.nameAr || "Spare part"
+      : part.altAr || part.nameAr || part.altEn || part.nameEn || "قطعة غيار";
 
   // Detect if part is a shock absorber / air spring / balloon
   const isRefurbished =
@@ -84,6 +89,7 @@ export default function PartCard({
 
   return (
     <motion.div
+      dir={isRTL ? "rtl" : "ltr"}
       whileHover={{ y: -5 }}
       className="group relative flex flex-col justify-between bg-black-card border border-black-border hover:border-gold/30 rounded-2xl p-5 transition-all duration-400 overflow-hidden"
     >
@@ -104,7 +110,7 @@ export default function PartCard({
           {part.image ? (
             <Image
               src={part.image}
-              alt={part.altAr || part.nameAr}
+              alt={imageAlt}
               fill
               sizes="(max-w-768px) 100vw, 33vw"
               className="object-cover transition-all duration-500 group-hover:scale-105"
@@ -117,7 +123,7 @@ export default function PartCard({
           <div className="absolute inset-0 bg-linear-to-t from-black-deep/50 via-transparent to-transparent opacity-60 pointer-events-none" />
 
           {/* Genuine Shield badge */}
-          <div className="absolute top-3 right-3 glass-dark px-2.5 py-1 rounded-full flex items-center gap-1 border border-gold/20">
+          <div className={`absolute top-3 ${isRTL ? "right-3" : "left-3"} glass-dark px-2.5 py-1 rounded-full flex items-center gap-1 border border-gold/20`}>
             <Shield size={10} className="text-gold" />
             <span className="text-[9px] text-white font-medium">
               {t.genuineBadge}
@@ -127,11 +133,11 @@ export default function PartCard({
 
         {/* Brand & Generation Label */}
         <div className="text-gold text-[10px] font-bold uppercase tracking-wider mb-2 font-tajawal">
-          {brandNameAr} • {modelNameAr} • {generationCode}
+          {locale === "en" ? `${brandNameEn} • ${modelNameEn} • ${generationCode}` : `${brandNameAr} • ${modelNameAr} • ${generationCode}`}
         </div>
 
         {/* Part Title */}
-        <div className="mb-4">
+        <div className={`mb-4 ${isRTL ? "text-right" : "text-left"}`}>
           <h3 className="text-white font-bold text-base group-hover:text-gold transition-colors duration-300 leading-snug">
             {locale === "en" ? part.nameEn : part.nameAr}
           </h3>

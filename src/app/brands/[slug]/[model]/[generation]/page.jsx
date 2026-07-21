@@ -1,9 +1,7 @@
 import { notFound } from "next/navigation";
 import { getBrandBySlug } from "@/data/brandsData";
 import { getCatalogBrand, getCatalogModels, getCatalogParts } from "@/data/catalogData";
-import SectionHeading from "@/components/SectionHeading";
-import Breadcrumb from "@/components/brand/Breadcrumb";
-import PartCard from "@/components/brand/PartCard";
+import GenerationPageContent from "@/components/brand/GenerationPageContent";
 
 // Generate static params for all catalog brand + model + generation combinations
 export async function generateStaticParams() {
@@ -49,12 +47,17 @@ export async function generateMetadata({ params }) {
     Object.values(model.generations || {}).find((g) => g.slug === genSlug);
   if (!generation) return { title: "الهيكل غير موجود" };
 
+  const brandNameAr = brandCatalog.nameAr || brand.nameAr;
+  const brandNameEn = brandCatalog.nameEn || brand.nameEn;
+  const modelNameAr = model.nameAr || "الموديل";
+  const modelNameEn = model.nameEn || "Model";
+
   return {
-    title: `قطع غيار ${brand.nameAr} ${model.nameAr} ${generation.code} الأصلية | AQ`,
-    description: `كتالوج صور قطع غيار ${brand.nameAr} ${model.nameAr} هيكل ${generation.code} (${generation.years || ""}). مساعدين تعليق هوائي، بالونات، صمامات، وكمبروسرات مستوردة.`,
+    title: `قطع غيار ${brandNameAr} ${modelNameAr} ${generation.code} الأصلية | AQ`,
+    description: `كتالوج صور قطع غيار ${brandNameAr} ${modelNameAr} هيكل ${generation.code} (${generation.years || ""}). مساعدين تعليق هوائي، بالونات، صمامات، وكمبروسرات مستوردة.`,
     keywords: [
-      `قطع غيار ${brand.nameAr} ${generation.code}`,
-      `${brand.nameEn} ${generation.code} spare parts`,
+      `قطع غيار ${brandNameAr} ${generation.code}`,
+      `${brandNameEn} ${generation.code} spare parts`,
       `مساعدين ${generation.code}`,
       `بالون خلفي ${generation.code}`,
       `كمبروسر هواء ${generation.code}`,
@@ -76,6 +79,11 @@ export default async function GenerationPage({ params }) {
     notFound();
   }
 
+  const brandNameAr = brandCatalog.nameAr || brand.nameAr;
+  const brandNameEn = brandCatalog.nameEn || brand.nameEn;
+  const modelNameAr = model.nameAr || modelSlug;
+  const modelNameEn = model.nameEn || modelSlug;
+
   // Look up generation by key first, then fall back to matching slug field
   const generation =
     model.generations[genSlug] ||
@@ -92,53 +100,15 @@ export default async function GenerationPage({ params }) {
 
   const parts = getCatalogParts(slug, modelSlug, actualGenKey);
 
-  const breadcrumbItems = [
-    { label: brand.nameAr, href: `/brands/${slug}` },
-    { label: model.nameAr, href: `/brands/${slug}/${modelSlug}` },
-    { label: `هيكل ${generation.code}` },
-  ];
-
   return (
-    <main className="relative min-h-screen bg-black-deep pt-36 pb-24 overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute -right-40 top-40 w-96 h-96 bg-gold/3 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -left-40 bottom-40 w-96 h-96 bg-gold/2 rounded-full blur-3xl pointer-events-none" />
-
-      <div className="max-w-7xl mx-auto px-4 relative z-10">
-        {/* Breadcrumb */}
-        <Breadcrumb items={breadcrumbItems} />
-
-        {/* Section Heading */}
-        <div className="mb-12">
-          <SectionHeading
-            title={`قطع غيار ${brand.nameAr} ${model.nameAr} - هيكل ${generation.code}`}
-            subtitle={`كتالوج مصور لقطع غيار نظام التعليق الهوائي المتاحة لهيكل ${generation.code} (${generation.years || "غير محدد"})`}
-            englishTitle={`${generation.code} Spare Parts`}
-          />
-        </div>
-
-        {parts.length === 0 ? (
-          <div className="text-center py-20 border border-black-border rounded-3xl bg-black-card">
-            <p className="text-gray-muted text-lg">لا تتوفر صور لقطع غيار هذا الهيكل حالياً.</p>
-            <p className="text-gold text-sm mt-2 font-tajawal">يرجى التواصل معنا مباشرة للاستفسار عن توفرها.</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {parts.map((part) => (
-              <PartCard
-                key={part.id}
-                part={part}
-                brandNameAr={brand.nameAr}
-                brandNameEn={brand.nameEn}
-                modelNameAr={model.nameAr}
-                modelNameEn={model.nameEn}
-                generationCode={generation.code}
-                generationYears={generation.years}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-    </main>
+    <GenerationPageContent
+      brand={brand}
+      brandCatalog={brandCatalog}
+      model={model}
+      generation={generation}
+      parts={parts}
+      slug={slug}
+      modelSlug={modelSlug}
+    />
   );
 }

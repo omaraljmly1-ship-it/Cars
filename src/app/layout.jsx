@@ -3,6 +3,7 @@ import "./globals.css";
 import TopBar from "@/components/TopBar";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { LanguageProvider } from "@/components/LanguageProvider";
 
 const cairo = Cairo({
   subsets: ["arabic", "latin"],
@@ -35,12 +36,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ar" dir="rtl" className={`${cairo.className} antialiased`}>
-      <body className="min-h-screen bg-black-deep text-white">
-        <TopBar />
-        <Navbar />
-        {children}
-        <Footer />
+    <html lang="ar" suppressHydrationWarning className={`${cairo.className} antialiased`}>
+      <body suppressHydrationWarning className="min-h-screen bg-black-deep text-white">
+        <LanguageProvider>
+          <TopBar />
+          <Navbar />
+          {children}
+          <Footer />
+        </LanguageProvider>
       </body>
     </html>
   );

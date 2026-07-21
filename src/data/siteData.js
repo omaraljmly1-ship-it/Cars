@@ -4,8 +4,10 @@ export const contactInfo = {
   email: "Abo_Ahmed_Ali@hotmail.com",
   instagram: "ali_qannita",
   address: "الصناعية - 12 - المنطقة الصناعية - إمارة الشارقةّ - الإمارات العربية المتحدة",
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606.373833599048!2d55.433481500000006!3d25.325233699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59d844aeb593%3A0x86fb70f211dd0f57!2sAli%20Qannita%20used%20cars%20and%20spare%20parts!5e0!3m2!1sar!2seg!4v1779461845695!5m2!1sar!2seg",
+  addressEn: "Industrial Area 12, Sharjah, United Arab Emirates",
+  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!m12!m3!1d3606.373833599048!2d55.433481500000006!3d25.325233699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f59d844aeb593%3A0x86fb70f211dd0f57!2sAli%20Qannita%20used%20cars%20and%20spare%20parts!5e0!3m2!1sar!2seg!4v1779461845695!5m2!1sar!2seg",
   workingHours: "السبت - الخميس: 8 صباحاً - 9:30 مساءً",
+  workingHoursEn: "Sat–Thu: 8:00 AM – 9:30 PM",
 };
 
 export const navLinks = [
@@ -25,6 +27,7 @@ export const brands = [
     image: "/images/brands/audi.webp",
     logo: "/images/brands/audi.png",
     description: "قطع غيار عالية الجودة لسيارات أودي",
+    descriptionEn: "High-quality spare parts for Audi cars",
     models: ["A8", "A6", "A4", "Q7", "Q8"],
   },
   {
@@ -35,6 +38,7 @@ export const brands = [
     image: "/images/brands/bmw.webp",
     logo: "/images/brands/bmw.jpg",
     description: "قطع غيار أصلية لجميع فئات بي إم دبليو",
+    descriptionEn: "Original spare parts for all BMW series",
     models: ["7 Series", "5 Series", "3 Series", "X5", "X7"],
   },
   {
@@ -45,6 +49,7 @@ export const brands = [
     image: "/images/brands/bentley.webp",
     logo: "/images/brands/bentley.webp",
     description: "قطع غيار فاخرة لسيارات بنتلي",
+    descriptionEn: "Luxury spare parts for Bentley cars",
     models: ["Continental GT", "Flying Spur", "Bentayga"],
   },
   {
@@ -55,6 +60,7 @@ export const brands = [
     image: "/images/brands/jaguar.webp",
     logo: "/images/brands/jaguar.jpeg",
     description: "قطع غيار سيارات جاكور",
+    descriptionEn: "Spare parts for Jaguar cars",
     models: ["XF", "XJ", "F-Pace", "E-Pace"],
   },
   {
@@ -65,6 +71,7 @@ export const brands = [
     image: "/images/brands/mercedes.webp",
     logo: "/images/brands/mercedes.jpg",
     description: "قطع غيار معتمدة لسيارات مرسيدس بنز",
+    descriptionEn: "Certified spare parts for Mercedes-Benz cars",
     models: ["S-Class", "E-Class", "C-Class", "GLE", "GLS"],
   },
   {
@@ -75,6 +82,7 @@ export const brands = [
     image: "/images/brands/range-rover.webp",
     logo: "/images/brands/range-rover.jpeg",
     description: "قطع غيار أصلية لجميع موديلات رينج روفر",
+    descriptionEn: "Original spare parts for all Range Rover models",
     models: ["Sport", "Vogue", "Velar", "Evoque", "Defender"],
   },
   {
@@ -85,6 +93,7 @@ export const brands = [
     image: "/images/brands/porsche.webp",
     logo: "/images/brands/porsche.jpg",
     description: "قطع غيار بورش الأصلية",
+    descriptionEn: "Original Porsche spare parts",
     models: ["Cayenne", "Macan", "Panamera", "911"],
   },
   {
@@ -95,6 +104,7 @@ export const brands = [
     image: "/images/brands/rolls-royce.webp",
     logo: "/images/brands/rolls-royce.jpeg",
     description: "قطع غيار روز رايز الفاخرة",
+    descriptionEn: "Luxury Rolls-Royce spare parts",
     models: ["Phantom", "Ghost", "Cullinan"],
   },
   {
@@ -105,6 +115,7 @@ export const brands = [
     image: "/images/brands/jeep.webp",
     logo: "/images/brands/jeep.jpeg",
     description: "قطع غيار جيب شروكي",
+    descriptionEn: "Spare parts for Jeep Cherokee",
     models: ["Grand Cherokee", "Cherokee", "Wrangler"],
   },
   {
@@ -115,6 +126,7 @@ export const brands = [
     image: "/images/brands/tesla.webp",
     logo: "/images/brands/tesla.webp",
     description: "قطع غيار سيارات تسلا",
+    descriptionEn: "Spare parts for Tesla cars",
     models: ["Model S", "Model 3", "Model X", "Model Y"],
   },
   {
@@ -125,6 +137,7 @@ export const brands = [
     image: "/images/brands/dodge.webp",
     logo: "/images/brands/dodge.jpeg",
     description: "قطع غيار دوج رام الأصلية",
+    descriptionEn: "Original Dodge Ram spare parts",
     models: ["1500", "2500", "3500"],
   },
   {
@@ -135,6 +148,7 @@ export const brands = [
     image: "/images/brands/hyundai.jpeg",
     logo: "/images/brands/hyundai.jpeg",
     description: "قطع غيار أصلية لسيارات هيونداي جينيسيس",
+    descriptionEn: "Original spare parts for Hyundai Genesis cars",
     models: ["Genesis"],
   },
   {
@@ -145,6 +159,7 @@ export const brands = [
     image: "/images/brands/lamborghini.jpeg",
     logo: "/images/brands/lamborghini.jpeg",
     description: "قطع غيار أنظمة التعليق لسيارات لامبورغيني أوروس",
+    descriptionEn: "Suspension system spare parts for Lamborghini Urus",
     models: ["Urus"],
   },
 ];

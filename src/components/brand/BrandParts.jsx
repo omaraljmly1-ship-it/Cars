@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { staggerContainer, fadeInUp } from "@/animations/variants";
+import { useLocale } from "@/components/LanguageProvider";
 import {
   Gauge, Settings, Wind, Wrench, Zap, Shield, Star,
   Cpu, Navigation, Car, Lightbulb, Mountain, Package
@@ -19,7 +20,9 @@ const iconMap = {
 };
 
 export default function BrandParts({ brand }) {
+  const { t, locale } = useLocale();
   const isCatalog = brand.catalogEnabled;
+  const isArabic = locale === "ar";
   let partsList = brand.parts;
   let totalParts = brand.parts.reduce((acc, p) => acc + p.count, 0);
   if (isCatalog) {
@@ -135,9 +138,9 @@ export default function BrandParts({ brand }) {
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title="قطع الغيار المتاحة"
-          subtitle={`مجموعة شاملة من قطع غيار ${brand.nameAr} الأصلية — ${totalParts}+ قطعة متوفرة`}
-          englishTitle="Available Parts"
+          title={t("brands.partsTitle")}
+          subtitle={`${t("brands.partsTitle")} ${isArabic ? brand.nameAr : brand.nameEn} — ${totalParts}+ ${t("catalog.partsAvailable")}`}
+          englishTitle={t("brands.partsTitle")}
         />
 
         <motion.div
@@ -171,15 +174,15 @@ export default function BrandParts({ brand }) {
                   {/* Content */}
                   <div className="flex-1 min-w-0 w-full">
                     <h3 className="text-white font-bold text-sm sm:text-base mb-0.5 group-hover:text-gold transition-colors duration-300 leading-snug wrap-break-word">
-                      {part.nameAr}
+                      {isArabic ? part.nameAr : part.nameEn}
                     </h3>
                     <p className="text-gray-muted text-[10px] sm:text-xs mb-2 sm:mb-3 uppercase tracking-wider truncate" dir="ltr">
-                      {part.nameEn}
+                      {isArabic ? part.nameEn : part.nameAr}
                     </p>
                     <div className="flex items-center justify-between">
                       <span className="text-[10px] sm:text-xs text-gray-soft">
                         <span className="text-gold font-semibold text-xs sm:text-sm">{part.count}</span>{" "}
-                        من الصور الموثقة
+                        {t("catalog.partCount")}
                       </span>
                     </div>
                   </div>
@@ -209,13 +212,15 @@ export default function BrandParts({ brand }) {
           className="mt-12 text-center"
         >
           <a
-            href={`https://wa.me/${contactInfo.whatsapp}?text=أرغب في الاستفسار عن قطع غيار ${brand.nameAr}`}
+            href={`https://wa.me/${contactInfo.whatsapp}?text=${encodeURIComponent(
+              t("inquiryMessages.brandInquiry").replace("{brand}", isArabic ? brand.nameAr : brand.nameEn)
+            )}`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-gold inline-flex items-center gap-3 text-base px-10! py-4! rounded-full shadow-lg shadow-gold/20"
           >
             <MessageCircle size={20} />
-            <span>استفسر عن قطع {brand.nameAr}</span>
+            <span>{t("brands.partsCta")} {isArabic ? brand.nameAr : brand.nameEn}</span>
           </a>
         </motion.div>
       </div>

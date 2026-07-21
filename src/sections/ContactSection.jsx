@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { staggerContainer, fadeInUp } from "@/animations/variants";
+import { useLocale } from "@/components/LanguageProvider";
 import {
   Phone,
   MessageCircle,
@@ -36,54 +37,51 @@ function Instagram({ size = 18, className }) {
 import { contactInfo } from "@/data/siteData";
 import SectionHeading from "@/components/SectionHeading";
 
-const contactCards = [
-  {
-    icon: Phone,
-    titleAr: "اتصل بنا",
-    titleEn: "Call Us",
-    value: contactInfo.phone,
-    href: `tel:${contactInfo.phone}`,
-    hoverColor: "hover:border-blue-500/40",
-    iconColor: "text-blue-400",
-    bgColor: "from-blue-500/10 to-blue-500/5",
-  },
-  {
-    icon: MessageCircle,
-    titleAr: "واتساب",
-    titleEn: "WhatsApp",
-    value: contactInfo.whatsapp,
-    href: `https://wa.me/${contactInfo.whatsapp}`,
-    hoverColor: "hover:border-green-500/40",
-    iconColor: "text-green-400",
-    bgColor: "from-green-500/10 to-green-500/5",
-  },
-  {
-    icon: Mail,
-    titleAr: "البريد الإلكتروني",
-    titleEn: "Email",
-    value: contactInfo.email,
-    href: `mailto:${contactInfo.email}`,
-    hoverColor: "hover:border-gold/40",
-    iconColor: "text-gold",
-    bgColor: "from-gold/10 to-gold/5",
-  },
-  {
-    icon: Clock,
-    titleAr: "ساعات العمل",
-    titleEn: "Working Hours",
-    value: contactInfo.workingHours,
-    href: null,
-    hoverColor: "hover:border-purple-500/40",
-    iconColor: "text-purple-400",
-    bgColor: "from-purple-500/10 to-purple-500/5",
-  },
-];
-
 const initialForm = { name: "", phone: "", car: "", message: "" };
 
 export default function ContactSection() {
+  const { locale, t } = useLocale();
   const [form, setForm] = useState(initialForm);
   const [status, setStatus] = useState("idle"); // idle | sending | success
+
+  const contactCards = [
+    {
+      icon: Phone,
+      titleKey: "contactCards.callUs",
+      value: contactInfo.phone,
+      href: `tel:${contactInfo.phone}`,
+      hoverColor: "hover:border-blue-500/40",
+      iconColor: "text-blue-400",
+      bgColor: "from-blue-500/10 to-blue-500/5",
+    },
+    {
+      icon: MessageCircle,
+      titleKey: "contactCards.whatsapp",
+      value: contactInfo.whatsapp,
+      href: `https://wa.me/${contactInfo.whatsapp}`,
+      hoverColor: "hover:border-green-500/40",
+      iconColor: "text-green-400",
+      bgColor: "from-green-500/10 to-green-500/5",
+    },
+    {
+      icon: Mail,
+      titleKey: "contactCards.email",
+      value: contactInfo.email,
+      href: `mailto:${contactInfo.email}`,
+      hoverColor: "hover:border-gold/40",
+      iconColor: "text-gold",
+      bgColor: "from-gold/10 to-gold/5",
+    },
+    {
+      icon: Clock,
+      titleKey: "contactCards.workingHours",
+      value: locale === "en" ? contactInfo.workingHoursEn : contactInfo.workingHours,
+      href: null,
+      hoverColor: "hover:border-purple-500/40",
+      iconColor: "text-purple-400",
+      bgColor: "from-purple-500/10 to-purple-500/5",
+    },
+  ];
 
   const handleChange = (e) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -95,7 +93,7 @@ export default function ContactSection() {
     setStatus("sending");
     // Compose WhatsApp message
     const text = encodeURIComponent(
-      `*رسالة جديدة من الموقع*\n\nالاسم: ${form.name}\nالهاتف: ${form.phone}\nنوع السيارة: ${form.car || "غير محدد"}\nالرسالة: ${form.message}`
+      `*${t("contactCards.newMessage")}*\n\n${t("contactCards.name")}: ${form.name}\n${t("contactCards.phone")}: ${form.phone}\n${t("contactCards.carType")}: ${form.car || t("contactCards.notSpecified")}\n${t("contactCards.message")}: ${form.message}`
     );
     // Open WhatsApp after brief delay to show animation
     setTimeout(() => {
@@ -117,9 +115,9 @@ export default function ContactSection() {
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <SectionHeading
-          title="تواصل معنا"
-          subtitle="نحن هنا للمساعدة — تواصل معنا في أي وقت لأي استفسار"
-          englishTitle="Contact Us"
+          title={t("contact.sectionTitle")}
+          subtitle={t("contact.sectionSubtitle")}
+          englishTitle={t("contact.englishTitle")}
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -150,7 +148,7 @@ export default function ContactSection() {
                         <Icon size={22} className={card.iconColor} />
                       </div>
                       <p className="text-gray-muted text-xs uppercase tracking-wider mb-1">
-                        {card.titleEn}
+                        {t(card.titleKey)}
                       </p>
                       <p className="text-white font-semibold text-sm leading-relaxed" dir="ltr">
                         {card.value}
@@ -172,10 +170,13 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-gray-muted text-xs uppercase tracking-wider mb-1">
-                    Our Address
+                    {t("contact.ourAddress")}
                   </p>
-                  <p className="text-white font-semibold text-sm leading-relaxed">
-                    {contactInfo.address}
+                  <p
+                    className="text-white font-semibold text-sm leading-relaxed"
+                    dir={locale === "en" ? "ltr" : "rtl"}
+                  >
+                    {locale === "en" ? contactInfo.addressEn : contactInfo.address}
                   </p>
                 </div>
               </div>
@@ -187,26 +188,26 @@ export default function ContactSection() {
                 href={`https://wa.me/${contactInfo.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 min-w-[140px] btn-gold flex items-center justify-center gap-2 py-3! rounded-xl text-sm"
+                className="flex-1 min-w-35 btn-gold flex items-center justify-center gap-2 py-3! rounded-xl text-sm"
               >
                 <MessageCircle size={18} />
-                واتساب
+                {t("contact.whatsappNow")}
               </a>
               <a
                 href={`tel:${contactInfo.phone}`}
-                className="flex-1 min-w-[140px] btn-gold-outline flex items-center justify-center gap-2 py-3! rounded-xl text-sm"
+                className="flex-1 min-w-35 btn-gold-outline flex items-center justify-center gap-2 py-3! rounded-xl text-sm"
               >
                 <Phone size={18} />
-                اتصال مباشر
+                {t("contact.callDirect")}
               </a>
               <a
                 href={`https://instagram.com/${contactInfo.instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 min-w-[140px] flex items-center justify-center gap-2 py-3 px-4 rounded-xl border border-black-border text-gray-soft hover:text-gold hover:border-gold/30 transition-all duration-300 text-sm"
+                className="flex-1 min-w-35 flex items-center justify-center gap-2 py-3 px-4 rounded-xl border border-black-border text-gray-soft hover:text-gold hover:border-gold/30 transition-all duration-300 text-sm"
               >
                 <Instagram size={18} />
-                إنستجرام
+                {t("contact.instagram")}
               </a>
             </motion.div>
           </motion.div>
@@ -230,10 +231,10 @@ export default function ContactSection() {
                   <CheckCircle2 size={32} className="text-green-400" />
                 </div>
                 <p className="text-white font-bold text-lg text-center">
-                  تم إرسال رسالتك بنجاح!
+                  {t("contact.form.success")}
                 </p>
                 <p className="text-gray-soft text-sm text-center">
-                  سنتواصل معك قريباً عبر واتساب.
+                  {t("contact.form.successSub")}
                 </p>
               </motion.div>
             )}
@@ -243,9 +244,9 @@ export default function ContactSection() {
               className="p-8 rounded-3xl bg-linear-to-br from-black-card to-black-surface border border-black-border space-y-5"
             >
               <div>
-                <h3 className="text-white font-bold text-xl mb-1">أرسل رسالة</h3>
+                <h3 className="text-white font-bold text-xl mb-1">{t("contact.sendMessage")}</h3>
                 <p className="text-gray-muted text-sm">
-                  سيتم تحويلك إلى واتساب تلقائياً
+                  {t("contact.sendMessageSubtitle")}
                 </p>
               </div>
 
@@ -253,27 +254,27 @@ export default function ContactSection() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="text-gray-soft text-xs mb-2 block">
-                    الاسم الكامل *
+                    {t("contact.form.name")} *
                   </label>
                   <input
                     name="name"
                     value={form.name}
                     onChange={handleChange}
                     required
-                    placeholder="أدخل اسمك"
+                    placeholder={t("contact.form.placeholder.name")}
                     className="w-full bg-black-deep border border-black-border rounded-xl px-4 py-3 text-white text-sm placeholder:text-gray-muted focus:border-gold/40 focus:outline-none transition-colors duration-300"
                   />
                 </div>
                 <div>
                   <label className="text-gray-soft text-xs mb-2 block">
-                    رقم الهاتف *
+                    {t("contact.form.phone")} *
                   </label>
                   <input
                     name="phone"
                     value={form.phone}
                     onChange={handleChange}
                     required
-                    placeholder="أدخل رقم هاتفك"
+                    placeholder={t("contact.form.placeholder.phone")}
                     dir="ltr"
                     className="w-full bg-black-deep border border-black-border rounded-xl px-4 py-3 text-white text-sm placeholder:text-gray-muted focus:border-gold/40 focus:outline-none transition-colors duration-300"
                   />
@@ -283,13 +284,13 @@ export default function ContactSection() {
               {/* Car type */}
               <div>
                 <label className="text-gray-soft text-xs mb-2 block">
-                  نوع السيارة
+                  {t("contact.form.car")}
                 </label>
                 <input
                   name="car"
                   value={form.car}
                   onChange={handleChange}
-                  placeholder="مثال: مرسيدس S-Class 2022"
+                  placeholder={t("contact.form.placeholder.car")}
                   className="w-full bg-black-deep border border-black-border rounded-xl px-4 py-3 text-white text-sm placeholder:text-gray-muted focus:border-gold/40 focus:outline-none transition-colors duration-300"
                 />
               </div>
@@ -297,7 +298,7 @@ export default function ContactSection() {
               {/* Message */}
               <div>
                 <label className="text-gray-soft text-xs mb-2 block">
-                  رسالتك *
+                  {t("contact.form.message")} *
                 </label>
                 <textarea
                   name="message"
@@ -305,7 +306,7 @@ export default function ContactSection() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  placeholder="اكتب رسالتك أو استفسارك عن القطعة التي تحتاجها..."
+                  placeholder={t("contact.form.placeholder.message")}
                   className="w-full bg-black-deep border border-black-border rounded-xl px-4 py-3 text-white text-sm placeholder:text-gray-muted focus:border-gold/40 focus:outline-none transition-colors duration-300 resize-none"
                 />
               </div>
@@ -319,12 +320,12 @@ export default function ContactSection() {
                 {status === "sending" ? (
                   <>
                     <div className="w-5 h-5 border-2 border-black/30 border-t-black rounded-full animate-spin" />
-                    <span>جاري الإرسال...</span>
+                    <span>{t("contact.form.sending")}</span>
                   </>
                 ) : (
                   <>
                     <Send size={19} />
-                    <span>إرسال عبر واتساب</span>
+                    <span>{t("contact.form.submit")}</span>
                   </>
                 )}
               </button>

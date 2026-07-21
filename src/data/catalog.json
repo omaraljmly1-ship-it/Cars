@@ -147,7 +147,7 @@
         },
         "x5": {
           "nameEn": "X5",
-          "nameAr": "X5",
+          "nameAr": "إكس 5",
           "slug": "x5",
           "folderName": "X5",
           "generations": {
@@ -597,7 +597,7 @@
         },
         "gle-ml": {
           "nameEn": "GLE ML",
-          "nameAr": "GLE و ML",
+          "nameAr": "جيل إيه إل/إم إل",
           "slug": "gle-ml",
           "folderName": "GLE ML",
           "generations": {
@@ -715,8 +715,8 @@
           }
         },
         "gle-cope": {
-          "nameEn": "GLE-Cope",
-          "nameAr": "GLE كوبيه",
+          "nameEn": "GLE-Coupe",
+          "nameAr": "جيل إي كوبيه",
           "slug": "gle-cope",
           "folderName": "GLE-Cope",
           "generations": {
@@ -1000,7 +1000,7 @@
       "models": {
         "a6-s8": {
           "nameEn": "A6 S8",
-          "nameAr": "A6 و S8",
+          "nameAr": "أيه 6 وس 8",
           "slug": "a6-s8",
           "folderName": "A6 (2012 - 2018) S8 (2013 - 2018)",
           "generations": {
@@ -1048,7 +1048,7 @@
         },
         "a8": {
           "nameEn": "A8",
-          "nameAr": "A8",
+          "nameAr": "إيه 8",
           "slug": "a8",
           "folderName": "A8 (2010 - 2017)",
           "generations": {
@@ -1096,7 +1096,7 @@
         },
         "a8-d3": {
           "nameEn": "A8 D3",
-          "nameAr": "A8 D3",
+          "nameAr": "إيه 8 دي 3",
           "slug": "a8-d3",
           "folderName": "A8 D3 (2003 - 2010)",
           "generations": {
@@ -1134,7 +1134,7 @@
         },
         "a8-d5": {
           "nameEn": "A8 D5",
-          "nameAr": "A8 D5",
+          "nameAr": "إيه 8 دي 5",
           "slug": "a8-d5",
           "folderName": "A8 D5 (2017 - 2023)",
           "generations": {
@@ -1172,7 +1172,7 @@
         },
         "q7-q8": {
           "nameEn": "Q7 Q8",
-          "nameAr": "Q7 و Q8",
+          "nameAr": "كي يو 7 و كي يو 8",
           "slug": "q7-q8",
           "folderName": "Q7 Q8 (2017 - 2021)",
           "generations": {

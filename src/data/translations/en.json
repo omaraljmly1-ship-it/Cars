@@ -1,0 +1,318 @@
+{
+    "site": {
+        "name": "AQ Spare Parts",
+        "tagline": "Premium European Automotive Spare Parts",
+        "description": "Authorized dealer of premium European automotive spare parts in the UAE. Specialists in air suspension systems."
+    },
+    "nav": {
+        "home": "Home",
+        "brands": "Brands",
+        "about": "About Us",
+        "products": "Products",
+        "contact": "Contact",
+        "callUs": "Call Us",
+        "callNow": "Call Us Now",
+        "toggleMenu": "Toggle menu",
+        "backToHome": "Back to home"
+    },
+    "hero": {
+        "badge": "Authorized European Car Parts Dealer",
+        "title1": "Ali Qannita",
+        "title2": "Used Cars & Spare Parts Trader",
+        "subtitle": "Specialists in air suspension systems and original spare parts for the world's finest European cars",
+        "ctaBrowse": "Browse Products",
+        "ctaContact": "Contact Us",
+        "scrollHint": "Discover More",
+        "features": {
+            "original": "Original Parts",
+            "warranty": "Full Warranty",
+            "shipping": "Fast Shipping",
+            "support": "Tech Support",
+            "imported": "Imported Parts"
+        }
+    },
+    "brands": {
+        "sectionTitle": "Our Brands",
+        "sectionSubtitle": "We supply original parts for the world's finest European brands",
+        "englishTitle": "Premium Brands",
+        "viewParts": "View Parts",
+        "allModels": "All Models",
+        "heroSubtitle": "Original & Certified Spare Parts",
+        "modelsTitle": "Available Models",
+        "partsTitle": "Available Parts",
+        "partsCta": "Inquire Now",
+        "backHome": "Back to Home",
+        "notFound": "Brand Not Found"
+    },
+    "products": {
+        "sectionTitle": "Our Products",
+        "sectionSubtitle": "Click any image to view it in full size",
+        "englishTitle": "Our Products",
+        "availableParts": "parts available",
+        "viewAll": "View All",
+        "inquire": "Inquire Now",
+        "lightboxClose": "Close",
+        "lightboxNext": "Next",
+        "lightboxPrev": "Previous"
+    },
+    "about": {
+        "sectionTitle": "About Us",
+        "sectionSubtitle": "Leaders in Premium European Automotive Parts",
+        "englishTitle": "About Us",
+        "title": "About Us",
+        "subtitle": "Leaders in Premium European Automotive Parts",
+        "description": "We are a leading company in supplying premium European car spare parts in the UAE. We specialize in air suspension systems and original parts for the world's most prestigious brands.",
+        "description2": "With over 15 years of experience, we pride ourselves on delivering the highest standards of quality and service. Our specialist team ensures you get the right part for your car at the best price.",
+        "learnMore": "Learn More",
+        "contactUs": "Contact Us",
+        "highlights": [
+            "100% Original parts with warranty certificate",
+            "Expert technical team with 15+ years of experience",
+            "Fast shipping across the UAE",
+            "Competitive prices and ongoing offers"
+        ],
+        "bestInUAE": "The Best in the UAE"
+    },
+    "stats": {
+        "years": "Years Experience",
+        "carTypes": "Car Types",
+        "partsSold": "Parts Sold",
+        "happyClients": "Happy Clients"
+    },
+    "features": {
+        "sectionTitle": "Why Choose Us",
+        "sectionSubtitle": "We deliver exceptional service to world-class standards",
+        "englishTitle": "Why Choose Us",
+        "items": {
+            "shipping": {
+                "title": "Fast Shipping",
+                "desc": "Quick delivery across the UAE"
+            },
+            "warranty": {
+                "title": "Full Warranty",
+                "desc": "Warranty on all products"
+            },
+            "support": {
+                "title": "Tech Support",
+                "desc": "Expert technical support team"
+            },
+            "original": {
+                "title": "Original Parts",
+                "desc": "100% genuine spare parts"
+            }
+        }
+    },
+    "testimonials": {
+        "sectionTitle": "What Our Clients Say",
+        "sectionSubtitle": "Trusted by thousands of customers",
+        "englishTitle": "Testimonials",
+        "verified": "Verified Customer"
+    },
+    "contact": {
+        "sectionTitle": "Contact Us",
+        "sectionSubtitle": "We are here to help — reach us anytime",
+        "englishTitle": "Contact Us",
+        "phone": "Phone",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "address": "Address",
+        "hours": "Working Hours",
+        "callNow": "Call Now",
+        "whatsappNow": "WhatsApp",
+        "emailNow": "Email Us",
+        "callDirect": "Call Direct",
+        "instagram": "Instagram",
+        "ourAddress": "Our Address",
+        "sendMessage": "Send Message",
+        "sendMessageSubtitle": "You will be redirected to WhatsApp automatically",
+        "form": {
+            "name": "Full Name",
+            "phone": "Phone Number",
+            "car": "Car Type",
+            "message": "Your Message",
+            "submit": "Send Message",
+            "sending": "Sending...",
+            "success": "Your message was sent successfully! We will contact you soon.",
+            "successSub": "We will contact you soon via WhatsApp.",
+            "placeholder": {
+                "name": "Enter your name",
+                "phone": "Enter your phone number",
+                "car": "e.g. Mercedes S-Class 2022",
+                "message": "Write your message here..."
+            }
+        }
+    },
+    "location": {
+        "sectionTitle": "Our Location",
+        "sectionSubtitle": "Visit us at our industrial zone headquarters",
+        "englishTitle": "Our Location",
+        "getDirections": "Get Directions",
+        "mapTitle": "Our location on the map"
+    },
+    "footer": {
+        "tagline": "Authorized dealer of premium European automotive spare parts in the UAE. Specialists in air suspension systems.",
+        "quickLinks": "Quick Links",
+        "services": "Our Services",
+        "contactTitle": "Contact Us",
+        "rights": "All Rights Reserved",
+        "scrollTop": "Back to Top",
+        "servicesList": [
+            "Front Suspension System",
+            "Rear Suspension System",
+            "Air Compressor",
+            "Air Valves",
+            "Inspection & Diagnosis",
+            "Parts Installation"
+        ],
+        "brandName": "Auto Parts"
+    },
+    "topBar": {
+        "hours": "Sat–Thu: 9 AM – 10 PM",
+        "location": "Industrial Zone, Sharjah",
+        "follow": "Follow us:"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "backHome": "Back to Home",
+        "learnMore": "Learn More",
+        "viewAll": "View All",
+        "close": "Close",
+        "open": "Open",
+        "ar": "العربية",
+        "en": "English",
+        "language": "Language",
+        "switchLanguage": "Switch to Arabic",
+        "logoAlt": "AQ logo",
+        "scrollToTop": "Scroll to top",
+        "toggleMenu": "Toggle menu",
+        "loadingText": "Loading",
+        "noImage": "No image available"
+    },
+    "catalog": {
+        "backToBrands": "Back to Brands",
+        "modelsAvailable": "model available",
+        "partsAvailable": "part available",
+        "partsCountLabel": "parts",
+        "exploreStructures": "Click to explore structures and spare parts",
+        "exploreParts": "Click to view model-specific parts",
+        "currentParts": "You are currently browsing its parts below",
+        "catalogShowcase": "Custom Parts Catalog Showcase",
+        "partIntro": "Premium air suspension systems and 100% original spare parts engineered specifically for your vehicle model to ensure the highest levels of performance and safety.",
+        "certifiedParts": "Certified Original Parts",
+        "certifiedBadge": "With documented warranty certificate",
+        "galleryTitle": "Chassis / Model",
+        "partCount": "spare parts",
+        "partCountSingle": "spare part",
+        "noImages": "No spare part images are currently available for this chassis.",
+        "contactForAvailability": "Please contact us directly for availability inquiries.",
+        "generationTitle": "Chassis {code}",
+        "generationSubtitle": "Photo catalog of air suspension spare parts available for chassis {code} ({years})"
+    },
+    "notFound": {
+        "title": "Page not found",
+        "message": "The page you are looking for is unavailable or has been moved.",
+        "cta": "Back to home"
+    },
+    "errors": {
+        "brandNotFound": "Brand Not Found",
+        "modelNotFound": "Model Not Found",
+        "generationNotFound": "Generation Not Found"
+    },
+    "brandModels": {
+        "partsFor": "Spare Parts for",
+        "certifiedOriginal": "Certified Original Parts",
+        "certifiedWarranty": "With documented warranty certificate",
+        "oemCode": "OEM Part Code:",
+        "fullWarranty": "Full Warranty:",
+        "availability": "Availability:",
+        "requestQuote": "Request a Quote Now",
+        "structuresCount": "Structures:",
+        "waMessage": "Hello! I'd like to inquire about {partName} for {brandName} {modelName} model {year} (OEM: {oem})"
+    },
+    "brandCTA": {
+        "lookingFor": "Looking for spare parts for",
+        "guarantees": [
+            "100% Original refurbished & imported parts",
+            "Comprehensive warranty on all parts",
+            "Fast shipping across the UAE",
+            "Specialized after-sales technical support"
+        ]
+    },
+    "contactCards": {
+        "callUs": "Call Us",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "workingHours": "Working Hours",
+        "notSpecified": "Not specified",
+        "newMessage": "New message from the website",
+        "name": "Name",
+        "phone": "Phone",
+        "carType": "Car type",
+        "message": "Message"
+    },
+    "whatsappFloat": {
+        "greeting": "Hello! 👋 How can I help you find the spare part you need?",
+        "defaultMessage": "Hello! I would like to inquire about the available spare parts.",
+        "startChat": "Start Chat",
+        "ariaLabel": "Contact via WhatsApp"
+    },
+    "langSwitch": {
+        "toEnglish": "Switch to English",
+        "toArabic": "التبديل إلى العربية"
+    },
+    "productImages": {
+        "audiD4Caption": "Front and rear air suspension struts",
+        "audiQ7Caption": "Air shocks and lift compressor",
+        "bmwCaption": "Original parts for all BMW models",
+        "mercedesECaption": "Mercedes struts and air distributor",
+        "mercedesSCaption": "Hydraulic and air S-Class shocks",
+        "porscheCaption": "Porsche original air suspension system",
+        "lamborghiniCaption": "Lamborghini suspension systems"
+    },
+    "testimonialTags": {
+        "airSuspension": "Air Suspension",
+        "mercedesParts": "Mercedes Parts",
+        "bmwParts": "BMW Parts",
+        "bentleyParts": "Bentley Parts",
+        "porscheParts": "Porsche Parts",
+        "rollsRoyceParts": "Rolls Royce Parts"
+    },
+    "aboutSection": {
+        "clientRating": "Client Rating 4.9/5"
+    },
+    "generationCard": {
+        "spareParts": "spare parts",
+        "notSpecified": "Not specified",
+        "chassis": "Chassis",
+        "clickToExplore": "Click to explore chassis parts",
+        "noPartsRegistered": "No spare parts registered currently"
+    },
+    "modelPage": {
+        "generationsTitle": "{brand} {model} Generations & Chassis",
+        "generationsSubtitle": "Select the chassis / generation to browse the available spare parts catalog",
+        "noGenerations": "No chassis or generations are currently registered for this model."
+    },
+    "generationPage": {
+        "partsTitle": "{brand} {model} Spare Parts - Chassis {code}",
+        "partsSubtitle": "Photo catalog of air suspension spare parts available for chassis {code} ({years})",
+        "chassisLabel": "Chassis {code}"
+    },
+    "partCard": {
+        "genuineBadge": "Genuine OEM",
+        "warrantyLabel": "Full Warranty:",
+        "warrantyValue": "Tested & Guaranteed",
+        "availabilityLabel": "Availability:",
+        "availabilityValue": "In Stock",
+        "conditionLabel": "Condition:",
+        "conditionRefurbished": "Original Refurbished",
+        "conditionImported": "Imported Grade A",
+        "noImage": "No image available",
+        "whatsappBtn": "Request a Quote",
+        "whatsappMsg": "Hello! I'd like to inquire about availability and price:\n- Part: {partNameEn} ({partNameAr})\n- Car: {brandNameAr} {modelNameAr}\n- Chassis/Model: {generationCode} ({generationYears})"
+    },
+    "inquiryMessages": {
+        "brandInquiry": "I'd like to inquire about {brand} spare parts",
+        "brandCtaInquiry": "I'd like to inquire about {brand} spare parts"
+    }
+}

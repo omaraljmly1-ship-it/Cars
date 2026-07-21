@@ -5,8 +5,10 @@ import { brands } from "@/data/siteData";
 import { ArrowLeft } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
+import { useLocale } from "@/components/LanguageProvider";
 
 export default function BrandsSection() {
+  const { t, locale } = useLocale();
   return (
     <section id="brands" className="section-padding relative overflow-hidden">
       {/* Background subtle light flare */}
@@ -15,9 +17,9 @@ export default function BrandsSection() {
 
       <div className="max-w-7xl mx-auto px-4 relative">
         <SectionHeading
-          title="العلامات التجارية"
-          subtitle="نوفر قطع غيار أصليةللعلامات التجارية الأوروبية"
-          englishTitle="Premium Brands"
+          title={t("brands.sectionTitle")}
+          subtitle={t("brands.sectionSubtitle")}
+          englishTitle={t("brands.englishTitle")}
         />
 
         <motion.div
@@ -80,7 +82,7 @@ export default function BrandsSection() {
               <div className="relative z-20 p-5 text-center grow flex flex-col justify-between">
                 <div>
                   <h3 className="text-lg font-bold text-white mb-1 group-hover:text-gold transition-colors duration-300 font-tajawal">
-                    {brand.name}
+                    {locale === "en" ? brand.nameEn : brand.name}
                   </h3>
                   <p
                     className="text-[10px] text-gray-muted mb-2 tracking-wider uppercase font-medium"
@@ -89,13 +91,13 @@ export default function BrandsSection() {
                     {brand.nameEn}
                   </p>
                   <p className="text-xs text-gray-soft mb-4 line-clamp-2 leading-relaxed">
-                    {brand.description}
+                    {locale === "en" ? brand.descriptionEn : brand.description}
                   </p>
                 </div>
 
                 {/* CTA */}
                 <div className="w-full py-2.5 rounded-lg border border-gold/20 text-gold text-xs font-semibold hover:bg-gold/10 hover:border-gold/40 transition-all duration-300 flex items-center justify-center gap-2 group-hover:border-gold/30 mt-auto">
-                  <span>عرض القطع</span>
+                  <span>{t("brands.viewParts")}</span>
                   <ArrowLeft
                     size={14}
                     className="group-hover:-translate-x-1 transition-transform duration-300"
