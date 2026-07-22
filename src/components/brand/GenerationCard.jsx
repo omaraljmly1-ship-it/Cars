@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { Calendar, Package, ArrowLeft, ArrowRight } from "lucide-react";
 import { useLocale } from "@/components/LanguageProvider";
+import { getGenerationDisplayImage } from "@/data/catalogData";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -19,7 +20,7 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
   const isArabic = locale === "ar";
   const ArrowIcon = isArabic ? ArrowLeft : ArrowRight;
   const partsCount = generation.parts ? generation.parts.length : 0;
-  const latestPartImage = partsCount > 0 ? generation.parts[generation.parts.length - 1].image : null;
+  const latestPartImage = getGenerationDisplayImage(generation);
   const targetUrl = `/brands/${brandSlug}/${modelSlug}/${generation.slug}`;
 
   return (

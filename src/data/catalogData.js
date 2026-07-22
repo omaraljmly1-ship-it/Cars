@@ -14,10 +14,10 @@ function getLatestGenerationFromModel(model) {
     .sort((a, b) => parseGenerationYearEnd(b) - parseGenerationYearEnd(a))[0] || null;
 }
 
-function getAirSpringImageFromGeneration(generation) {
+export function getGenerationDisplayImage(generation) {
   if (!generation?.parts?.length) return null;
 
-  const airSpringRegex = /air[- ]?spring|air[- ]?springs|جامبين/i;
+  const airSpringRegex = /air[- ]?spring|air[- ]?springs|air[- ]?bag|air[- ]?bags|air[- ]?suspension|air[- ]?suspensions|جامبين/i;
   const airSpringPart = generation.parts.find((part) => {
     const text = `${part.slug || ""} ${part.nameEn || ""} ${part.nameAr || ""}`.toLowerCase();
     return airSpringRegex.test(text);
@@ -86,7 +86,7 @@ export function getAllCatalogModels(brandSlug) {
       }
 
       if (latestGeneration) {
-        latestImage = getAirSpringImageFromGeneration(latestGeneration);
+        latestImage = getGenerationDisplayImage(latestGeneration);
       }
 
       return {

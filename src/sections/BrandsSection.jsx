@@ -2,13 +2,16 @@
 import { motion } from "framer-motion";
 import { fadeInUp } from "@/animations/variants";
 import { brands } from "@/data/siteData";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 import Link from "next/link";
 import { useLocale } from "@/components/LanguageProvider";
 
 export default function BrandsSection() {
   const { t, locale } = useLocale();
+  const isArabic = locale === "ar";
+  const ArrowIcon = isArabic ? ArrowRight : ArrowLeft;
+
   return (
     <section id="brands" className="section-padding relative overflow-hidden">
       {/* Background subtle light flare */}
@@ -98,9 +101,9 @@ export default function BrandsSection() {
                 {/* CTA */}
                 <div className="w-full py-2.5 rounded-lg border border-gold/20 text-gold text-xs font-semibold hover:bg-gold/10 hover:border-gold/40 transition-all duration-300 flex items-center justify-center gap-2 group-hover:border-gold/30 mt-auto">
                   <span>{t("brands.viewParts")}</span>
-                  <ArrowLeft
+                  <ArrowIcon
                     size={14}
-                    className="group-hover:-translate-x-1 transition-transform duration-300"
+                    className={`transition-transform duration-300 ${isArabic ? "group-hover:translate-x-1" : "group-hover:-translate-x-1"}`}
                   />
                 </div>
               </div>
