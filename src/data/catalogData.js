@@ -1,5 +1,36 @@
 import catalogJson from "./catalog.json";
 
+function parseGenerationYearEnd(generation) {
+  if (!generation) return 0;
+  const yearEnd = generation.yearEnd || generation.years?.split("-").pop()?.trim();
+  const yearNumber = parseInt(String(yearEnd || ""), 10);
+  return Number.isFinite(yearNumber) ? yearNumber : 0;
+}
+
+function getLatestGenerationFromModel(model) {
+  if (!model?.generations) return null;
+  return Object.values(model.generations)
+    .filter(Boolean)
+    .sort((a, b) => parseGenerationYearEnd(b) - parseGenerationYearEnd(a))[0] || null;
+}
+
+function getAirSpringImageFromGeneration(generation) {
+  if (!generation?.parts?.length) return null;
+
+  const airSpringRegex = /air[- ]?spring|air[- ]?springs|جامبين/i;
+  const airSpringPart = generation.parts.find((part) => {
+    const text = `${part.slug || ""} ${part.nameEn || ""} ${part.nameAr || ""}`.toLowerCase();
+    return airSpringRegex.test(text);
+  });
+
+  if (airSpringPart?.image) {
+    return airSpringPart.image;
+  }
+
+  const fallbackPart = generation.parts[generation.parts.length - 1] || generation.parts[0];
+  return fallbackPart?.image || null;
+}
+
 /**
  * Returns the full catalog data.
  */
@@ -36,32 +67,37 @@ export function getAllCatalogModels(brandSlug) {
   const models = getCatalogModels(brandSlug);
   if (!models) return [];
 
-  return Object.values(models).map((model) => {
-    let partsCount = 0;
-    let generationsCount = 0;
-    let firstPartImage = null;
+  return Object.values(models)
+    .map((model) => {
+      let partsCount = 0;
+      let generationsCount = 0;
+      let latestImage = null;
+      const latestGeneration = getLatestGenerationFromModel(model);
 
-    if (model.generations) {
-      const generationsList = Object.values(model.generations);
-      generationsCount = generationsList.length;
-      
-      for (const gen of generationsList) {
-        if (gen.parts) {
-          partsCount += gen.parts.length;
-          if (!firstPartImage && gen.parts.length > 0) {
-            firstPartImage = gen.parts[0].image;
+      if (model.generations) {
+        const generationsList = Object.values(model.generations);
+        generationsCount = generationsList.length;
+
+        for (const gen of generationsList) {
+          if (gen.parts) {
+            partsCount += gen.parts.length;
           }
         }
       }
-    }
 
-    return {
-      ...model,
-      generationsCount,
-      partsCount,
-      image: firstPartImage || "/images/models/fallback-model.jpg", // dynamic thumbnail or fallback
-    };
-  });
+      if (latestGeneration) {
+        latestImage = getAirSpringImageFromGeneration(latestGeneration);
+      }
+
+      return {
+        ...model,
+        generationsCount,
+        partsCount,
+        latestYearEnd: parseGenerationYearEnd(latestGeneration),
+        image: latestImage || "/images/models/fallback-model.jpg", // newest generation thumbnail or fallback
+      };
+    })
+    .sort((a, b) => (b.latestYearEnd || 0) - (a.latestYearEnd || 0));
 }
 
 /**

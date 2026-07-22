@@ -19,7 +19,7 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
   const isArabic = locale === "ar";
   const ArrowIcon = isArabic ? ArrowLeft : ArrowRight;
   const partsCount = generation.parts ? generation.parts.length : 0;
-  const firstPartImage = partsCount > 0 ? generation.parts[0].image : null;
+  const latestPartImage = partsCount > 0 ? generation.parts[generation.parts.length - 1].image : null;
   const targetUrl = `/brands/${brandSlug}/${modelSlug}/${generation.slug}`;
 
   return (
@@ -36,9 +36,9 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
 
         {/* Background Image / Placeholder */}
         <div className="absolute inset-0 z-0">
-          {firstPartImage ? (
+          {latestPartImage ? (
             <Image
-              src={firstPartImage}
+              src={latestPartImage}
               alt={generation.code}
               fill
               sizes="(max-w-768px) 100vw, 33vw"
@@ -74,9 +74,8 @@ export default function GenerationCard({ generation, brandSlug, modelSlug }) {
             <span>{t("generationCard.chassis")} {generation.code}</span>
             <ArrowIcon
               size={18}
-              className={`text-gray-muted group-hover:text-gold transition-all duration-300 transform ${
-                isArabic ? "-translate-x-2 group-hover:translate-x-0" : "translate-x-2 group-hover:translate-x-0"
-              }`}
+              className={`text-gray-muted group-hover:text-gold transition-all duration-300 transform ${isArabic ? "-translate-x-2 group-hover:translate-x-0" : "translate-x-2 group-hover:translate-x-0"
+                }`}
             />
           </h3>
 

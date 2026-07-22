@@ -67,7 +67,12 @@ export default async function ModelPage({ params }) {
     notFound();
   }
 
-  const generations = model.generations ? Object.values(model.generations) : [];
+  const generations = model.generations ?
+    Object.values(model.generations).slice().sort((a, b) => {
+      const yearA = parseInt(a.yearEnd || a.years?.split("-").pop()?.trim() || "0", 10);
+      const yearB = parseInt(b.yearEnd || b.years?.split("-").pop()?.trim() || "0", 10);
+      return yearB - yearA;
+    }) : [];
 
   return (
     <ModelPageContent

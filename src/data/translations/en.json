@@ -19,7 +19,7 @@
         "badge": "Authorized European Car Parts Dealer",
         "title1": "Ali Qannita",
         "title2": "Used Cars & Spare Parts Trader",
-        "subtitle": "Specialists in air suspension systems and original spare parts for the world's finest European cars",
+        "subtitle": "Specialists in air suspension systems and original spare parts and commercial parts",
         "ctaBrowse": "Browse Products",
         "ctaContact": "Contact Us",
         "scrollHint": "Discover More",
@@ -28,12 +28,12 @@
             "warranty": "Full Warranty",
             "shipping": "Fast Shipping",
             "support": "Tech Support",
-            "imported": "Imported Parts"
+            "imported": "Imported Commercial Parts"
         }
     },
     "brands": {
         "sectionTitle": "Our Brands",
-        "sectionSubtitle": "We supply original parts for the world's finest European brands",
+        "sectionSubtitle": "We supply both genuine and aftermarket spare parts.",
         "englishTitle": "Premium Brands",
         "viewParts": "View Parts",
         "allModels": "All Models",
@@ -48,7 +48,7 @@
         "sectionTitle": "Our Products",
         "sectionSubtitle": "Click any image to view it in full size",
         "englishTitle": "Our Products",
-        "availableParts": "parts available",
+        "availableParts": "Parts Available",
         "viewAll": "View All",
         "inquire": "Inquire Now",
         "lightboxClose": "Close",
@@ -61,13 +61,13 @@
         "englishTitle": "About Us",
         "title": "About Us",
         "subtitle": "Leaders in Premium European Automotive Parts",
-        "description": "We are a leading company in supplying premium European car spare parts in the UAE. We specialize in air suspension systems and original parts for the world's most prestigious brands.",
-        "description2": "With over 15 years of experience, we pride ourselves on delivering the highest standards of quality and service. Our specialist team ensures you get the right part for your car at the best price.",
+        "description": "We are a leading company in supplying premium European car spare parts in the UAE. We specialize in air suspension systems and original and commercial parts for the world's most prestigious brands.",
+        "description2": "With over 23 years of experience, we pride ourselves on delivering the highest standards of quality and service. Our specialist team ensures you get the right part for your car at the best price.",
         "learnMore": "Learn More",
         "contactUs": "Contact Us",
         "highlights": [
-            "100% Original parts with warranty certificate",
-            "Expert technical team with 15+ years of experience",
+            "Original, original refurbished and commercial parts",
+            "Expert technical team with 23+ years of experience",
             "Fast shipping across the UAE",
             "Competitive prices and ongoing offers"
         ],
@@ -150,7 +150,7 @@
         "mapTitle": "Our location on the map"
     },
     "footer": {
-        "tagline": "Authorized dealer of premium European automotive spare parts in the UAE. Specialists in air suspension systems.",
+        "tagline": "Authorized dealer of premium European automotive spare parts in the UAE. Specialists in air suspension systems and imported commercial parts.",
         "quickLinks": "Quick Links",
         "services": "Our Services",
         "contactTitle": "Contact Us",
